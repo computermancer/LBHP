@@ -14,27 +14,29 @@ export default function Download() {
   return (
     <>
       <Nav />
-      <main className="p-4 sm:p-8 text-gray-200 min-h-screen font-sans">
-        <h1 className="text-orange-300 text-3xl font-bold mb-6">Downloads</h1>
-        
-        <section className="mb-6 max-w-2xl">
-          <p className="text-lg mb-6">
-            You can download each week or the entire program as a PDF.
-          </p>
-          <div className="space-y-4">
-            {pdfs.map((pdf) => (
-              <div key={pdf.file} className="flex justify-start">
-                <a
-                  href={pdf.file}
-                  download={pdf.file.split('/').pop()}
-                  className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left"
-                >
-                  {pdf.label}
-                </a>
-              </div>
-            ))}
-          </div>
-        </section>
+      <main className="px-8 text-gray-200 min-h-screen font-sans">
+        <div className="max-w-[500px] mx-auto py-8">
+          <h1 className="text-orange-300 text-3xl font-bold mb-6">Downloads</h1>
+          
+          <section className="mb-6">
+            <p className="text-lg mb-6">
+              You can download each week or the entire program as a PDF.
+            </p>
+            <div className="space-y-4">
+              {pdfs.map((pdf) => (
+                <div key={pdf.file} className="flex justify-start">
+                  <a
+                    href={pdf.file}
+                    download={pdf.file.split('/').pop()}
+                    className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full text-left"
+                  >
+                    {pdf.label}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </section>
+        </div>
       </main>
     </>
   );
