@@ -3,9 +3,10 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 
 export default function DrillTemplate({ 
-  title, 
-  videoUrl, 
-  videoTimestamp,
+  title,
+  backButtonText,
+  videoId, 
+  videoStart,
   setup,
   instructions,
   setsReps,
@@ -20,13 +21,13 @@ export default function DrillTemplate({
   return (
     <>
       <Nav />
-      <main className="p-4 sm:p-8 text-white min-h-screen font-sans">
+      <main className="p-8 text-white min-h-screen font-sans">
         <div className="mb-4">
           <button
             onClick={() => router.back()}
-            className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left"
+            className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
           >
-            Week 2 - Day 4
+            {backButtonText}
           </button>
         </div>
 
@@ -40,12 +41,12 @@ export default function DrillTemplate({
           >
             {isOpen ? 'Hide Video' : 'Show Video'}
           </button>
-          {isOpen && (
+          {isOpen && videoId && (
             <div className="mt-4">
               <iframe
                 width="100%"
                 height="315"
-                src={`${videoUrl}?si=ag7LzQN-vqxK0DbX&amp;start=${videoTimestamp}`}
+                src={`https://www.youtube.com/embed/${videoId}?si=ag7LzQN-vqxK0DbX&amp;start=${videoStart || 0}`}
                 title="Drill Video"
                 frameBorder="0"
                 allowFullScreen
