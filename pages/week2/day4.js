@@ -7,7 +7,8 @@ export default function Day4() {
       <Nav />
       <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-3xl mb-6 font-bold">Week 2 - Day 4</h1>
+          <h1 className="text-orange-300 text-3xl mb-2 font-bold">Week 2 - Day 4</h1>
+          <h2 className="text-orange-300 text-xl font-semibold mb-6">Strength and Stability</h2>
 
           <div className="space-y-4">
             <div>

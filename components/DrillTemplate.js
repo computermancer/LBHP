@@ -43,10 +43,9 @@ export default function DrillTemplate({
               {isOpen ? 'Hide Video' : 'Show Video'}
             </button>
             {isOpen && videoId && (
-              <div className="mt-4">
+              <div className="mt-4 relative w-full" style={{ paddingTop: '56.25%' }}>
                 <iframe
-                  width="100%"
-                  height="315"
+                  className="absolute top-0 left-0 w-full h-full"
                   src={`https://www.youtube.com/embed/${videoId}?si=ag7LzQN-vqxK0DbX&amp;start=${videoStart || 0}`}
                   title="Drill Video"
                   frameBorder="0"
