@@ -3,12 +3,12 @@ import Nav from '../components/Nav';
 
 export default function Download() {
   const pdfs = [
-    { label: "Week 1 – Reconnect & Reset", file: "LBHP-Week1.pdf" },
-    { label: "Week 2 – Strengthen & Stabilize", file: "LBHP-Week2.pdf" },
-    { label: "Week 3 – Hinge, Shift, & Rotate", file: "LBHP-Week3.pdf" },
-    { label: "Week 4 – Integrate & Prepare", file: "LBHP-Week4.pdf" },
-    { label: "Week 5 – Breathing & Nervous System Reset", file: "LBHP-Week5.pdf" },
-    { label: "All 5 Weeks – Full Program", file: "LBHP-Complete.pdf" },
+    { label: "Week 1 – Reconnect & Reset", file: "/documents/LBHP-Week1.pdf" },
+    { label: "Week 2 – Strengthen & Stabilize", file: "/documents/LBHP-Week2.pdf" },
+    { label: "Week 3 – Hinge, Shift, & Rotate", file: "/documents/LBHP-Week3.pdf" },
+    { label: "Week 4 – Integrate & Prepare", file: "/documents/LBHP-Week4.pdf" },
+    { label: "Week 5 – Breathing & Nervous System Reset", file: "/documents/LBHP-Week5.pdf" },
+    { label: "All 5 Weeks – Full Program", file: "/documents/LBHP-Complete.pdf" },
   ];
 
   return (
@@ -25,8 +25,8 @@ export default function Download() {
             {pdfs.map((pdf) => (
               <div key={pdf.file} className="flex space-x-4 mb-3">
                 <a
-                  href={`/documents/${pdf.file}`}
-                  download={pdf.file}
+                  href={pdf.file}
+                  download={pdf.file.split('/').pop()}
                   className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-[500px] mb-6"
                 >
                   {pdf.label}
