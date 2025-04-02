@@ -20,11 +20,11 @@ export default function DrillTemplate({
   return (
     <>
       <Nav />
-      <main className="p-8 text-white min-h-screen font-sans">
+      <main className="p-4 sm:p-8 text-white min-h-screen font-sans">
         <div className="mb-4">
           <button
             onClick={() => router.back()}
-            className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded"
+            className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
           >
             Week 2 - Day 4
           </button>
