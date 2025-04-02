@@ -9,19 +9,19 @@ export default function Week1() {
         <h1 className="text-orange-300 text-3xl font-bold mb-6">Week 1: Awareness & Activation</h1>
 
         <div className="flex flex-wrap gap-2 mb-6">
-          <Link href="/week1/day1" className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-semibold py-2 px-4 rounded">
+          <Link href="/week1/day1" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
             Day 1
           </Link>
-          <Link href="/week1/day2" className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-semibold py-2 px-4 rounded">
+          <Link href="/week1/day2" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
             Day 2
           </Link>
-          <Link href="/week1/day3" className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-semibold py-2 px-4 rounded">
+          <Link href="/week1/day3" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
             Day 3
           </Link>
-          <Link href="/week1/day4" className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-semibold py-2 px-4 rounded">
+          <Link href="/week1/day4" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
             Day 4
           </Link>
-          <Link href="/week1/day5" className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-semibold py-2 px-4 rounded">
+          <Link href="/week1/day5" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
             Day 5
           </Link>
         </div>
