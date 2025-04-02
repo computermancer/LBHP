@@ -8,7 +8,7 @@ export default function Week1() {
       <main className="p-4 sm:p-8 text-gray-200 min-h-screen font-sans">
         <h1 className="text-orange-300 text-3xl font-bold mb-6">Week 1: Awareness & Activation</h1>
 
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="space-y-4 mb-6">
           <Link href="/week1/day1" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
             Day 1
           </Link>
