@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-emailjs.init('-ElvYDuaUUsIy5Qpj'); // Your public key
+import Nav from '../components/Nav';
+import Link from 'next/link';
 
 const Feedback = () => {
   const [formData, setFormData] = useState({
@@ -10,14 +11,15 @@ const Feedback = () => {
   });
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
+  const [submitted, setSubmitted] = useState(false);
 
   // Handle form field changes
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
   // Handle form submission
@@ -60,6 +62,7 @@ const Feedback = () => {
   
           setSuccess(true);
           setFormData({ name: '', email: '', message: '' });
+          setSubmitted(true);
         },
         (err) => {
           console.error('Error sending feedback:', err);
@@ -70,65 +73,81 @@ const Feedback = () => {
   
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#1a1a1a]">
-      <a
-        href="/"
-        className="mb-9 px-4 py-2 bg-gray-700 text-orange-300 text-2xl rounded-lg hover:bg-gray-600 hover:text-orange-300"
-      >
-        ← Back to Home
-      </a>
+    <div className="min-h-screen bg-[#1a1a1a]">
+      <Nav />
+      <main className="px-8 text-gray-200 min-h-screen font-sans">
+        <div className="max-w-[500px] mx-auto py-8">
+          {!submitted && (
+            <>
+              <h1 className="text-orange-300 text-4xl font-bold mb-2">Feedback</h1>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Share Your Thoughts</h2>
+            </>
+          )}
 
-      <h1 className="text-3xl font-bold mb-6 text-orange-300">Contact and Feedback</h1>
-      <form
-        onSubmit={handleSubmit}
-        className="w-full max-w-md bg-zinc-800 p-6 rounded-2xl shadow-lg border border-zinc-700"
-      >
-        <label className="block mb-4 text-orange-300 text-xl">
-          Name
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
-          />
-        </label>
-        <label className="block mb-4 text-orange-300 text-xl">
-          Email
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
-          />
-        </label>
-        <label className="block mb-4 text-orange-300 text-xl">
-          Message
-          <textarea
-            name="message"
-            rows="4"
-            value={formData.message}
-            onChange={handleChange}
-            required
-            className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
-          ></textarea>
-        </label>
-        <button
-          type="submit"
-          className="w-full bg-orange-400 text-black text-xl px-4 py-2 rounded-lg hover:bg-orange-300 transition-colors duration-200"
-        >
-          Send
-        </button>
-        {success && (
-          <p className="mt-4 text-green-400">Thank you! Your message has been sent.</p>
-        )}
-        {error && (
-          <p className="mt-4 text-red-400">{error}</p>
-        )}
-      </form>
+          <div className="space-y-4">
+            {!submitted ? (
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div>
+                  <label htmlFor="name" className="block text-lg font-medium mb-2">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-lg font-medium mb-2">
+                    E-Mail
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="message" className="block text-lg font-medium mb-2">
+                    Your Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="w-full h-32 p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    placeholder="Share your thoughts about the program..."
+                    required
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="w-full bg-orange-400 hover:bg-orange-300 text-black text-xl font-semibold py-2 px-4 rounded"
+                >
+                  Submit Feedback
+                </button>
+              </form>
+            ) : (
+              <div className="text-center py-8">
+                <p className="text-orange-300 text-2xl font-semibold mb-4">Thank you for your feedback!</p>
+                <p className="text-gray-400 text-xl mb-6">Your input helps us improve the program.</p>
+                <Link href="/" className="inline-block bg-orange-400 hover:bg-orange-300 text-black text-xl font-semibold py-2 px-6 rounded">
+                  Return Home
+                </Link>
+              </div>
+            )}
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

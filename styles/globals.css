@@ -1,8 +1,17 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   @apply bg-[#1a1a1a] text-gray-200 font-sans;
+}
+
+/* Override autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgb(55, 65, 81) inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
