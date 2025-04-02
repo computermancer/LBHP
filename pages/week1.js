@@ -7,7 +7,7 @@ export default function Week1() {
       <Nav />
       <main className="p-8 text-white min-h-screen font-sans">
         <h1 className="text-orange-300 text-4xl font-bold mb-2">Week 1</h1>
-        <h2 className="text-orange-300 text-2xl font-semibold mb-8">Awareness & Activation</h2>
+        <h2 className="text-orange-300 text-xl font-semibold mb-8">Awareness & Activation</h2>
         
         <div className="flex gap-1 max-w-[500px]">
           <Link href="/week1/day1" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-base py-1.5 px-2 rounded text-center">Day 1</Link>
