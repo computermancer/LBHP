@@ -14,7 +14,7 @@ export default function Supine9090Reach() {{
         <div className="mb-4">
           <button
             onClick={() => router.back()}
-            className="block w-[700px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
+            className="block w-full sm:w-[700px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
           >
             Week 1 - Day 1
           </button>
@@ -56,7 +56,7 @@ export default function Supine9090Reach() {{
           <h3 className="text-xl text-orange-300 font-semibold mb-2">Instructions:</h3>
           <ul className="list-disc list-inside text-white text-lg">
             <li>Exhale and reach your arms toward the ceiling while gently pressing low back into floor.</li>
-<li>Maintain 90-90 leg position; don’t let knees drift or chest lift.</li>
+<li>Maintain 90-90 leg position; don't let knees drift or chest lift.</li>
 <li>Inhale and return arms to starting position without losing core control.</li>
           </ul>
         </section>
