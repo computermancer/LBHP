@@ -6,22 +6,22 @@ export default function Week5() {
     <>
       <Nav />
       <main className="p-8 text-gray-200 min-h-screen font-sans">
-        <h1 className="text-orange-300 text-3xl font-bold mb-6">Week 5: Breathing & Nervous System Reset</h1>
+        <h1 className="text-orange-300 text-3xl font-bold mb-6">Week 5: Strength & Control Progression</h1>
 
-        <div className="space-y-4 mb-6">
-          <Link href="/week5/day1" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+        <div className="flex gap-1 mb-6">
+          <Link href="/week5/day1" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-2 rounded text-center">
             Day 1
           </Link>
-          <Link href="/week5/day2" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+          <Link href="/week5/day2" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-2 rounded text-center">
             Day 2
           </Link>
-          <Link href="/week5/day3" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+          <Link href="/week5/day3" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-2 rounded text-center">
             Day 3
           </Link>
-          <Link href="/week5/day4" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+          <Link href="/week5/day4" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-2 rounded text-center">
             Day 4
           </Link>
-          <Link href="/week5/day5" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+          <Link href="/week5/day5" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-2 rounded text-center">
             Day 5
           </Link>
         </div>
