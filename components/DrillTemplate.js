@@ -25,7 +25,7 @@ export default function DrillTemplate({
         <div className="mb-4">
           <button
             onClick={() => router.back()}
-            className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
+            className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
           >
             {backButtonText}
           </button>
