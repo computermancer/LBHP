@@ -1,0 +1,109 @@
+import Nav from '../../../components/Nav';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+
+export default function PosteriorPelvicTiltonWall() {
+  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <>
+      <Nav />
+      <main className="p-8 text-white min-h-screen font-sans">
+        
+        <div className="mb-4">
+          <button
+            onClick={() => router.back()}
+            className="block w-[700px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-3xl font-bold py-2 px-4 rounded text-left"
+          >
+            Week 1 - Day 1
+          </button>
+        </div>
+
+        <h2 className="text-orange-300 text-3xl font-bold mb-6">Drill 1: Posterior Pelvic Tilt on Wall</h2>
+
+        {/* Collapsible Video Section */}
+        <div className="mb-6">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2"
+          >
+            {isOpen ? 'Hide Video' : 'Show Video'}
+          </button>
+          {isOpen && (
+            <div className="mt-4">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/wn0IyvGBeUI?si=ag7LzQN-vqxK0DbX&amp;start=2248"
+                title="Drill Video"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </div>
+          )}
+        </div>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">Setup:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Stand with your back against a wall, feet about 6–12 inches away.</li>
+            <li>Knees slightly bent, arms resting by your sides.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">Instructions:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Gently tilt your pelvis backward so your low back flattens into the wall.</li>
+            <li>Keep glutes and abs soft; allow the motion to come from pelvic rotation.</li>
+            <li>Hold for 3–5 seconds, then release back to neutral.</li>
+            <li>Move slowly and with control.</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">Sets / Reps / Breath / Rest:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Sets: 2–3</li>
+            <li>Reps: 8–10 slow reps</li>
+            <li>Breath: Exhale on the tilt, inhale on the release</li>
+            <li>Rest: As needed</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">What to Feel:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Gentle abdominal tension</li>
+            <li>Low back flattening softly into the wall</li>
+            <li>Relaxed breath and minimal upper body tension</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">What to Avoid:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Squeezing glutes or pushing into the floor</li>
+            <li>Jerky or rushed movements</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">Red Flags:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Sharp pain in the low back or hips</li>
+            <li>Dizziness or inability to breathe deeply</li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h3 className="text-xl text-orange-300 font-semibold mb-2">Regression:</h3>
+          <ul className="list-disc list-inside text-white text-lg">
+            <li>Perform seated pelvic tilts on a firm chair if standing is too challenging.</li>
+          </ul>
+        </section>
+      </main>
+    </>
+  );
+}
