@@ -11,14 +11,14 @@ export default function Day2() {
         <div className="space-y-6">
           
           <div>
-            <Link href="/week2/day2/drill1" className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
+            <Link href="/week2/day2/drill1" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
               Drill 1: Quadruped Reach with Rib Control
             </Link>
             <p className="text-lg text-white mb-4">Enhance rib control and core stability.</p>
           </div>
         
           <div>
-            <Link href="/week2/day2/drill2" className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
+            <Link href="/week2/day2/drill2" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
               Drill 2: Seated Hip Hinge with Breath
             </Link>
             <p className="text-lg text-white mb-4">Promote hip hinge mechanics with breath control.</p>

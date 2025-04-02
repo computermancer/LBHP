@@ -37,7 +37,7 @@ export default function DrillTemplate({
         <div className="mb-6">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2"
+            className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2"
           >
             {isOpen ? 'Hide Video' : 'Show Video'}
           </button>

@@ -11,14 +11,14 @@ export default function Day4() {
         <div className="space-y-6">
           
           <div>
-            <Link href="/week2/day4/drill1" className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
+            <Link href="/week2/day4/drill1" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
               Drill 1: Hooklying Breath with Pelvic Awareness
             </Link>
             <p className="text-lg text-white mb-4">Develop breath control and pelvic awareness.</p>
           </div>
         
           <div>
-            <Link href="/week2/day4/drill2" className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
+            <Link href="/week2/day4/drill2" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
               Drill 2: Seated Thoracic Rotation with Breath
             </Link>
             <p className="text-lg text-white mb-4">Enhance thoracic mobility with breath coordination.</p>

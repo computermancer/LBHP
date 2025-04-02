@@ -38,7 +38,7 @@ export default function Day1() {
           </div>
 
           <div>
-            <Link href="/week1/day1/drill5" className="block w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
+            <Link href="/week1/day1/drill5" className="block w-full sm:w-[500px] bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
               Drill 5: Wall Hamstring Press
             </Link>
             <p className="text-lg text-white mb-4">Activate hamstrings to stabilize pelvis and core.</p>
