@@ -8,14 +8,14 @@ export default function Week2() {
       <main className="px-8 text-white min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Week 2</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-8">Rib Control & Hip Integration</h2>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Breath and Movement Integration</h2>
           
-          <div className="flex gap-1">
-            <Link href="/week2/day1" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-base py-1.5 px-2 rounded text-center">Day 1</Link>
-            <Link href="/week2/day2" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-base py-1.5 px-2 rounded text-center">Day 2</Link>
-            <Link href="/week2/day3" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-base py-1.5 px-2 rounded text-center">Day 3</Link>
-            <Link href="/week2/day4" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-base py-1.5 px-2 rounded text-center">Day 4</Link>
-            <Link href="/week2/day5" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-base py-1.5 px-2 rounded text-center">Day 5</Link>
+          <div className="flex gap-1 mb-8">
+            <Link href="/week2/day1" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Day 1</Link>
+            <Link href="/week2/day2" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Day 2</Link>
+            <Link href="/week2/day3" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Day 3</Link>
+            <Link href="/week2/day4" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Day 4</Link>
+            <Link href="/week2/day5" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Day 5</Link>
           </div>
 
           <section className="mb-6">
