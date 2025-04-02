@@ -3,11 +3,11 @@ import Nav from '../components/Nav';
 
 export default function Download() {
   const pdfs = [
-    { label: "Week 1 – Reconnect & Reset", file: "/documents/LBHP-Week1.pdf" },
-    { label: "Week 2 – Strengthen & Stabilize", file: "/documents/LBHP-Week2.pdf" },
-    { label: "Week 3 – Hinge, Shift, & Rotate", file: "/documents/LBHP-Week3.pdf" },
-    { label: "Week 4 – Integrate & Prepare", file: "/documents/LBHP-Week4.pdf" },
-    { label: "Week 5 – Breathing & Nervous System Reset", file: "/documents/LBHP-Week5.pdf" },
+    { label: "Week 1 – Awareness & Activation", file: "/documents/LBHP-Week1.pdf" },
+    { label: "Week 2 – Rib Control & Hip Integration", file: "/documents/LBHP-Week2.pdf" },
+    { label: "Week 3 – Pelvic Control & Breath Integration", file: "/documents/LBHP-Week3.pdf" },
+    { label: "Week 4 – Rib & Pelvic Stability in Motion", file: "/documents/LBHP-Week4.pdf" },
+    { label: "Week 5 – Strength & Control Progression", file: "/documents/LBHP-Week5.pdf" },
     { label: "All 5 Weeks – Full Program", file: "/documents/LBHP-Complete.pdf" },
   ];
 
