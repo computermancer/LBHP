@@ -23,11 +23,11 @@ export default function Download() {
           </p>
           <div className="space-y-4">
             {pdfs.map((pdf) => (
-              <div key={pdf.file} className="flex justify-center">
+              <div key={pdf.file} className="flex justify-start">
                 <a
                   href={pdf.file}
                   download={pdf.file.split('/').pop()}
-                  className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-center"
+                  className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left"
                 >
                   {pdf.label}
                 </a>
