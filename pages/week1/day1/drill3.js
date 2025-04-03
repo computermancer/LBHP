@@ -8,39 +8,33 @@ export default function SeatedPelvicRocking() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Sit on a firm chair or bench with feet flat on the floor.",
-        "Place your hands on your hips to feel the movement.",
-        "Keep your spine in a neutral position."
+        "Sit on a firm chair, feet flat, hands resting on thighs."
       ]}
       instructions={[
-        "Gently rock your pelvis forward, creating a slight arch in your lower back.",
-        "Then rock your pelvis backward, flattening your lower back.",
-        "Move slowly and with control, focusing on the pelvic motion.",
-        "Keep your upper body relatively still."
+        "Slowly tilt the pelvis forward (arching low back) and backward (flattening low back).",
+        "Let the breath guide the rhythm of your movement.",
+        "Keep upper body still and relaxed."
       ]}
       setsReps={[
-        "Sets: 2-3",
-        "Reps: 8-10 slow reps",
-        "Breath: Exhale on the backward tilt, inhale on the forward tilt",
-        "Rest: 30 seconds between sets"
+        "Sets: 2–3",
+        "Reps: 8–12 controlled reps",
+        "Breath: Inhale as you tilt forward, exhale as you tilt backward",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Gentle movement of the pelvis",
-        "Subtle changes in lower back position",
-        "Relaxed upper body"
+        "Gentle motion through the pelvis and low back.",
+        "Ease and rhythm with breath."
       ]}
       whatToAvoid={[
-        "Moving the entire trunk instead of just the pelvis",
-        "Jerky or rushed movements",
-        "Holding your breath"
+        "Tensing shoulders or upper back.",
+        "Over-arching or collapsing posture."
       ]}
       redFlags={[
-        "Pain in the lower back or hips",
-        "Dizziness or balance issues"
+        "Pain during any part of the movement.",
+        "Inability to isolate pelvic motion."
       ]}
       regression={[
-        "Perform the movement with your back against a wall for support",
-        "Reduce the range of motion if needed"
+        "Place hands on hips for feedback if you're unsure where the motion is coming from."
       ]}
     />
   );

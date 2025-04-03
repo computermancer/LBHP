@@ -8,39 +8,33 @@ export default function HooklyingBellyBreathing() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat on the floor.",
-        "Place your hands on your belly to feel the movement.",
-        "Keep your lower back in a neutral position."
+        "Lie on your back with knees bent, feet flat on the floor.",
+        "Place one hand on your chest and the other on your belly."
       ]}
       instructions={[
-        "Take a slow, deep breath in through your nose, allowing your belly to expand.",
-        "Feel your hands rise as your diaphragm descends.",
-        "Exhale slowly through your mouth, letting your belly fall.",
-        "Focus on expanding the sides and back of your ribcage as well."
+        "Inhale gently through your nose, allowing the belly to rise without moving the chest.",
+        "Exhale softly through your mouth or nose, allowing the belly to fall naturally.",
+        "Focus on minimizing upper chest movement."
       ]}
       setsReps={[
-        "Sets: 2-3",
-        "Reps: 10-12 breaths",
-        "Breath: 4-5 seconds inhale, 4-5 seconds exhale",
-        "Rest: 30 seconds between sets"
+        "Sets: 2",
+        "Reps: 5–8 breath cycles per set",
+        "Breath: Inhale 3–4 seconds, exhale 4–6 seconds",
+        "Rest: Between sets or as needed"
       ]}
       whatToFeel={[
-        "Gentle expansion of the belly and lower ribcage",
-        "Relaxation of the pelvic floor on inhale",
-        "Soft engagement of the core on exhale"
+        "Belly rising under your hand with each inhale.",
+        "Sense of relaxation and minimal chest movement."
       ]}
       whatToAvoid={[
-        "Chest breathing or shoulder tension",
-        "Holding your breath",
-        "Forcing the movement"
+        "Lifting the chest or shrugging shoulders.",
+        "Forcing or over-controlling the breath."
       ]}
       redFlags={[
-        "Dizziness or lightheadedness",
-        "Pain in the chest or abdomen"
+        "Lightheadedness or shortness of breath."
       ]}
       regression={[
-        "Place a small pillow under your head if needed",
-        "Reduce the number of breaths if fatiguing"
+        "Prop knees up with a pillow if the lower back feels strained."
       ]}
     />
   );

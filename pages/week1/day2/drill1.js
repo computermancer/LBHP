@@ -24,15 +24,15 @@ export default function SideLyingRibExpansion() {
         "Rest: Between sets or as needed"
       ]}
       whatToFeel={[
-        "Expansion of the lower ribs",
-        "Controlled, relaxed breath with no chest dominance"
+        "Expansion of the lower ribs.",
+        "Controlled, relaxed breath with no chest dominance."
       ]}
       whatToAvoid={[
-        "Breathing only into the upper chest",
-        "Collapsing or losing rib position"
+        "Breathing only into the upper chest.",
+        "Collapsing or losing rib position."
       ]}
       redFlags={[
-        "Dizziness or difficulty maintaining position"
+        "Dizziness or difficulty maintaining position."
       ]}
       regression={[
         "Prop your torso with a pillow for comfort and stability."

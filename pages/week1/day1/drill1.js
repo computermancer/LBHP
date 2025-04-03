@@ -24,17 +24,17 @@ export default function PosteriorPelvicTiltonWall() {
         "Rest: As needed"
       ]}
       whatToFeel={[
-        "Gentle abdominal tension",
-        "Low back flattening softly into the wall",
-        "Relaxed breath and minimal upper body tension"
+        "Gentle abdominal tension.",
+        "Low back flattening softly into the wall.",
+        "Relaxed breath and minimal upper body tension."
       ]}
       whatToAvoid={[
-        "Squeezing glutes or pushing into the floor",
-        "Jerky or rushed movements"
+        "Squeezing glutes or pushing into the floor.",
+        "Jerky or rushed movements."
       ]}
       redFlags={[
-        "Sharp pain in the low back or hips",
-        "Dizziness or inability to breathe deeply"
+        "Sharp pain in the low back or hips.",
+        "Dizziness or inability to breathe deeply."
       ]}
       regression={[
         "Perform seated pelvic tilts on a firm chair if standing is too challenging."
