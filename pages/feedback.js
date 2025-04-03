@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Nav from '../components/Nav';
+import Link from 'next/link';
 
 const Feedback = () => {
   const [formData, setFormData] = useState({
@@ -76,8 +77,12 @@ const Feedback = () => {
       <Nav />
       <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Feedback</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Share Your Thoughts</h2>
+          {!submitted && (
+            <>
+              <h1 className="text-orange-300 text-4xl font-bold mb-2">Feedback</h1>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Share Your Thoughts</h2>
+            </>
+          )}
 
           <div className="space-y-4">
             {!submitted ? (
@@ -133,8 +138,11 @@ const Feedback = () => {
               </form>
             ) : (
               <div className="text-center py-8">
-                <p className="text-orange-300 text-lg mb-4">Thank you for your feedback!</p>
-                <p className="text-gray-400">Your input helps us improve the program.</p>
+                <p className="text-orange-300 text-2xl font-bold mb-4">Thank you for your feedback!</p>
+                <p className="text-gray-400 text-lg mb-8">Your input helps us improve the program.</p>
+                <Link href="/" className="inline-block bg-orange-400 hover:bg-orange-300 text-black text-xl font-semibold py-2 px-8 rounded">
+                  Back to Home
+                </Link>
               </div>
             )}
           </div>
