@@ -12,7 +12,7 @@ export default function Home() {
           <section className="mb-6">
             <h2 className="text-2xl font-semibold mb-2">About Mateo Bravo</h2>
             <p className="text-lg">
-              This is where information about Mateo Bravo goes.
+              This is where information about Mateo Bravo goes. Background, Social Media, etc
             </p>
           </section>
         </div>

@@ -1,0 +1,13 @@
+[1mdiff --git a/pages/mateobravo.js b/pages/mateobravo.js[m
+[1mindex d61d526..66f36fb 100644[m
+[1m--- a/pages/mateobravo.js[m
+[1m+++ b/pages/mateobravo.js[m
+[36m@@ -12,7 +12,7 @@[m [mexport default function Home() {[m
+           <section className="mb-6">[m
+             <h2 className="text-2xl font-semibold mb-2">About Mateo Bravo</h2>[m
+             <p className="text-lg">[m
+[31m-              This is where information about Mateo Bravo goes.[m
+[32m+[m[32m              This is where information about Mateo Bravo goes. Background, Social Media, etc[m
+             </p>[m
+           </section>[m
+         </div>[m
