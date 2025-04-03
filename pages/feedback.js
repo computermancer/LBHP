@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Nav from '../components/Nav';
-import Link from 'next/link';
 
 const Feedback = () => {
   const [formData, setFormData] = useState({
@@ -77,12 +76,8 @@ const Feedback = () => {
       <Nav />
       <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
-          {!submitted && (
-            <>
-              <h1 className="text-orange-300 text-4xl font-bold mb-2">Feedback</h1>
-              <h2 className="text-orange-300 text-xl font-semibold mb-4">Share Your Thoughts</h2>
-            </>
-          )}
+          <h1 className="text-orange-300 text-4xl font-bold mb-2">Feedback</h1>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Share Your Thoughts</h2>
 
           <div className="space-y-4">
             {!submitted ? (
@@ -97,7 +92,7 @@ const Feedback = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 [&:-webkit-autofill]:bg-gray-700 [&:-webkit-autofill]:text-white [&:-webkit-autofill]:border-gray-600 [&:-webkit-autofill]:shadow-[0_0_0_30px_rgb(55,65,81)]"
                     required
                   />
                 </div>
@@ -111,7 +106,7 @@ const Feedback = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                    className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 [&:-webkit-autofill]:bg-gray-700 [&:-webkit-autofill]:text-white [&:-webkit-autofill]:border-gray-600 [&:-webkit-autofill]:shadow-[0_0_0_30px_rgb(55,65,81)]"
                     required
                   />
                 </div>
@@ -138,11 +133,8 @@ const Feedback = () => {
               </form>
             ) : (
               <div className="text-center py-8">
-                <p className="text-orange-300 text-2xl font-semibold mb-4">Thank you for your feedback!</p>
-                <p className="text-gray-400 text-xl mb-6">Your input helps us improve the program.</p>
-                <Link href="/" className="inline-block bg-orange-400 hover:bg-orange-300 text-black text-xl font-semibold py-2 px-6 rounded">
-                  Return Home
-                </Link>
+                <p className="text-orange-300 text-lg mb-4">Thank you for your feedback!</p>
+                <p className="text-gray-400">Your input helps us improve the program.</p>
               </div>
             )}
           </div>
