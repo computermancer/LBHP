@@ -8,38 +8,30 @@ export default function Drill5ProneHipIRExtension() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Stand facing a wall with feet hip-width apart.",
-        "Place your hands on the wall at shoulder height."
+        "Lie on your stomach with legs extended straight."
       ]}
       instructions={[
-        "Inhale and press your heels into the ground.",
-        "Exhale and lift your heels slightly.",
-        "Maintain upright posture throughout."
+        "Inhale to prepare.",
+        "Exhale and gently rotate one leg inward (hip internal rotation).",
+        "Inhale to return to neutral and switch sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow presses per set",
-        "Breath: Inhale to press, exhale to lift",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
+        "Breath: Exhale during rotation, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Heel pressure into the ground",
-        "Core engagement",
-        "Upright posture"
+        "Subtle activation in the hips and pelvis."
       ]}
       whatToAvoid={[
-        "Leaning forward",
-        "Moving too quickly",
-        "Holding tension in the shoulders"
+        "Over-rotating or losing control."
       ]}
       redFlags={[
-        "Pain in the feet or ankles",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Pain or discomfort in the hips."
       ]}
       regression={[
-        "Stand closer to the wall.",
-        "Reduce the range of movement."
+        "Place a pillow under the pelvis for support."
       ]}
     />
   );

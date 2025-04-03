@@ -8,42 +8,42 @@ export default function Day2() {
       <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Week 2 - Day 2</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Dynamic Movement and Control</h2>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Thoracic Rotation and Posterior Chain Activation</h2>
 
           <div className="space-y-4">
             <div>
-              <Link href="/week2/day2/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 1: Supine Rib Expansion with Breath
+              <Link href="/week2/day2/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+                Drill 1: Quadruped Reach with Rib Control
               </Link>
-              <p className="text-lg text-white mt-2">Develop rib control and breath awareness.</p>
+              <p className="text-lg text-white mt-2">Develop thoracic rotation with stable ribcage control.</p>
             </div>
 
             <div>
-              <Link href="/week2/day2/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 2: Hooklying Hip Shifts
+              <Link href="/week2/day2/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+                Drill 2: Seated Hip Hinge with Breath
               </Link>
-              <p className="text-lg text-white mt-2">Improve pelvic mobility and control.</p>
+              <p className="text-lg text-white mt-2">Improve hinge pattern and maintain core control.</p>
             </div>
 
             <div>
-              <Link href="/week2/day2/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 3: Side-Lying Hip IR with Breath
+              <Link href="/week2/day2/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+                Drill 3: Standing Posterior Weight Shift
               </Link>
-              <p className="text-lg text-white mt-2">Enhance hip internal rotation and stability.</p>
+              <p className="text-lg text-white mt-2">Develop posterior weight shift for balanced hip control.</p>
             </div>
 
             <div>
-              <Link href="/week2/day2/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 4: Supine 90-90 Leg Lowering
+              <Link href="/week2/day2/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+                Drill 4: Wall Hamstring Marching
               </Link>
-              <p className="text-lg text-white mt-2">Develop core control and pelvic stability.</p>
+              <p className="text-lg text-white mt-2">Reinforce posterior chain activation and pelvic control.</p>
             </div>
 
             <div>
-              <Link href="/week2/day2/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
-                Drill 5: Wall Supported Heel Press
+              <Link href="/week2/day2/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left">
+                Drill 5: Prone Hip IR and Extension Drill
               </Link>
-              <p className="text-lg text-white mb-4">Activate hamstrings to stabilize the pelvis and core.</p>
+              <p className="text-lg text-white mt-2">Build awareness of hip rotation and extension.</p>
             </div>
           </div>
         </div>

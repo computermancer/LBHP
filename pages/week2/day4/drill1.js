@@ -8,38 +8,31 @@ export default function Drill1SupineRibShift() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your lower ribs."
+        "Lie on your back with knees bent, feet flat on the floor.",
+        "Place hands on your lower ribs for feedback."
       ]}
       instructions={[
-        "Inhale and expand your ribs laterally.",
-        "Exhale and reach one arm toward the ceiling.",
-        "Return to starting position and alternate arms."
+        "Inhale deeply, expanding the ribs laterally.",
+        "Exhale and gently shift the ribs side to side.",
+        "Return to center before switching sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow reaches per side",
-        "Breath: Inhale to prepare, exhale to reach",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow shifts per side",
+        "Breath: Exhale during shift, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Rib expansion during inhalation",
-        "Core activation during reach",
-        "Controlled arm movement"
+        "Subtle motion through the ribs with minimal effort."
       ]}
       whatToAvoid={[
-        "Rib flaring",
-        "Back arching",
-        "Moving too quickly"
+        "Arching the back or tensing the neck."
       ]}
       redFlags={[
-        "Pain in the shoulders or ribs",
-        "Loss of rib control",
-        "Difficulty breathing"
+        "Pain or discomfort in the ribs or spine."
       ]}
       regression={[
-        "Reduce the reach distance.",
-        "Keep both arms at your sides."
+        "Reduce range of motion if needed."
       ]}
     />
   );

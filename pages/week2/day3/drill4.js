@@ -12,34 +12,27 @@ export default function Drill4SupportedSideLyingHipAbduction() {
         "Support your head with a pillow or your arm."
       ]}
       instructions={[
-        "Exhale and lift your top leg slightly.",
-        "Inhale and return to the starting position.",
-        "Maintain pelvic stability throughout."
+        "Exhale and lift your top leg slightly while maintaining pelvic stability.",
+        "Inhale to return to the starting position.",
+        "Move slowly and maintain control throughout."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow lifts per side",
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
         "Breath: Exhale during lift, inhale to return",
-        "Rest: Between sets or as needed"
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Activation of lateral hip muscles",
-        "Pelvic stability",
-        "Controlled leg movement"
+        "Activation of the lateral hip muscles."
       ]}
       whatToAvoid={[
-        "Rolling the pelvis backward or forward",
-        "Moving too quickly",
-        "Lifting the leg too high"
+        "Rolling the pelvis backward or forward."
       ]}
       redFlags={[
-        "Pain or discomfort in the hips",
-        "Loss of pelvic control",
-        "Difficulty maintaining position"
+        "Pain or discomfort in the hips."
       ]}
       regression={[
-        "Place a pillow between your knees.",
-        "Reduce the range of movement."
+        "Place a pillow between the knees for added support."
       ]}
     />
   );

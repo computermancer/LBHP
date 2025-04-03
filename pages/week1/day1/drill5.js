@@ -1,48 +1,41 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function Supine9090Reach() {
+export default function WallHamstringPress() {
   return (
     <DrillTemplate
-      title="Drill 5: Supine 90-90 Reach"
+      title="Drill 5: Wall Hamstring Press"
       backButtonText="Week 1 - Day 1"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with hips and knees bent to 90 degrees",
-        "Feet should be off the floor",
-        "Arms reaching straight up to the ceiling"
+        "Lie on your back with feet on wall, knees and hips at 90 degrees.",
+        "Arms resting by sides or palms on lower ribs."
       ]}
       instructions={[
-        "Exhale and reach your arms toward the ceiling while gently pressing low back into floor",
-        "Maintain 90-90 leg position; don't let knees drift or chest lift",
-        "Inhale and return arms to starting position without losing core control",
-        "Keep neck relaxed throughout the movement"
+        "Gently press both heels into the wall as if trying to slide the wall down.",
+        "Avoid lifting the hips; let hamstrings engage and stabilize the pelvis.",
+        "Breathe steadily throughout."
       ]}
       setsReps={[
-        "Sets: 2-3",
-        "Reps: 5-8 slow, controlled reps",
-        "Breath: Exhale during the reach, inhale to return",
-        "Rest: 30 seconds between sets"
+        "Sets: 2–3",
+        "Reps: 5–10 second presses",
+        "Breath: Slow, steady breathing throughout each press",
+        "Rest: 20–40 seconds between sets"
       ]}
       whatToFeel={[
-        "Gentle core activation with low back grounded",
-        "Tension through abs without bracing",
-        "Smooth breathing pattern"
+        "Gentle hamstring tension.",
+        "Subtle core engagement as pelvis anchors."
       ]}
       whatToAvoid={[
-        "Flaring ribs or arching low back",
-        "Reaching from shoulders or straining neck",
-        "Holding your breath"
+        "Pushing through toes.",
+        "Holding breath or squeezing glutes excessively."
       ]}
       redFlags={[
-        "Neck pain or excessive tension",
-        "Loss of position or breath control",
-        "Lower back pain"
+        "Cramping or sharp discomfort.",
+        "Shaking or bracing excessively."
       ]}
       regression={[
-        "Place feet on a chair or bench if holding 90-90 position is too difficult",
-        "Reduce the range of arm movement",
-        "Perform with knees bent and feet on the floor"
+        "Move feet slightly lower on the wall to reduce intensity."
       ]}
     />
   );

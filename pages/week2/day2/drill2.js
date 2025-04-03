@@ -8,38 +8,30 @@ export default function Drill2SeatedHipHinge() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your lower ribs."
+        "Sit on a firm chair, feet flat, hands resting on your thighs."
       ]}
       instructions={[
-        "Inhale and expand your ribs laterally.",
-        "Exhale and allow your ribs to relax.",
-        "Focus on maintaining pelvic stability."
+        "Inhale to prepare.",
+        "Exhale and hinge forward from the hips while maintaining a neutral spine.",
+        "Return to the starting position with control."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow breaths per set",
-        "Breath: Inhale for 4 counts, exhale for 4 counts",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 controlled reps",
+        "Breath: Exhale to hinge, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Rib expansion during inhalation",
-        "Gentle rib compression during exhalation",
-        "Relaxed breathing pattern"
+        "Stretch in the hamstrings and engagement through the core."
       ]}
       whatToAvoid={[
-        "Forcing the breath",
-        "Shallow chest breathing",
-        "Tensing the shoulders"
+        "Rounding or arching the back."
       ]}
       redFlags={[
-        "Pain or discomfort in the ribs",
-        "Difficulty breathing",
-        "Dizziness or lightheadedness"
+        "Pain or discomfort in the low back."
       ]}
       regression={[
-        "Place a pillow under your head for support.",
-        "Reduce the breathing count to 3 counts."
+        "Place hands on a table for additional support."
       ]}
     />
   );

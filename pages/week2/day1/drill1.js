@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function Drill1SupineRibExpansion() {
+export default function SupineRibExpansionwithBreath() {
   return (
     <DrillTemplate
       title="Drill 1: Supine Rib Expansion with Breath"
@@ -8,38 +8,33 @@ export default function Drill1SupineRibExpansion() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your lower ribs."
+        "Lie on your back with knees bent, feet flat on the floor.",
+        "Place hands gently on your lower ribs."
       ]}
       instructions={[
-        "Inhale deeply, feeling your ribs expand.",
-        "Exhale slowly, allowing your ribs to relax.",
-        "Focus on lateral rib expansion."
+        "Inhale deeply into the lower ribs, feeling lateral expansion.",
+        "Exhale softly, allowing ribs to fall naturally.",
+        "Maintain slow, controlled breaths throughout."
       ]}
       setsReps={[
         "Sets: 2",
-        "Reps: 5–8 slow breaths per set",
-        "Breath: Inhale for 4 counts, exhale for 4 counts",
+        "Reps: 5–8 breath cycles per set",
+        "Breath: Inhale 3–4 seconds, exhale 4–6 seconds",
         "Rest: Between sets or as needed"
       ]}
       whatToFeel={[
-        "Rib expansion during inhalation",
-        "Gentle rib compression during exhalation",
-        "Relaxed breathing pattern"
+        "Expansion of ribs during inhale.",
+        "Relaxed breath pattern with minimal chest rise."
       ]}
       whatToAvoid={[
-        "Forcing the breath",
-        "Shallow chest breathing",
-        "Tensing the shoulders"
+        "Breathing only into the upper chest.",
+        "Collapsing the ribcage or losing control."
       ]}
       redFlags={[
-        "Pain or discomfort in the ribs",
-        "Difficulty breathing",
-        "Dizziness or lightheadedness"
+        "Dizziness or discomfort with breath control."
       ]}
       regression={[
-        "Perform seated rib expansion if lying down is too challenging.",
-        "Reduce the depth of breathing."
+        "Place a pillow under the knees to reduce tension in the lower back."
       ]}
     />
   );

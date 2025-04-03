@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function Drill5WallSupportedHeelPress() {
+export default function WallSupportedHeelPress() {
   return (
     <DrillTemplate
       title="Drill 5: Wall Supported Heel Press"
@@ -8,38 +8,31 @@ export default function Drill5WallSupportedHeelPress() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Stand facing a wall with feet hip-width apart.",
-        "Place your hands on the wall at shoulder height."
+        "Lie on your back with feet on a wall, knees and hips at 90 degrees.",
+        "Arms resting by your sides or on your ribs."
       ]}
       instructions={[
-        "Inhale and press your heels into the ground.",
-        "Exhale and lift your heels slightly.",
-        "Maintain upright posture throughout."
+        "Press both heels gently into the wall.",
+        "Maintain contact with the wall and focus on engaging the hamstrings.",
+        "Hold for 5–10 seconds, then relax."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow presses per set",
-        "Breath: Inhale to press, exhale to lift",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 5–8 controlled presses",
+        "Breath: Exhale during press, inhale to release",
+        "Rest: 20–40 seconds between sets"
       ]}
       whatToFeel={[
-        "Heel pressure into the ground",
-        "Core engagement",
-        "Upright posture"
+        "Hamstring activation and subtle core engagement."
       ]}
       whatToAvoid={[
-        "Leaning forward",
-        "Moving too quickly",
-        "Holding tension in the shoulders"
+        "Pressing too hard or lifting the pelvis."
       ]}
       redFlags={[
-        "Pain in the feet or ankles",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Cramping or sharp discomfort."
       ]}
       regression={[
-        "Stand closer to the wall.",
-        "Reduce the range of movement."
+        "Move feet slightly lower on the wall to reduce intensity."
       ]}
     />
   );

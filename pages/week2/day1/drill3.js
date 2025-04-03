@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function Drill3SideLyingHipIR() {
+export default function SideLyingHipIRwithBreath() {
   return (
     <DrillTemplate
       title="Drill 3: Side-Lying Hip IR with Breath"
@@ -12,34 +12,29 @@ export default function Drill3SideLyingHipIR() {
         "Support your head with a pillow or your arm."
       ]}
       instructions={[
-        "Inhale and rotate your top knee outward.",
-        "Exhale and return to the starting position.",
-        "Maintain pelvic stability throughout."
+        "Exhale and rotate your top knee inward while keeping the pelvis stable.",
+        "Inhale to return to the starting position.",
+        "Move slowly and maintain control throughout."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rotations per side",
-        "Breath: Inhale to rotate, exhale to return",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
+        "Breath: Exhale during rotation, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Gentle hip rotation",
-        "Pelvic stability",
-        "Connection between breath and movement"
+        "Internal rotation in the hip.",
+        "Stable pelvis with controlled motion."
       ]}
       whatToAvoid={[
-        "Rolling the pelvis",
-        "Moving too quickly",
-        "Holding tension in the hip"
+        "Rolling the pelvis forward or backward.",
+        "Forcing the range of motion."
       ]}
       redFlags={[
-        "Pain in the hip or knee",
-        "Loss of pelvic control",
-        "Difficulty maintaining position"
+        "Sharp pain or discomfort."
       ]}
       regression={[
-        "Reduce the range of rotation.",
-        "Place a pillow between your knees."
+        "Place a pillow between the knees for added support."
       ]}
     />
   );

@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function PosteriorPelvicTiltonWall() {
+export default function SeatedBreathWithRibControl() {
   return (
     <DrillTemplate
       title="Drill 5: Seated Breath with Rib Control"

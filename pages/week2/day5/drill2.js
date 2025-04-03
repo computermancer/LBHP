@@ -8,38 +8,30 @@ export default function Drill2CatCowRotational() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Begin in a quadruped position with hands under shoulders and knees under hips.",
-        "Keep your spine in a neutral position."
+        "Begin in a quadruped position, wrists under shoulders, knees under hips."
       ]}
       instructions={[
-        "Inhale and arch your back, lifting your head and tailbone.",
-        "Exhale and round your spine, tucking your chin and pelvis.",
-        "Add gentle thoracic rotation to each position."
+        "Inhale and arch your back, lifting the chest (Cow).",
+        "Exhale and round your spine, tucking pelvis and chin (Cat).",
+        "Add gentle thoracic rotation by reaching one arm toward the ceiling on each side."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow cycles per set",
-        "Breath: Inhale during arch, exhale during round",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps",
+        "Breath: Inhale to extend, exhale to flex",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Spinal mobility through each segment",
-        "Connection between breath and movement",
-        "Gentle stretch in the thoracic spine"
+        "Fluid motion through the spine and increased rotation."
       ]}
       whatToAvoid={[
-        "Over-arching or over-rounding",
-        "Moving too quickly",
-        "Holding tension in the shoulders"
+        "Overarching or collapsing posture."
       ]}
       redFlags={[
-        "Pain in the spine or shoulders",
-        "Dizziness or discomfort",
-        "Loss of control in movement"
+        "Pain or discomfort in the spine."
       ]}
       regression={[
-        "Perform without rotation.",
-        "Reduce the range of motion."
+        "Limit rotation if control is difficult."
       ]}
     />
   );

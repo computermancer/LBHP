@@ -8,38 +8,31 @@ export default function Drill1CrocodileBreathing() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your stomach with your forehead resting on your hands.",
-        "Keep your legs straight and relaxed."
+        "Lie face down with forehead resting on your hands.",
+        "Legs extended, toes pointing slightly outward."
       ]}
       instructions={[
-        "Inhale deeply, allowing your ribs to expand into the ground.",
-        "Exhale slowly, feeling the ribs gently compress.",
-        "Maintain a relaxed neck and shoulders throughout."
+        "Inhale deeply, feeling your belly press into the floor.",
+        "Exhale softly, allowing ribs to relax and fall.",
+        "Focus on lateral rib expansion during inhale."
       ]}
       setsReps={[
         "Sets: 2",
-        "Reps: 5–8 slow breaths per set",
-        "Breath: Inhale for 4 counts, exhale for 4 counts",
+        "Reps: 5–8 breath cycles per set",
+        "Breath: Inhale 3–4 seconds, exhale 4–6 seconds",
         "Rest: Between sets or as needed"
       ]}
       whatToFeel={[
-        "Rib expansion into the ground during inhalation",
-        "Gentle rib compression during exhalation",
-        "Relaxed breathing pattern"
+        "Expansion of the lower ribs and belly."
       ]}
       whatToAvoid={[
-        "Forcing the breath",
-        "Tensing the neck or shoulders",
-        "Over-arching the back"
+        "Shallow chest breathing or tension."
       ]}
       redFlags={[
-        "Pain or discomfort in the back or ribs",
-        "Difficulty breathing",
-        "Dizziness or lightheadedness"
+        "Dizziness or discomfort."
       ]}
       regression={[
-        "Place a pillow under your chest for support.",
-        "Reduce the breathing count to 3 counts."
+        "Place a pillow under the belly for support."
       ]}
     />
   );

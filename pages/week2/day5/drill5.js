@@ -8,7 +8,7 @@ export default function Drill5SeatedBreathHipShifts() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Sit upright on a firm chair with feet flat.",
+        "Sit upright on a firm chair, feet flat.",
         "Hands resting on your pelvis or thighs."
       ]}
       instructions={[
@@ -23,23 +23,16 @@ export default function Drill5SeatedBreathHipShifts() {
         "Rest: Between sets or as needed"
       ]}
       whatToFeel={[
-        "Connection between breath, pelvis, and ribcage",
-        "Gentle pelvic mobility",
-        "Core engagement"
+        "Connection between breath, pelvis, and ribcage."
       ]}
       whatToAvoid={[
-        "Over-shifting or losing control",
-        "Moving too quickly",
-        "Holding tension in the shoulders"
+        "Over-shifting or losing control."
       ]}
       redFlags={[
-        "Pain or discomfort in hips or low back",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Pain or discomfort in hips or low back."
       ]}
       regression={[
-        "Use a pillow for lumbar support.",
-        "Reduce the range of movement."
+        "Use a pillow for lumbar support."
       ]}
     />
   );

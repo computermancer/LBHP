@@ -8,38 +8,31 @@ export default function Drill4SupineHipShifts() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your side with knees slightly bent and stacked.",
-        "Support your head with a pillow or your arm."
+        "Lie on your back with knees bent, feet flat.",
+        "Arms resting by your sides or on ribs for feedback."
       ]}
       instructions={[
-        "Exhale and lift your top leg slightly.",
-        "Inhale and return to the starting position.",
-        "Maintain pelvic stability throughout."
+        "Exhale and gently shift the pelvis side to side.",
+        "Keep ribcage and pelvis aligned throughout.",
+        "Return to center after each shift."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow lifts per side",
-        "Breath: Exhale during lift, inhale to return",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
+        "Breath: Exhale during shift, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Activation of lateral hip muscles",
-        "Pelvic stability",
-        "Controlled leg movement"
+        "Subtle control through hips and core."
       ]}
       whatToAvoid={[
-        "Rolling the pelvis backward or forward",
-        "Moving too quickly",
-        "Lifting the leg too high"
+        "Losing rib control or over-shifting."
       ]}
       redFlags={[
-        "Pain or discomfort in the hips",
-        "Loss of pelvic control",
-        "Difficulty maintaining position"
+        "Pain or discomfort in the hips or low back."
       ]}
       regression={[
-        "Place a pillow between your knees.",
-        "Reduce the range of movement."
+        "Limit range of motion if needed."
       ]}
     />
   );

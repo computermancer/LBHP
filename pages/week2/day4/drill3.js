@@ -8,38 +8,31 @@ export default function Drill3SeatedThoracicFlexionExtension() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Sit upright in a firm chair with feet flat.",
-        "Place your hands on your chest."
+        "Sit upright on a firm chair, feet flat, hands on your chest."
       ]}
       instructions={[
         "Inhale to prepare.",
-        "Exhale and rotate your upper body to one side.",
-        "Return to center and alternate sides."
+        "Exhale and gently flex forward through the upper back.",
+        "Inhale and extend through the thoracic spine, lifting the chest.",
+        "Move smoothly between positions."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rotations per side",
-        "Breath: Exhale during rotation, inhale to return",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps",
+        "Breath: Exhale during flexion, inhale to extend",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Controlled rotation through the thoracic spine",
-        "Core stability",
-        "Connection between breath and movement"
+        "Controlled flexion and extension through the thoracic spine."
       ]}
       whatToAvoid={[
-        "Over-rotating",
-        "Losing core control",
-        "Moving too quickly"
+        "Overarching or collapsing posture."
       ]}
       redFlags={[
-        "Pain or discomfort in the spine",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Pain or discomfort in the spine."
       ]}
       regression={[
-        "Reduce the range of rotation.",
-        "Place your hands on the chair for support."
+        "Perform with arms crossed for less strain."
       ]}
     />
   );

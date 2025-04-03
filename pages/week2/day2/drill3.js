@@ -8,38 +8,30 @@ export default function Drill3StandingPosteriorWeightShift() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Sit upright in a firm chair with feet flat.",
-        "Place your hands on your chest."
+        "Stand with feet hip-width apart, knees slightly bent."
       ]}
       instructions={[
-        "Inhale to prepare.",
-        "Exhale and rotate your upper body to one side.",
-        "Return to center and alternate sides."
+        "Exhale and shift your weight slightly backward into your heels.",
+        "Maintain a neutral spine as you shift.",
+        "Return to center with control."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rotations per side",
-        "Breath: Exhale during rotation, inhale to return",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow shifts",
+        "Breath: Exhale during the shift, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Controlled rotation through the thoracic spine",
-        "Core stability",
-        "Connection between breath and movement"
+        "Engagement of hamstrings and posterior chain."
       ]}
       whatToAvoid={[
-        "Over-rotating",
-        "Losing core control",
-        "Moving too quickly"
+        "Leaning too far back or losing balance."
       ]}
       redFlags={[
-        "Pain or discomfort in the spine",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Pain or discomfort in knees or back."
       ]}
       regression={[
-        "Reduce the range of rotation.",
-        "Place your hands on the chair for support."
+        "Perform near a wall for added balance."
       ]}
     />
   );

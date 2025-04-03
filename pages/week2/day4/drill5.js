@@ -8,38 +8,31 @@ export default function Drill5SeatedBreathPelvicAwareness() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Stand facing a wall with feet hip-width apart.",
-        "Place your hands on the wall at shoulder height."
+        "Sit upright on a firm chair, feet flat.",
+        "Hands gently on lower ribs or pelvis."
       ]}
       instructions={[
-        "Inhale and press your heels into the ground.",
-        "Exhale and lift your heels slightly.",
-        "Maintain upright posture throughout."
+        "Inhale deeply into the belly and ribs.",
+        "Exhale while maintaining pelvic and rib control.",
+        "Repeat with smooth, controlled breathing."
       ]}
       setsReps={[
         "Sets: 2",
-        "Reps: 5–8 slow presses per set",
-        "Breath: Inhale to press, exhale to lift",
+        "Reps: 5–8 breath cycles per set",
+        "Breath: Inhale 3–4 seconds, exhale 4–6 seconds",
         "Rest: Between sets or as needed"
       ]}
       whatToFeel={[
-        "Heel pressure into the ground",
-        "Core engagement",
-        "Upright posture"
+        "Connection between breath, pelvis, and ribcage."
       ]}
       whatToAvoid={[
-        "Leaning forward",
-        "Moving too quickly",
-        "Holding tension in the shoulders"
+        "Overarching or collapsing posture."
       ]}
       redFlags={[
-        "Pain in the feet or ankles",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Difficulty maintaining control."
       ]}
       regression={[
-        "Stand closer to the wall.",
-        "Reduce the range of movement."
+        "Use a pillow for lumbar support."
       ]}
     />
   );

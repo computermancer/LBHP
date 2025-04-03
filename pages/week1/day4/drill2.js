@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function PosteriorPelvicTiltonWall() {
+export default function SeatedPosteriorPelvicRocking() {
   return (
     <DrillTemplate
       title="Drill 2: Seated Posterior Pelvic Rocking"

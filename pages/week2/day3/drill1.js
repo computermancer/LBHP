@@ -8,38 +8,31 @@ export default function Drill1HooklyingPelvicClocks() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your pelvis."
+        "Lie on your back with knees bent, feet flat on the floor.",
+        "Hands resting on your pelvis for feedback."
       ]}
       instructions={[
-        "Inhale and gently rock your pelvis forward.",
-        "Exhale and rock your pelvis backward.",
-        "Move slowly and with control."
+        "Inhale to prepare.",
+        "Exhale and slowly tilt the pelvis forward and backward.",
+        "Move gently as if tracing a clock face with your pelvis."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rocks per direction",
-        "Breath: Inhale forward, exhale backward",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps",
+        "Breath: Exhale during movement, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Gentle pelvic movement",
-        "Connection between breath and movement",
-        "Relaxed lower back"
+        "Smooth, controlled motion through the pelvis."
       ]}
       whatToAvoid={[
-        "Moving too quickly",
-        "Forcing the movement",
-        "Tensing the lower back"
+        "Jerky or forced movement."
       ]}
       redFlags={[
-        "Pain in the lower back",
-        "Difficulty controlling movement",
-        "Loss of breath connection"
+        "Pain or discomfort in the low back."
       ]}
       regression={[
-        "Reduce the range of movement.",
-        "Place a small pillow under your lower back."
+        "Reduce range of motion if needed."
       ]}
     />
   );

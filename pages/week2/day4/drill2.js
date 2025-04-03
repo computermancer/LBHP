@@ -8,38 +8,30 @@ export default function Drill2SeatedPosteriorPelvicRocking() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your lower ribs."
+        "Sit upright in a firm chair, feet flat, hands on thighs."
       ]}
       instructions={[
-        "Inhale and expand your ribs laterally.",
-        "Exhale and reach one arm toward the ceiling.",
-        "Return to starting position and alternate arms."
+        "Inhale to prepare.",
+        "Exhale and rock pelvis backward (posterior tilt), then forward (anterior tilt).",
+        "Move smoothly and maintain control."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow reaches per side",
-        "Breath: Inhale to prepare, exhale to reach",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps",
+        "Breath: Exhale during rocking, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Rib expansion during inhalation",
-        "Core activation during reach",
-        "Controlled arm movement"
+        "Smooth motion through the pelvis and lumbar spine."
       ]}
       whatToAvoid={[
-        "Rib flaring",
-        "Back arching",
-        "Moving too quickly"
+        "Jerky or rushed movements."
       ]}
       redFlags={[
-        "Pain in the shoulders or ribs",
-        "Loss of rib control",
-        "Difficulty breathing"
+        "Pain or discomfort in the lower back."
       ]}
       regression={[
-        "Reduce the reach distance.",
-        "Keep both arms at your sides."
+        "Place hands on hips for additional feedback."
       ]}
     />
   );

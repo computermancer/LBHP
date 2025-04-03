@@ -8,38 +8,30 @@ export default function Drill4SupineMarching() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat on the ground.",
-        "Place your hands resting by your sides or on your lower ribs."
+        "Lie on your back with knees bent, feet flat.",
+        "Hands resting by your sides or on lower ribs."
       ]}
       instructions={[
-        "Exhale and lift one knee toward your chest while maintaining rib and pelvis control.",
-        "Inhale and return the leg to the starting position.",
-        "Alternate sides with each repetition."
+        "Exhale and lift one knee toward the chest while maintaining rib and pelvis control.",
+        "Return to starting position and switch sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow marches per side",
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
         "Breath: Exhale during lift, inhale to return",
-        "Rest: Between sets or as needed"
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Core and pelvis control",
-        "Smooth leg motion",
-        "Connection between breath and movement"
+        "Core and pelvis control with smooth leg motion."
       ]}
       whatToAvoid={[
-        "Arching the back",
-        "Losing pelvic control",
-        "Moving too quickly"
+        "Arching the back or losing pelvic control."
       ]}
       redFlags={[
-        "Pain in the hips or low back",
-        "Difficulty maintaining control",
-        "Loss of breath connection"
+        "Pain or discomfort in the hips or low back."
       ]}
       regression={[
-        "Limit the height of leg lift.",
-        "Place hands under the pelvis for support."
+        "Limit leg lift height if needed."
       ]}
     />
   );

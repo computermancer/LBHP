@@ -8,38 +8,30 @@ export default function Drill3SeatedSpineRotation() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Sit upright in a firm chair with feet flat.",
-        "Place your hands on your chest."
+        "Sit upright in a firm chair, feet flat, hands on your chest."
       ]}
       instructions={[
         "Inhale to prepare.",
-        "Exhale and rotate your upper body to one side.",
+        "Exhale and rotate your upper body to one side while maintaining rib control.",
         "Return to center and alternate sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rotations per side",
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
         "Breath: Exhale during rotation, inhale to return",
-        "Rest: Between sets or as needed"
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Controlled rotation through the thoracic spine",
-        "Core stability",
-        "Connection between breath and movement"
+        "Controlled rotation through the thoracic spine."
       ]}
       whatToAvoid={[
-        "Over-rotating",
-        "Losing core control",
-        "Moving too quickly"
+        "Over-rotating or losing core control."
       ]}
       redFlags={[
-        "Pain or discomfort in the spine",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Pain or discomfort in the spine or ribs."
       ]}
       regression={[
-        "Reduce the range of rotation.",
-        "Place your hands on the chair for support."
+        "Reduce the range of rotation if needed."
       ]}
     />
   );

@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function Drill2HooklyingHipShifts() {
+export default function HooklyingHipShifts() {
   return (
     <DrillTemplate
       title="Drill 2: Hooklying Hip Shifts"
@@ -8,38 +8,33 @@ export default function Drill2HooklyingHipShifts() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your pelvis."
+        "Lie on your back with knees bent, feet flat on the floor.",
+        "Place hands gently on your pelvis."
       ]}
       instructions={[
-        "Inhale and allow your pelvis to rock forward.",
-        "Exhale and rock your pelvis back.",
-        "Maintain gentle, controlled movement."
+        "Gently shift your pelvis side to side, feeling each hip lift slightly.",
+        "Move slowly and stay within a comfortable range of motion.",
+        "Return to neutral after each shift."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rocks per set",
-        "Breath: Inhale forward, exhale back",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 controlled shifts",
+        "Breath: Inhale to prepare, exhale during each shift",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Gentle pelvic movement",
-        "Connection between breath and movement",
-        "Relaxed lower back"
+        "Subtle shifting of the pelvis.",
+        "Smooth, controlled movements."
       ]}
       whatToAvoid={[
-        "Over-arching the back",
-        "Moving too quickly",
-        "Holding tension in the hips"
+        "Forcing the shift or losing control.",
+        "Collapsing or tensing excessively."
       ]}
       redFlags={[
-        "Pain in the lower back",
-        "Difficulty controlling movement",
-        "Loss of breath connection"
+        "Pain or discomfort in the hips or low back."
       ]}
       regression={[
-        "Reduce the range of movement.",
-        "Place a small pillow under your lower back."
+        "Reduce range of motion or support knees with a pillow."
       ]}
     />
   );

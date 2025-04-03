@@ -8,38 +8,32 @@ export default function Drill1QuadrupedReach() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Begin in a quadruped position with hands under shoulders and knees under hips.",
-        "Keep your spine in a neutral position."
+        "Start in a quadruped position, hands under shoulders, knees under hips.",
+        "Maintain a neutral spine with ribs aligned."
       ]}
       instructions={[
-        "Inhale and reach one arm forward while maintaining rib control.",
-        "Exhale and return to the starting position.",
-        "Alternate arms with each repetition."
+        "Inhale to prepare.",
+        "Exhale and slowly reach one arm forward while maintaining rib control.",
+        "Return to the starting position and alternate sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow reaches per side",
-        "Breath: Inhale to reach, exhale to return",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
+        "Breath: Exhale during the reach, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Core and rib stability",
-        "Controlled arm movement",
-        "Connection between breath and movement"
+        "Stability through the ribs and core.",
+        "Smooth, controlled motion with no rib flaring."
       ]}
       whatToAvoid={[
-        "Collapsing through the spine",
-        "Moving too quickly",
-        "Losing rib control"
+        "Losing rib control or arching the lower back."
       ]}
       redFlags={[
-        "Pain in the shoulders or back",
-        "Loss of stability",
-        "Difficulty maintaining position"
+        "Pain or discomfort in the shoulders or low back."
       ]}
       regression={[
-        "Reduce the reach distance.",
-        "Place a pillow under your knees."
+        "Reduce range of motion if control is difficult."
       ]}
     />
   );

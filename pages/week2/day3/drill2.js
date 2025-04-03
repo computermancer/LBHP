@@ -8,38 +8,31 @@ export default function Drill2SupineDiaphragmReset() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your back with knees bent and feet flat.",
-        "Place your hands on your lower ribs."
+        "Lie on your back with knees bent, feet flat on the floor.",
+        "Arms reaching straight up to the ceiling."
       ]}
       instructions={[
-        "Inhale and expand your ribs laterally.",
-        "Exhale and reach one arm toward the ceiling.",
-        "Return to starting position and alternate arms."
+        "Inhale deeply into the ribs.",
+        "Exhale and gently reach toward the ceiling while maintaining rib control.",
+        "Return to the starting position."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow reaches per side",
-        "Breath: Inhale to prepare, exhale to reach",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps",
+        "Breath: Exhale during reach, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Rib expansion during inhalation",
-        "Core activation during reach",
-        "Controlled arm movement"
+        "Activation of core and ribcage stability."
       ]}
       whatToAvoid={[
-        "Rib flaring",
-        "Back arching",
-        "Moving too quickly"
+        "Flaring the ribs or arching the back."
       ]}
       redFlags={[
-        "Pain in the shoulders or ribs",
-        "Loss of rib control",
-        "Difficulty breathing"
+        "Pain or discomfort in the shoulders or ribs."
       ]}
       regression={[
-        "Reduce the reach distance.",
-        "Keep both arms at your sides."
+        "Reduce the range of motion if needed."
       ]}
     />
   );

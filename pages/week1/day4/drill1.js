@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function PosteriorPelvicTiltonWall() {
+export default function SupineDiaphragmReset() {
   return (
     <DrillTemplate
       title="Drill 1: Supine Diaphragm Reset"

@@ -1,6 +1,6 @@
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function PosteriorPelvicTiltonWall() {
+export default function SupineHipShiftWithBreath() {
   return (
     <DrillTemplate
       title="Drill 4: Supine Hip Shift with Breath"

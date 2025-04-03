@@ -8,38 +8,30 @@ export default function Drill4WallHamstringMarching() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Lie on your side with knees slightly bent and stacked.",
-        "Support your head with a pillow or your arm."
+        "Lie on your back with feet on a wall, knees and hips at 90 degrees."
       ]}
       instructions={[
-        "Exhale and lift your top leg slightly.",
-        "Inhale and return to the starting position.",
-        "Maintain pelvic stability throughout."
+        "Exhale and gently press one heel into the wall.",
+        "Lift the opposite foot slightly off the wall.",
+        "Return to starting position and switch sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow lifts per side",
+        "Sets: 2–3",
+        "Reps: 8–10 slow marches per side",
         "Breath: Exhale during lift, inhale to return",
-        "Rest: Between sets or as needed"
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Activation of lateral hip muscles",
-        "Pelvic stability",
-        "Controlled leg movement"
+        "Hamstring engagement and pelvic stability."
       ]}
       whatToAvoid={[
-        "Rolling the pelvis backward or forward",
-        "Moving too quickly",
-        "Lifting the leg too high"
+        "Losing pelvic control or arching the lower back."
       ]}
       redFlags={[
-        "Pain or discomfort in the hips",
-        "Loss of pelvic control",
-        "Difficulty maintaining position"
+        "Pain or discomfort in hips or low back."
       ]}
       regression={[
-        "Place a pillow between your knees.",
-        "Reduce the range of movement."
+        "Keep both feet on the wall if maintaining stability is difficult."
       ]}
     />
   );

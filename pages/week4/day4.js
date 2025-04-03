@@ -8,42 +8,42 @@ export default function Day4() {
       <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Week 4 - Day 4</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Integration and Progression</h2>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Hip and Rib Control under Load</h2>
 
           <div className="space-y-4">
             <div>
               <Link href="/week4/day4/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 1: Supine Rib Expansion with Marching
+                Drill 1: Supine Hip Shifts with Rib Awareness
               </Link>
-              <p className="text-lg text-white mt-2">Enhance rib control during dynamic movement.</p>
+              <p className="text-lg text-white mt-2">Develop lateral hip mobility while maintaining rib stability.</p>
             </div>
 
             <div>
               <Link href="/week4/day4/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 2: Seated Hip Shift with Breath
+                Drill 2: Quadruped Arm and Leg Reach with Control
               </Link>
-              <p className="text-lg text-white mt-2">Improve hip mobility and breath coordination.</p>
+              <p className="text-lg text-white mt-2">Improve balance and stability with controlled movement.</p>
             </div>
 
             <div>
               <Link href="/week4/day4/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 3: Standing Hip Hinge with Wall Support
+                Drill 3: Wall Hamstring Press with Breath Focus
               </Link>
-              <p className="text-lg text-white mt-2">Refine hip hinge pattern and core stability.</p>
+              <p className="text-lg text-white mt-2">Reinforce hamstring engagement and core control.</p>
             </div>
 
             <div>
               <Link href="/week4/day4/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Drill 4: Quadruped Rock Back with Neutral Spine
+                Drill 4: Supported Side-Lying Hip Abduction
               </Link>
-              <p className="text-lg text-white mt-2">Enhance hip mobility and lumbar control.</p>
+              <p className="text-lg text-white mt-2">Develop lateral hip strength and stability.</p>
             </div>
 
             <div>
               <Link href="/week4/day4/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
-                Drill 5: Wall Supported Squat Hold
+                Drill 5: Seated Spine Twist with Arm Reach
               </Link>
-              <p className="text-lg text-white mb-4">Build lower body endurance and control.</p>
+              <p className="text-lg text-white mb-4">Build thoracic rotation and control.</p>
             </div>
           </div>
         </div>

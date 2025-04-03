@@ -8,38 +8,31 @@ export default function Drill5WallSupportedDeepSquat() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Stand facing a wall with feet hip-width apart.",
-        "Place your hands on the wall at shoulder height."
+        "Stand facing a wall, feet slightly wider than hip-width.",
+        "Toes pointing slightly outward."
       ]}
       instructions={[
-        "Inhale and press your heels into the ground.",
-        "Exhale and lift your heels slightly.",
-        "Maintain upright posture throughout."
+        "Inhale to prepare.",
+        "Exhale and slowly lower into a deep squat while maintaining rib and pelvic control.",
+        "Hold the position briefly and return to standing."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow presses per set",
-        "Breath: Inhale to press, exhale to lift",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 5–8 slow reps",
+        "Breath: Exhale during descent, inhale to rise",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Heel pressure into the ground",
-        "Core engagement",
-        "Upright posture"
+        "Opening through the hips and stability through the core."
       ]}
       whatToAvoid={[
-        "Leaning forward",
-        "Moving too quickly",
-        "Holding tension in the shoulders"
+        "Collapsing the chest or flaring the ribs."
       ]}
       redFlags={[
-        "Pain in the feet or ankles",
-        "Loss of balance",
-        "Difficulty maintaining posture"
+        "Pain or discomfort in knees or hips."
       ]}
       regression={[
-        "Stand closer to the wall.",
-        "Reduce the range of movement."
+        "Perform a partial squat if full depth is uncomfortable."
       ]}
     />
   );

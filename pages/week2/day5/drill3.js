@@ -8,38 +8,30 @@ export default function Drill3SeatedSpineTwist() {
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
-        "Sit upright in a firm chair with feet flat on the ground.",
-        "Place your hands crossed over your chest."
+        "Sit upright in a firm chair, feet flat, hands crossed over your chest."
       ]}
       instructions={[
-        "Inhale to prepare, maintaining an upright posture.",
-        "Exhale and rotate your upper body to one side.",
-        "Return to center and alternate sides."
+        "Inhale to prepare.",
+        "Exhale and rotate your upper body to one side while reaching one arm forward.",
+        "Return to center and switch sides."
       ]}
       setsReps={[
-        "Sets: 2",
-        "Reps: 5–8 slow rotations per side",
-        "Breath: Inhale to center, exhale during rotation",
-        "Rest: Between sets or as needed"
+        "Sets: 2–3",
+        "Reps: 8–10 slow reps per side",
+        "Breath: Exhale during rotation, inhale to return",
+        "Rest: As needed"
       ]}
       whatToFeel={[
-        "Controlled thoracic rotation",
-        "Stability through the core",
-        "Connection between breath and movement"
+        "Controlled thoracic rotation with scapular motion."
       ]}
       whatToAvoid={[
-        "Over-rotating or losing control",
-        "Moving too quickly",
-        "Losing upright posture"
+        "Over-rotating or losing rib control."
       ]}
       redFlags={[
-        "Pain in the spine or ribs",
-        "Dizziness or discomfort",
-        "Loss of balance"
+        "Pain or discomfort in the spine."
       ]}
       regression={[
-        "Perform without arm reach.",
-        "Reduce the range of rotation."
+        "Perform without arm reach if needed."
       ]}
     />
   );
