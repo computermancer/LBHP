@@ -743,7 +743,7 @@ export default function ProgramOverview() {
 
           {/* Week 5 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-white">
+            <h2 className="text-2xl font-bold mb-4 text-amber-200">
               Week 5: Strength and Control Progression
             </h2>
 
