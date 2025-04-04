@@ -69,64 +69,70 @@ const Feedback = () => {
         }
       );
   };
-  
-
+// the a field has to be there below
   return (
     <>
       <Nav />
-      <div className="flex flex-col items-center min-h-screen bg-[#1a1a1a] pt-8">
-        <h1 className="text-3xl font-bold mb-6 text-orange-300">Contact and Feedback</h1>
-        <form
-          onSubmit={handleSubmit}
-          className="w-full max-w-md bg-zinc-800 p-6 rounded-2xl shadow-lg border border-zinc-700"
-        >
-          <label className="block mb-4 text-orange-300 text-xl">
-            Name
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
-            />
-          </label>
-          <label className="block mb-4 text-orange-300 text-xl">
-            Email
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
-            />
-          </label>
-          <label className="block mb-4 text-orange-300 text-xl">
-            Message
-            <textarea
-              name="message"
-              rows="4"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
-            ></textarea>
-          </label>
-          <button
-            type="submit"
-            className="w-full bg-orange-400 text-black text-xl px-4 py-2 rounded-lg hover:bg-orange-300 transition-colors duration-200"
+      <main className="px-8 text-gray-200 min-h-screen font-sans">
+        <div className="max-w-[500px] mx-auto py-8">
+
+        <a> </a>
+
+
+          <h1 className="text-orange-300 text-4xl font-bold mb-2">Contact and Feedback</h1>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Get in Touch</h2>
+          <form
+            onSubmit={handleSubmit}
+            className="w-full sm:w-[500px] bg-zinc-800 p-6 rounded-2xl shadow-lg border border-zinc-700"
           >
-            Send
-          </button>
-          {success && (
-            <p className="mt-4 text-green-400">Thank you! Your message has been sent.</p>
-          )}
-          {error && (
-            <p className="mt-4 text-red-400">{error}</p>
-          )}
-        </form>
-      </div>
+            <label className="block mb-4 text-orange-300 text-xl">
+              Name
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
+              />
+            </label>
+            <label className="block mb-4 text-orange-300 text-xl">
+              Email
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
+              />
+            </label>
+            <label className="block mb-4 text-orange-300 text-xl">
+              Message
+              <textarea
+                name="message"
+                rows="4"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
+              ></textarea>
+            </label>
+            <button
+              type="submit"
+              className="w-full bg-orange-400 text-black text-xl px-4 py-2 rounded-lg hover:bg-orange-300 transition-colors duration-200"
+            >
+              Send
+            </button>
+            {success && (
+              <p className="mt-4 text-green-400">Thank you! Your message has been sent.</p>
+            )}
+            {error && (
+              <p className="mt-4 text-red-400">{error}</p>
+            )}
+          </form>
+        </div>
+      </main>
     </>
   );
 };

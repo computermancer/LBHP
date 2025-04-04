@@ -16,7 +16,8 @@ export default function Download() {
       <Nav />
       <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-3xl font-bold mb-6">Downloads</h1>
+          <h1 className="text-orange-300 text-4xl font-bold mb-2">Download PDF's</h1>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Program Materials</h2>
           
           <section className="mb-6">
             <p className="text-lg mb-6">
