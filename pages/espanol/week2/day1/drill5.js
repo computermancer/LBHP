@@ -1,11 +1,11 @@
-import DrillTemplate from '../../../components/DrillTemplate';
+import DrillTemplateEspanol from '../../../components/DrillTemplateEspanol';
 import NavEspanol from '../../../../components/NavEspanol';
 
 export default function WallSupportedHeelPress() {
   return (
     <>
       <NavEspanol />
-      <DrillTemplate
+      <DrillTemplateEspanol
         title="Drill 5: Wall Supported Heel Press"
         backButtonText="Week 2 - Day 1"
         videoId="wn0IyvGBeUI"
