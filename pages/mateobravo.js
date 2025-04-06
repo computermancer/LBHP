@@ -12,6 +12,7 @@ export default function MateoBravo() {
           
           <div className="space-y-6">
             <section>
+              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Who Am I?</h2>
               <p className="text-lg leading-relaxed mb-4">
                 This program was created by me, Mateo Bravo.
               </p>
@@ -76,7 +77,7 @@ export default function MateoBravo() {
                   </div>
                   <div className="ml-8">
                     <a href="https://www.mateobravo.com" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
-                      www.mateobravo.com
+                      mateobravo.com
                     </a>
                   </div>
                 </div>
@@ -84,11 +85,11 @@ export default function MateoBravo() {
                 <div>
                   <div className="flex items-center mb-1">
                     <FaFacebook className="text-[#1877F2] mr-3 text-2xl" />
-                    <span className="text-amber-300 text-xl font-semibold">Facebook Page</span>
+                    <span className="text-amber-300 text-xl font-semibold">Facebook</span>
                   </div>
                   <div className="ml-8">
                     <a href="https://www.facebook.com/MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
-                      www.facebook.com/MateoBravoPersonalTraining
+                      facebook.com/MateoBravoPersonalTraining
                     </a>
                   </div>
                 </div>
@@ -96,11 +97,11 @@ export default function MateoBravo() {
                 <div>
                   <div className="flex items-center mb-1">
                     <FaYoutube className="text-[#FF0000] mr-3 text-2xl" />
-                    <span className="text-amber-300 text-xl font-semibold">Youtube Channel</span>
+                    <span className="text-amber-300 text-xl font-semibold">Youtube</span>
                   </div>
                   <div className="ml-8">
                     <a href="https://www.youtube.com/@MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
-                      www.youtube.com/@MateoBravoPersonalTraining
+                      youtube.com/@MateoBravoPersonalTraining
                     </a>
                   </div>
                 </div>
@@ -108,11 +109,11 @@ export default function MateoBravo() {
                 <div>
                   <div className="flex items-center mb-1">
                     <FaInstagram className="text-[#E4405F] mr-3 text-2xl" />
-                    <span className="text-amber-300 text-xl font-semibold">Personal Instagram</span>
+                    <span className="text-amber-300 text-xl font-semibold">Instagram</span>
                   </div>
                   <div className="ml-8">
                     <a href="https://www.instagram.com/flatfootmatt/" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
-                      www.instagram.com/flatfootmatt/
+                      instagram.com/flatfootmatt/
                     </a>
                   </div>
                 </div>
