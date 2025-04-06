@@ -15,8 +15,8 @@ export default function NavEspanol() {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50 flex justify-center bg-zinc-900 shadow-md">
-      <nav className="flex gap-1 text-gray-200 px-8 py-2 max-w-[500px] w-full mx-auto">
+    <div className="sticky top-0 z-50 flex justify-center bg-zinc-900 px-8 shadow-md">
+      <nav className="flex gap-1 text-gray-200 py-2 max-w-[500px] w-full mx-auto">
         <Link className="flex-1 bg-zinc-800 px-2 py-1.5 rounded text-base hover:bg-zinc-700 text-center" href="/espanol/inicio">Inicio</Link>
         <Link ref={buttonRef} className="flex-1 bg-zinc-800 px-2 py-1.5 rounded text-base hover:bg-zinc-700 text-center" href="/espanol/semana1">S 1</Link>
         <Link className="flex-1 bg-zinc-800 px-2 py-1.5 rounded text-base hover:bg-zinc-700 text-center" href="/espanol/semana2">S 2</Link>
