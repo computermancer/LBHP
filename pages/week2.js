@@ -8,7 +8,7 @@ export default function Week2() {
       <main className="px-8 text-white min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Week 2</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Rib Control & Hip Integration</h2>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Rib Expansion and Hip Control</h2>
           
           <div className="flex gap-1 mb-8">
             <Link href="/week2/day1" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Day 1</Link>
@@ -19,32 +19,32 @@ export default function Week2() {
           </div>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Purpose of This Week</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Purpose of This Week</h2>
             <ul className="list-disc pl-5 text-lg">
-              <li>Increase pelvic and ribcage control through dynamic positions.</li>
-              <li>Introduce basic rotational movements and refine rib-pelvis connection.</li>
-              <li>Develop comfort with hip hinging and improve thoracic extension.</li>
-              <li>Reinforce breath control and interoceptive feedback.</li>
+              <li>Expand ribcage awareness and control.</li>
+              <li>Develop hip mobility and stability.</li>
+              <li>Integrate breath with movement patterns.</li>
+              <li>Build foundation for dynamic movements.</li>
             </ul>
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Goals for Week 2</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Goals for Week 2</h2>
             <ul className="list-disc pl-5 text-lg">
-              <li>Refine awareness of pelvic and thoracic alignment during movement.</li>
-              <li>Improve rotational control through the thoracic spine.</li>
-              <li>Enhance stability and control in transitional positions.</li>
-              <li>Develop better coordination between breath and movement.</li>
+              <li>Improve ribcage expansion and control.</li>
+              <li>Enhance hip mobility and stability.</li>
+              <li>Develop coordinated breath-movement patterns.</li>
+              <li>Build confidence in basic movement patterns.</li>
             </ul>
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Tips for Success</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Tips for Success</h2>
             <ul className="list-disc pl-5 text-lg">
-              <li>Focus on maintaining neutral pelvis and rib alignment during movement.</li>
-              <li>Move deliberately and avoid rushing through drills.</li>
-              <li>Pay attention to any asymmetries between sides.</li>
-              <li>Prioritize breath control and coordinated timing.</li>
+              <li>Focus on quality of movement over quantity.</li>
+              <li>Pay attention to breath patterns during exercises.</li>
+              <li>Take breaks when needed to maintain form.</li>
+              <li>Notice how your body responds to different movements.</li>
             </ul>
           </section>
         </div>

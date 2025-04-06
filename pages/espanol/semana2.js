@@ -8,7 +8,7 @@ export default function Semana2() {
       <main className="px-8 text-white min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Semana 2</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Control Costal e Integración de Cadera</h2>
+          <h2 className="text-orange-300 text-xl font-semibold mb-4">Expansión Costal y Control de Cadera</h2>
           
           <div className="flex gap-1 mb-8">
             <Link href="/espanol/semana2/dia1" className="flex-1 bg-gray-700 hover:bg-gray-600 text-orange-300 text-lg font-bold py-2 px-2 rounded text-center">Día 1</Link>
@@ -19,32 +19,32 @@ export default function Semana2() {
           </div>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Propósito de Esta Semana</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Propósito de Esta Semana</h2>
             <ul className="list-disc pl-5 text-lg">
-              <li>Aumentar el control pélvico y costal a través de posiciones dinámicas.</li>
-              <li>Introducir movimientos rotacionales básicos y refinar la conexión costilla-pelvis.</li>
-              <li>Desarrollar comodidad con la bisagra de cadera y mejorar la extensión torácica.</li>
-              <li>Reforzar el control de la respiración y el feedback interoceptivo.</li>
+              <li>Expandir la conciencia y control de la caja torácica.</li>
+              <li>Desarrollar movilidad y estabilidad de cadera.</li>
+              <li>Integrar la respiración con patrones de movimiento.</li>
+              <li>Construir una base para movimientos dinámicos.</li>
             </ul>
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Objetivos para la Semana 2</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Objetivos para la Semana 2</h2>
             <ul className="list-disc pl-5 text-lg">
-              <li>Refinar la conciencia de la alineación pélvica y torácica durante el movimiento.</li>
-              <li>Mejorar el control rotacional a través de la columna torácica.</li>
-              <li>Mejorar la estabilidad y el control en posiciones transicionales.</li>
-              <li>Desarrollar una mejor coordinación entre la respiración y el movimiento.</li>
+              <li>Mejorar la expansión y control de la caja torácica.</li>
+              <li>Mejorar la movilidad y estabilidad de cadera.</li>
+              <li>Desarrollar patrones coordinados de respiración-movimiento.</li>
+              <li>Construir confianza en patrones básicos de movimiento.</li>
             </ul>
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Consejos para el Éxito</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Consejos para el Éxito</h2>
             <ul className="list-disc pl-5 text-lg">
-              <li>Concéntrate en mantener la pelvis y las costillas neutrales durante el movimiento.</li>
-              <li>Muévete deliberadamente y evita apresurarte en los ejercicios.</li>
-              <li>Presta atención a cualquier asimetría entre los lados.</li>
-              <li>Prioriza el control de la respiración y la coordinación del tiempo.</li>
+              <li>Concéntrate en la calidad del movimiento sobre la cantidad.</li>
+              <li>Presta atención a los patrones de respiración durante los ejercicios.</li>
+              <li>Toma descansos cuando sea necesario para mantener la forma.</li>
+              <li>Observa cómo tu cuerpo responde a diferentes movimientos.</li>
             </ul>
           </section>
         </div>
