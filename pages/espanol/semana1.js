@@ -19,7 +19,7 @@ export default function Week1() {
           </div>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Propósito de Esta Semana</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Propósito de Esta Semana</h2>
             <ul className="list-disc pl-5 text-lg">
               <li>Introducir la conciencia de la pelvis, costillas y diafragma.</li>
               <li>Desarrollar control fundamental sobre la flexión y extensión lumbar.</li>
@@ -29,7 +29,7 @@ export default function Week1() {
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Objetivos para la Semana 1</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Objetivos para la Semana 1</h2>
             <ul className="list-disc pl-5 text-lg">
               <li>Desarrollar conciencia de la inclinación pélvica posterior y anterior.</li>
               <li>Controlar los patrones de respiración mientras se mantiene la pelvis y las costillas neutrales.</li>
@@ -39,7 +39,7 @@ export default function Week1() {
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Consejos para el Éxito</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Consejos para el Éxito</h2>
             <ul className="list-disc pl-5 text-lg">
               <li>Muévete lenta y deliberadamente—calidad sobre cantidad.</li>
               <li>Concéntrate en la conciencia y el control de la respiración.</li>

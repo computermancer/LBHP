@@ -19,7 +19,7 @@ export default function Week1() {
           </div>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Purpose of This Week</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Purpose of This Week</h2>
             <ul className="list-disc pl-5 text-lg">
               <li>Introduce awareness of the pelvis, ribs, and diaphragm.</li>
               <li>Develop foundational control over lumbar flexion and extension.</li>
@@ -29,7 +29,7 @@ export default function Week1() {
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Goals for Week 1</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Goals for Week 1</h2>
             <ul className="list-disc pl-5 text-lg">
               <li>Develop awareness of posterior and anterior pelvic tilt.</li>
               <li>Control breath patterns while maintaining neutral pelvis and ribs.</li>
@@ -39,7 +39,7 @@ export default function Week1() {
           </section>
 
           <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">Tips for Success</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-orange-300">Tips for Success</h2>
             <ul className="list-disc pl-5 text-lg">
               <li>Move slowly and deliberately—quality over quantity.</li>
               <li>Focus on breath awareness and control.</li>
