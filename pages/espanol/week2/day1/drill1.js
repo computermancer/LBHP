@@ -1,11 +1,11 @@
-import DrillTemplate from '../../../components/DrillTemplate';
+import DrillTemplateEspanol from '../../../components/DrillTemplateEspanol';
 import NavEspanol from '../../../../components/NavEspanol';
 
 export default function SupineRibExpansionwithBreath() {
   return (
     <>
       <NavEspanol />
-      <DrillTemplate
+      <DrillTemplateEspanol
         title="Drill 1: Supine Rib Expansion with Breath"
         backButtonText="Week 2 - Day 1"
         videoId="wn0IyvGBeUI"

@@ -1,11 +1,11 @@
-import DrillTemplate from '../../../components/DrillTemplate';
+import DrillTemplateEspanol from '../../../components/DrillTemplateEspanol';
 import NavEspanol from '../../../../components/NavEspanol';
 
 export default function HooklyingHipShifts() {
   return (
     <>
       <NavEspanol />
-      <DrillTemplate
+      <DrillTemplateEspanol
         title="Drill 2: Hooklying Hip Shifts"
         backButtonText="Week 2 - Day 1"
         videoId="wn0IyvGBeUI"
