@@ -5,7 +5,7 @@ export default function Inicio() {
   return (
     <>
       <NavEspanol />
-      <main className="px-4 sm:px-8 text-gray-200 min-h-screen font-sans">
+      <main className="px-8 text-gray-200 min-h-screen font-sans">
         <div className="max-w-[500px] mx-auto py-8">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Programa de Espalda Baja y Caderas</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Una Guía Suave de Reinicio</h2>
