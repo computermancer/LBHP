@@ -11,7 +11,7 @@ export default function ComoUsar() {
           
           <div className="space-y-6">
             <section>
-              <h3 className="text-orange-300 text-xl font-semibold mb-4">Resumen</h3>
+             
               <p className="text-lg leading-relaxed mb-4">
                 Este programa se construye sobre una base flexible que respeta el punto de partida de cada usuario. Está diseñado para servir a una amplia gama de individuos—desde aquellos que recuperan fuerza y control después de molestias hasta aquellos que buscan reconstruir una conciencia más profunda y conexión con sus caderas, columna vertebral y respiración.
               </p>

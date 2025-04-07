@@ -11,7 +11,7 @@ export default function HowToUse() {
           
           <div className="space-y-6">
             <section>
-              <h3 className="text-orange-300 text-xl font-semibold mb-4">Overview</h3>
+            
               <p className="text-lg leading-relaxed mb-4">
                 This program is built on a flexible foundation that honors where each user is starting from. It is designed to serve a wide range of individuals—from those recovering strength and control after discomfort to those looking to rebuild deeper awareness and connection to their hips, spine, and breath.
               </p>

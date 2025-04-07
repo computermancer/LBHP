@@ -12,7 +12,7 @@ export default function MateoBravo() {
           
           <div className="space-y-6">
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">¿Quién Soy Yo?</h2>
+
               <p className="text-lg leading-relaxed mb-4">
                 Este programa fue creado por mí, Mateo Bravo.
               </p>
@@ -28,7 +28,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Mi Viaje</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Mi Viaje</h2>
               <p className="text-lg leading-relaxed">
                 Cuando tenía 20 años, tuve dos discos herniados y ciática. Los métodos estándar de recuperación no proporcionaron beneficios duraderos. Lo intenté todo; fisioterapia, masajes, quiropráctico, acupuntura, ventosas, estimulación eléctrica, percusión, yoga, pilates, rodillo de espuma... ¡lo que se te ocurra!
               </p>
@@ -44,7 +44,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Sobre Este Programa</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Sobre Este Programa</h2>
               <p className="text-lg leading-relaxed mb-4">
                 Creé este programa para compartir ejercicios y movimientos simples y suaves de los que casi cualquiera puede beneficiarse. Es muy simple, de baja intensidad, bajo impacto, con requisitos mínimos. Es mi primer intento de crear un programa de múltiples semanas con un objetivo específico en mente que incluye PDFs y una aplicación.
               </p>
@@ -54,7 +54,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Mirando al Futuro</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Mirando al Futuro</h2>
               <p className="text-lg leading-relaxed">
                 Mi esperanza es que la retroalimentación que reciba de las personas que usen este programa me ayude a crear más de estos materiales para las personas en un futuro próximo.
               </p>
@@ -67,7 +67,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Conéctate Conmigo</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Conéctate Conmigo</h2>
               <p className="text-lg leading-relaxed mb-4">Puedes encontrar enlaces a mi sitio web y redes sociales a continuación.</p>
               <div className="space-y-4">
                 <div>

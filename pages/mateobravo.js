@@ -12,7 +12,7 @@ export default function MateoBravo() {
           
           <div className="space-y-6">
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Who Am I?</h2>
+
               <p className="text-lg leading-relaxed mb-4">
                 This program was created by me, Mateo Bravo.
               </p>
@@ -28,7 +28,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">My Journey</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">My Journey</h2>
               <p className="text-lg leading-relaxed">
                 When I was in my 20s, I had two herniated discs and sciatica. Standard recovery methods didn't provide long lasting benefits. I did it all; physical therapy, massage, chiropractor, acupuncture, cupping, e-stim, percussion, yoga, pilates, foam rolling… you name it!
               </p>
@@ -44,7 +44,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">About This Program</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">About This Program</h2>
               <p className="text-lg leading-relaxed mb-4">
                 I created this program to share simple, gentle drills and exercises that almost anyone can benefit from. It is very simple, low intensity, low impact, with minimal requirements. It is my first attempt at creating a multi-week program with a specific goal in mind that has PDFs and an application.
               </p>
@@ -54,7 +54,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Looking Forward</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Looking Forward</h2>
               <p className="text-lg leading-relaxed">
                 My hope is that the feedback I get from folks who use this program will help me to create more of these materials for people in the near future.
               </p>
@@ -67,7 +67,7 @@ export default function MateoBravo() {
             </section>
 
             <section>
-              <h2 className="text-orange-300 text-2xl font-semibold mb-4">Connect With Me</h2>
+              <h2 className="text-orange-300 text-xl font-semibold mb-4">Connect With Me</h2>
               <p className="text-lg leading-relaxed mb-4">You can find links to my website and social media below.</p>
               <div className="space-y-4">
                 <div>
