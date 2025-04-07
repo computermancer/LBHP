@@ -11,6 +11,15 @@ export default function Inicio() {
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Una Guía Suave de Reinicio</h2>
           
           <div className="space-y-4">
+
+          <Link href="/" className="block">
+              <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
+                Selección de Idioma
+              </button>
+            </Link>
+
+
+
             <Link href="/espanol/sobreLBHP" className="block">
               <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
                 Sobre LBHP
@@ -47,11 +56,7 @@ export default function Inicio() {
               </button>
             </Link>
 
-            <Link href="/" className="block">
-              <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
-                Selección de Idioma
-              </button>
-            </Link>
+
 
             <Link href="/espanol/comentarios" className="block">
               <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">

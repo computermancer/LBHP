@@ -11,6 +11,18 @@ export default function Home() {
           <h2 className="text-orange-300 text-xl font-semibold mb-4">A Gentle Reset Guide</h2>
           
           <div className="space-y-4">
+
+
+
+
+
+          <Link href="/" className="block">
+              <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
+                Language Selection
+              </button>
+            </Link>
+
+
             <Link href="/aboutLBHP" className="block">
               <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
                 About LBHP
@@ -52,12 +64,7 @@ export default function Home() {
               </button>
             </Link>
 
-            <Link href="/" className="block">
-              <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
-                Language Selection
-              </button>
-            </Link>
-
+      
             <Link href="/feedback" className="block">
               <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">
                 Contact and Feedback
