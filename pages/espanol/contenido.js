@@ -497,24 +497,24 @@ export default function Contenido() {
                 </thead>
                 <tbody>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Desplazamientos de Cadera Supino con Control Costal</td>
-                    <td className="border border-gray-600 p-2 text-base">Desarrollar control de desplazamientos pélvicos manteniendo estabilidad costal.</td>
-                  </tr>
-                  <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Flexión y Extensión Torácica Sentado</td>
-                    <td className="border border-gray-600 p-2 text-base">Mejorar movilidad espinal torácica y control postural.</td>
+                    <td className="border border-gray-600 p-2 text-base">Desplazamientos de Cadera Supino con Conciencia Costal</td>
+                    <td className="border border-gray-600 p-2 text-base">Desarrollar movilidad lateral de cadera manteniendo estabilidad costal.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Alcance de Brazo y Pierna en Cuadrupedia con Control</td>
-                    <td className="border border-gray-600 p-2 text-base">Desarrollar estabilidad central y de hombro manteniendo columna neutral.</td>
+                    <td className="border border-gray-600 p-2 text-base">Mejorar equilibrio y estabilidad con movimiento controlado.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Presión de Isquiotibiales en Pared con Conciencia de Cadera</td>
-                    <td className="border border-gray-600 p-2 text-base">Reforzar activación de isquiotibiales y control pélvico.</td>
+                    <td className="border border-gray-600 p-2 text-base">Presión de Isquiotibiales en Pared con Enfoque Respiratorio</td>
+                    <td className="border border-gray-600 p-2 text-base">Reforzar activación de isquiotibiales y control central.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Abducción de Cadera Lateral con Apoyo</td>
                     <td className="border border-gray-600 p-2 text-base">Desarrollar fuerza lateral de cadera y estabilidad.</td>
+                  </tr>
+                  <tr className="hover:bg-gray-800">
+                    <td className="border border-gray-600 p-2 text-base">Giro de Columna Sentado con Alcance de Brazo</td>
+                    <td className="border border-gray-600 p-2 text-base">Desarrollar control rotacional y movilidad.</td>
                   </tr>
                 </tbody>
               </table>
@@ -533,23 +533,23 @@ export default function Contenido() {
                 <tbody>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Respiración en Cocodrilo con Expansión Costal</td>
-                    <td className="border border-gray-600 p-2 text-base">Reforzar expansión respiratoria completa.</td>
+                    <td className="border border-gray-600 p-2 text-base">Reforzar la expansión respiratoria de todo el cuerpo.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Balanceo Pélvico Supino con Enfoque Respiratorio</td>
                     <td className="border border-gray-600 p-2 text-base">Desarrollar movimiento pélvico suave con movimiento guiado por respiración.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Giro de Columna Sentado con Alcance de Brazo</td>
-                    <td className="border border-gray-600 p-2 text-base">Mejorar rotación torácica con respiración y movimiento coordinados.</td>
+                    <td className="border border-gray-600 p-2 text-base">Conciencia Pélvica Posterior Sentado</td>
+                    <td className="border border-gray-600 p-2 text-base">Mejorar el control del posicionamiento pélvico en posiciones sentadas.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Marcha con Apoyo en Pared con Control Costal</td>
-                    <td className="border border-gray-600 p-2 text-base">Desarrollar control costal y estabilidad central.</td>
+                    <td className="border border-gray-600 p-2 text-base">Marcha con Apoyo en Pared y Estabilidad Costal</td>
+                    <td className="border border-gray-600 p-2 text-base">Reforzar el control central y costal durante movimientos dinámicos.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Rotación Interna de Cadera Lateral y Respiración</td>
-                    <td className="border border-gray-600 p-2 text-base">Mejorar movilidad de cadera y control respiratorio.</td>
+                    <td className="border border-gray-600 p-2 text-base">Mejorar la movilidad de cadera y el control respiratorio.</td>
                   </tr>
                 </tbody>
               </table>
@@ -696,7 +696,7 @@ export default function Contenido() {
                   </tr>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Giro de Columna Sentado con Alcance de Brazo</td>
-                    <td className="border border-gray-600 p-2 text-base">Desarrollar rotación torácica y control.</td>
+                    <td className="border border-gray-600 p-2 text-base">Desarrollar control rotacional y movilidad.</td>
                   </tr>
                 </tbody>
               </table>
@@ -704,7 +704,7 @@ export default function Contenido() {
 
             {/* Día 5 */}
             <div className="mb-4">
-              <h3 className="text-xl font-semibold mb-2 text-orange-300">Semana 4 - Día 5 - Movilidad, Respiración y Control</h3>
+              <h3 className="text-xl font-semibold mb-2 text-orange-300">Semana 4 - Día 5 - Respiración, Movilidad y Relajación</h3>
               <table className="w-full text-left border-collapse border border-gray-700 table-fixed">
                 <thead>
                   <tr className="bg-gray-700 text-white">
@@ -714,24 +714,24 @@ export default function Contenido() {
                 </thead>
                 <tbody>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Postura de Caballo con Control Costal (Mantener Más)</td>
-                    <td className="border border-gray-600 p-2 text-base">Reforzar resistencia isométrica del tren inferior.</td>
+                    <td className="border border-gray-600 p-2 text-base">Respiración en Cocodrilo con Expansión Costal</td>
+                    <td className="border border-gray-600 p-2 text-base">Reforzar la expansión respiratoria de todo el cuerpo.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Elevaciones de Talón con Control Costal y Pélvico</td>
-                    <td className="border border-gray-600 p-2 text-base">Fortalecer pantorrillas manteniendo alineación neutral.</td>
+                    <td className="border border-gray-600 p-2 text-base">Balanceo Pélvico Supino con Enfoque Respiratorio</td>
+                    <td className="border border-gray-600 p-2 text-base">Desarrollar movimiento pélvico suave con movimiento guiado por respiración.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Elevaciones de Tibia con Conciencia Respiratoria</td>
-                    <td className="border border-gray-600 p-2 text-base">Desarrollar fuerza tibial anterior y equilibrio.</td>
+                    <td className="border border-gray-600 p-2 text-base">Conciencia Pélvica Posterior Sentado</td>
+                    <td className="border border-gray-600 p-2 text-base">Mejorar el control del posicionamiento pélvico en posiciones sentadas.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Expansión Costal en Posición Hook con Marcha</td>
-                    <td className="border border-gray-600 p-2 text-base">Reforzar control central y respiratorio con marcha.</td>
+                    <td className="border border-gray-600 p-2 text-base">Marcha con Apoyo en Pared y Estabilidad Costal</td>
+                    <td className="border border-gray-600 p-2 text-base">Reforzar el control central y costal durante movimientos dinámicos.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Balanceo Pélvico Supino con Control Respiratorio</td>
-                    <td className="border border-gray-600 p-2 text-base">Mejorar movilidad pélvica y conciencia guiada por respiración.</td>
+                    <td className="border border-gray-600 p-2 text-base">Rotación Interna de Cadera Lateral y Respiración</td>
+                    <td className="border border-gray-600 p-2 text-base">Mejorar la movilidad de cadera y el control respiratorio.</td>
                   </tr>
                 </tbody>
               </table>
