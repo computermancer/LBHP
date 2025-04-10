@@ -1,15 +1,13 @@
-import MainNavBar from '../components/MainNavBar';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainNavBar />
       <main className="px-8 text-gray-200 font-sans">
-      <div className="max-w-[500px] mx-auto py-20">
-      <h1 className="text-orange-300 text-4xl font-bold mb-2">Low Back & Hips Program</h1>
+        <div className="max-w-[500px] mx-auto py-20">
+          <h1 className="text-orange-300 text-4xl font-bold mb-2">Low Back & Hips Program</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">A Gentle Reset Guide</h2>
-          
+
           <div className="space-y-4">
             <Link href="/" className="block">
               <button className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full sm:w-[500px] text-left">

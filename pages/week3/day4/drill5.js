@@ -1,51 +1,61 @@
-import Nav from '../../../components/Nav';
 import DrillNavBar from '../../../components/DrillNavBar';
 import DrillTemplate from '../../../components/DrillTemplate';
+import Link from 'next/link';
 
-export default function Week3Day4Drill5() {
+export default function Drill5SupportedSideLyingHipAbduction() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <Nav />
-      <DrillNavBar 
-        prevDrill="/week3/day4/drill4" 
-        currentDay="/week3/day4" 
-        nextDrill="/week3/day5/drill1" 
-      />
-      <DrillTemplate
-        title="Drill 5: Supported Side-Lying Hip Abduction"
-        week={3}
-        day={4}
-        videoId="wn0IyvGBeUI"
-        videoStart={2248}
-        setup={[
-          "Lie on your side with knees slightly bent.",
-          "Head supported by your arm."
-        ]}
-        instructions={[
-          "Inhale to prepare.",
-          "Exhale and lift the top leg slightly without rotating the pelvis.",
-          "Hold for 2–3 seconds, then return."
-        ]}
-        setsReps={[
-          "Sets: 2–3",
-          "Reps: 8–10 per side",
-          "Breath: Exhale to lift, inhale to return",
-          "Rest: As needed"
-        ]}
-        whatToFeel={[
-          "Glute activation and hip control",
-          "Pelvic stability throughout"
-        ]}
-        whatToAvoid={[
-          "Rolling the pelvis or hiking the hip"
-        ]}
-        redFlags={[
-          "Pain in the hips or lower back"
-        ]}
-        regression={[
-          "Perform with a pillow between knees for support."
-        ]}
-      />
+      <main className="px-8 text-gray-200 font-sans pt-0 pb-8">
+        <div className="max-w-[500px] mx-auto">
+          <h1 className="text-orange-300 text-4xl font-bold mb-4">Week 3 - Day 4</h1>
+          <h2 className="text-orange-300 text-2xl font-bold mb-4">Drill 5: Supported Side-Lying Hip Abduction</h2>
+          <div className="h-2"></div>
+          <DrillNavBar 
+            prevDrill="/week3/day4/drill4" 
+            currentDay="/week3/day4" 
+            nextDrill="/week3/day5/drill1" 
+          />
+          <div className="h-8"></div>
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <div>
+                <DrillTemplate
+                  videoId="wn0IyvGBeUI"
+                  videoStart={2248}
+                  setup={[
+                    "Lie on your side with head supported by a pillow.",
+                    "Bottom leg bent for stability, top leg straight."
+                  ]}
+                  instructions={[
+                    "Inhale to prepare while maintaining rib position.",
+                    "Exhale and lift top leg while keeping ribs stable.",
+                    "Return to start and repeat."
+                  ]}
+                  setsReps={[
+                    "Sets: 2",
+                    "Reps: 8–10 lifts per side",
+                    "Breath: Exhale during lift, inhale to return",
+                    "Rest: As needed"
+                  ]}
+                  whatToFeel={[
+                    "Controlled hip movement",
+                    "Maintained rib position"
+                  ]}
+                  whatToAvoid={[
+                    "Allowing ribs to collapse or pelvis to tilt"
+                  ]}
+                  redFlags={[
+                    "Sharp pain in the hip"
+                  ]}
+                  regression={[
+                    "Perform with smaller range of motion if needed"
+                  ]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }

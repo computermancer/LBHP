@@ -1,51 +1,62 @@
-import Nav from '../../../components/Nav';
 import DrillNavBar from '../../../components/DrillNavBar';
 import DrillTemplate from '../../../components/DrillTemplate';
+import Link from 'next/link';
 
-export default function Week1Day4Drill1() {
+export default function SupinePelvicRotation() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <Nav />
-      <DrillNavBar 
-        prevDrill="/week1/day3/drill5" 
-        currentDay="/week1/day4" 
-        nextDrill="/week1/day4/drill2" 
-      />
-      <DrillTemplate
-        title="Drill 1: Supine Diaphragm Reset"
-        week={1}
-        day={4}
-        videoId="wn0IyvGBeUI"
-        videoStart={2248}
-        setup={[
-          "Lie on your back with knees bent, feet flat on the floor.",
-          "Place one hand on your belly and the other on your chest."
-        ]}
-        instructions={[
-          "Inhale deeply through your nose, allowing the belly to expand.",
-          "Exhale softly, feeling the belly fall.",
-          "Focus on relaxing the ribs and diaphragm."
-        ]}
-        setsReps={[
-          "Sets: 2",
-          "Reps: 5–8 breath cycles per set",
-          "Breath: Inhale 3–4 seconds, exhale 4–6 seconds",
-          "Rest: Between sets or as needed"
-        ]}
-        whatToFeel={[
-          "Expansion of the belly and lower ribs",
-          "Relaxed, controlled breathing"
-        ]}
-        whatToAvoid={[
-          "Chest dominance or shallow breathing"
-        ]}
-        redFlags={[
-          "Lightheadedness or difficulty maintaining position"
-        ]}
-        regression={[
-          "Prop knees with a pillow to reduce tension."
-        ]}
-      />
+      <main className="px-8 text-gray-200 font-sans pt-0 pb-8">
+        <div className="max-w-[500px] mx-auto">
+          <h1 className="text-orange-300 text-4xl font-bold mb-4">Week 1 - Day 4</h1>
+          <h2 className="text-orange-300 text-2xl font-bold mb-4">Drill 1: Supine Pelvic Rotation</h2>
+          <div className="h-2"></div>
+          <DrillNavBar 
+            prevDrill="/week1/day3/drill5" 
+            currentDay="/week1/day4" 
+            nextDrill="/week1/day4/drill2" 
+          />
+          <div className="h-8"></div>
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <div>
+                <DrillTemplate
+                  videoId="wn0IyvGBeUI"
+                  videoStart={2248}
+                  setup={[
+                    "Lie on your back with knees bent, feet flat on the floor.",
+                    "Arms resting by your sides or on your pelvis."
+                  ]}
+                  instructions={[
+                    "Gently rotate your pelvis side to side in a controlled motion.",
+                    "Focus on smooth, continuous movement.",
+                    "Maintain relaxed breathing throughout."
+                  ]}
+                  setsReps={[
+                    "Sets: 2",
+                    "Reps: 8–10 slow rotations per set",
+                    "Breath: Maintain steady breathing",
+                    "Rest: Between sets or as needed"
+                  ]}
+                  whatToFeel={[
+                    "Gentle movement in the pelvic joints.",
+                    "Relaxed abdominal muscles."
+                  ]}
+                  whatToAvoid={[
+                    "Jerky or rushed movements.",
+                    "Holding tension in the upper body."
+                  ]}
+                  redFlags={[
+                    "Sharp pain in the low back."
+                  ]}
+                  regression={[
+                    "Place a pillow under your knees for support."
+                  ]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }

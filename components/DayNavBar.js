@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
-export default function DayNavBar({ prevDay, currentWeek, nextDay }) {
+export default function DayNavBar({ prevDay, currentWeek, nextDay, disableNext }) {
   const router = useRouter();
   
   // Extract current week number from the currentWeek path
@@ -13,9 +13,9 @@ export default function DayNavBar({ prevDay, currentWeek, nextDay }) {
   const prevWeekPath = `/week${currentWeekNum - 1}/day5`;
   
   return (
-    <div className="fixed top-16 left-0 right-0 bg-zinc-900 z-[60]">
-      <div className="px-8">
-        <div className="flex gap-0.5 text-gray-200 py-2 max-w-[500px] mx-auto">
+    <div className="bg-zinc-900 z-[60]">
+      <div className="max-w-[500px] mx-auto">
+        <div className="flex gap-0.5 text-gray-200 py-2 w-full justify-center">
           <button
             onClick={() => prevDay && router.push(prevDay)}
             className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${prevDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
@@ -36,8 +36,8 @@ export default function DayNavBar({ prevDay, currentWeek, nextDay }) {
           
           <button
             onClick={() => nextDay && router.push(nextDay)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${nextDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
-            disabled={!nextDay}
+            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${nextDay && !disableNext ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            disabled={!nextDay || disableNext}
           >
             <span className="truncate">Next Day</span>
             <svg className="w-4 h-4 ml-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -48,4 +48,4 @@ export default function DayNavBar({ prevDay, currentWeek, nextDay }) {
       </div>
     </div>
   );
-} 
+}
