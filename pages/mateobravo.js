@@ -1,18 +1,17 @@
-import Nav from '../components/Nav';
+import MainNavBar from '../components/MainNavBar';
 import { FaGlobe, FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
 
 export default function MateoBravo() {
   return (
-    <>
-      <Nav />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
+    <div className="min-h-screen bg-zinc-900">
+      <MainNavBar />
+      <main className="px-8 text-gray-200 font-sans">
+        <div className="max-w-[500px] mx-auto py-20">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Mateo Bravo</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">About the Creator</h2>
           
           <div className="space-y-6">
             <section>
-
               <p className="text-lg leading-relaxed mb-4">
                 This program was created by me, Mateo Bravo.
               </p>
@@ -100,8 +99,8 @@ export default function MateoBravo() {
                     <span className="text-amber-300 text-xl font-semibold">Youtube</span>
                   </div>
                   <div className="ml-8">
-                    <a href="https://www.youtube.com/@MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
-                      youtube.com/@MateoBravoPersonalTraining
+                    <a href="https://www.youtube.com/@MateoBravo" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
+                      youtube.com/@MateoBravo
                     </a>
                   </div>
                 </div>
@@ -112,8 +111,8 @@ export default function MateoBravo() {
                     <span className="text-amber-300 text-xl font-semibold">Instagram</span>
                   </div>
                   <div className="ml-8">
-                    <a href="https://www.instagram.com/flatfootmatt/" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
-                      instagram.com/flatfootmatt/
+                    <a href="https://www.instagram.com/mateobravo" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
+                      instagram.com/mateobravo
                     </a>
                   </div>
                 </div>
@@ -122,6 +121,6 @@ export default function MateoBravo() {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }

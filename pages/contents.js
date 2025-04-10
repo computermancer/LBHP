@@ -1,16 +1,13 @@
-import Nav from '../components/Nav';
+import MainNavBar from '../components/MainNavBar';
 import Link from 'next/link';
 
 export default function ProgramOverview() {
   return (
-    <>
-      <div className="fixed top-0 left-0 right-0 z-50 bg-gray-900">
-        <Nav />
-      </div>
-
-      <main className="pt-20 p-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Program Overview</h1>
+    <div className="min-h-screen bg-zinc-900">
+      <MainNavBar />
+      <main className="px-8 text-gray-200 font-sans">
+      <div className="max-w-[500px] mx-auto py-20">
+      <h1 className="text-orange-300 text-4xl font-bold mb-2">Program Overview</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Tables for Weeks 1 - 5</h2>
 
           {/* Week 1 */}
@@ -465,8 +462,8 @@ export default function ProgramOverview() {
                 </thead>
                 <tbody>
                   <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Cat-Cow with Breath Awareness</td>
-                    <td className="border border-gray-600 p-2 text-base">Develop spinal flexion and extension control.</td>
+                    <td className="border border-gray-600 p-2 text-base">Cat-Cow with Rib Expansion</td>
+                    <td className="border border-gray-600 p-2 text-base">Develop spinal flexion and extension with breath control.</td>
                   </tr>
                   <tr className="hover:bg-gray-800">
                     <td className="border border-gray-600 p-2 text-base">Seated Posterior Pelvic Rocking</td>
@@ -924,6 +921,6 @@ export default function ProgramOverview() {
           </section>
         </div>
       </main>
-    </>
+    </div>
   );
 }

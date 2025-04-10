@@ -1,42 +1,53 @@
+import Nav from '../../../components/Nav';
+import DrillNavBar from '../../../components/DrillNavBar';
 import DrillTemplate from '../../../components/DrillTemplate';
 
-export default function QuadrupedRockBackwithNeutralSpine() {
+export default function Week1Day2Drill4() {
   return (
-    <DrillTemplate
-      title="Drill 4: Quadruped Rock Back with Neutral Spine"
-      backButtonText="Week 1 - Day 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Start on hands and knees, wrists under shoulders, knees under hips.",
-        "Maintain a neutral spine position."
-      ]}
-      instructions={[
-        "Inhale to prepare.",
-        "Exhale and slowly shift your hips back toward your heels.",
-        "Maintain spinal alignment as you move.",
-        "Return to the starting position."
-      ]}
-      setsReps={[
-        "Sets: 2–3",
-        "Reps: 8–10 slow reps",
-        "Breath: Inhale to prepare, exhale during the rock back",
-        "Rest: As needed"
-      ]}
-      whatToFeel={[
-        "Stretch through hips and lower back",
-        "Core gently engaged to maintain position"
-      ]}
-      whatToAvoid={[
-        "Collapsing the lower back",
-        "Rounding or arching excessively"
-      ]}
-      redFlags={[
-        "Sharp pain or discomfort"
-      ]}
-      regression={[
-        "Place a folded towel under knees for comfort."
-      ]}
-    />
+    <div className="min-h-screen bg-zinc-900">
+      <Nav />
+      <DrillNavBar 
+        prevDrill="/week1/day2/drill3" 
+        currentDay="/week1/day2" 
+        nextDrill="/week1/day2/drill5" 
+      />
+      <DrillTemplate
+        title="Drill 4: Quadruped Rock Back with Neutral Spine"
+        week={1}
+        day={2}
+        videoId="wn0IyvGBeUI"
+        videoStart={2248}
+        setup={[
+          "Start on hands and knees, wrists under shoulders, knees under hips.",
+          "Maintain a neutral spine position."
+        ]}
+        instructions={[
+          "Inhale to prepare.",
+          "Exhale and slowly shift your hips back toward your heels.",
+          "Maintain spinal alignment as you move.",
+          "Return to the starting position."
+        ]}
+        setsReps={[
+          "Sets: 2–3",
+          "Reps: 8–10 slow reps",
+          "Breath: Inhale to prepare, exhale during the rock back",
+          "Rest: As needed"
+        ]}
+        whatToFeel={[
+          "Stretch through hips and lower back",
+          "Core gently engaged to maintain position"
+        ]}
+        whatToAvoid={[
+          "Collapsing the lower back",
+          "Rounding or arching excessively"
+        ]}
+        redFlags={[
+          "Sharp pain or discomfort"
+        ]}
+        regression={[
+          "Place a folded towel under knees for comfort."
+        ]}
+      />
+    </div>
   );
 }

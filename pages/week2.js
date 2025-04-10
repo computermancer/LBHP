@@ -1,12 +1,12 @@
-import Nav from '../components/Nav';
+import MainNavBar from '../components/MainNavBar';
 import Link from 'next/link';
 
 export default function Week2() {
   return (
-    <>
-      <Nav />
-      <main className="px-8 text-white min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
+    <div className="min-h-screen bg-zinc-900">
+      <MainNavBar />
+      <main className="px-8 text-white font-sans">
+        <div className="max-w-[500px] mx-auto py-20">
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Week 2</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Rib Control & Hip Integration</h2>
           
@@ -49,6 +49,6 @@ export default function Week2() {
           </section>
         </div>
       </main>
-    </>
+    </div>
   );
 }

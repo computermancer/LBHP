@@ -1,13 +1,12 @@
-import Nav from '../components/Nav';
-import Link from 'next/link';
+import MainNavBar from '../components/MainNavBar';
 
-export default function Home() {
+export default function Glossary() {
   return (
-    <>
-      <Nav />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Glossary</h1>
+    <div className="min-h-screen bg-zinc-900">
+      <MainNavBar />
+      <main className="px-8 text-gray-200 font-sans">
+      <div className="max-w-[500px] mx-auto py-20">
+      <h1 className="text-orange-300 text-4xl font-bold mb-2">Glossary</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Key Terms and Concepts</h2>
           
           <section className="mb-6">
@@ -77,6 +76,6 @@ export default function Home() {
           </section>
         </div>
       </main>
-    </>
+    </div>
   );
 }

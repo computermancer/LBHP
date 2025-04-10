@@ -1,17 +1,16 @@
-import Nav from '../components/Nav';
+import MainNavBar from '../components/MainNavBar';
 
 export default function HowToUse() {
   return (
-    <>
-      <Nav />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">How to Use LBHP</h1>
+    <div className="min-h-screen bg-zinc-900">
+      <MainNavBar />
+      <main className="px-8 text-gray-200 font-sans">
+      <div className="max-w-[500px] mx-auto py-20">
+      <h1 className="text-orange-300 text-4xl font-bold mb-2">How to Use LBHP</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Program Guide</h2>
           
           <div className="space-y-6">
             <section>
-            
               <p className="text-lg leading-relaxed mb-4">
                 This program is built on a flexible foundation that honors where each user is starting from. It is designed to serve a wide range of individuals—from those recovering strength and control after discomfort to those looking to rebuild deeper awareness and connection to their hips, spine, and breath.
               </p>
@@ -69,6 +68,6 @@ export default function HowToUse() {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }

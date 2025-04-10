@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Nav from '../components/Nav';
+import MainNavBar from '../components/MainNavBar';
 
 emailjs.init('-ElvYDuaUUsIy5Qpj'); // Your public key
 
@@ -69,15 +69,13 @@ const Feedback = () => {
         }
       );
   };
-// the a field has to be there below
+
   return (
-    <>
-      <Nav />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-
-        <a> </a>
-
+    <div className="min-h-screen bg-zinc-900">
+      <MainNavBar />
+      <main className="px-8 text-gray-200 font-sans">
+      <div className="max-w-[500px] mx-auto py-20">
+      <a> </a>
 
           <h1 className="text-orange-300 text-4xl font-bold mb-2">Contact and Feedback</h1>
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Get in Touch</h2>
@@ -111,29 +109,33 @@ const Feedback = () => {
               Message
               <textarea
                 name="message"
-                rows="4"
                 value={formData.message}
                 onChange={handleChange}
                 required
+                rows="4"
                 className="w-full px-4 py-2 border border-zinc-600 rounded-lg bg-zinc-700 text-white text-xl focus:outline-none focus:ring-2 focus:ring-orange-300"
               ></textarea>
             </label>
             <button
               type="submit"
-              className="w-full bg-orange-400 text-black text-xl px-4 py-2 rounded-lg hover:bg-orange-300 transition-colors duration-200"
+              className="w-full bg-gray-700 hover:bg-gray-600 text-orange-300 font-bold py-2 px-4 rounded-lg text-xl transition-colors duration-200"
             >
-              Send
+              Send Message
             </button>
             {success && (
-              <p className="mt-4 text-green-400">Thank you! Your message has been sent.</p>
+              <p className="mt-4 text-green-400 text-base">
+                Thank you for your feedback! We'll get back to you soon.
+              </p>
             )}
             {error && (
-              <p className="mt-4 text-red-400">{error}</p>
+              <p className="mt-4 text-red-400 text-base">
+                {error}
+              </p>
             )}
           </form>
         </div>
       </main>
-    </>
+    </div>
   );
 };
 
