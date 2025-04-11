@@ -78,7 +78,7 @@ export default function SupinePelvicRotationwithBreath() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Place a pillow under your knees for support.</li>
+                <li>Reduce range of motion if needed.</li>
               </ul>
             </div>
           </div>

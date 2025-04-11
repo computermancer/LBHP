@@ -79,7 +79,7 @@ export default function WallHamstringPress() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Use a pillow under your head for neck support.</li>
+                <li>Move feet slightly lower on the wall to reduce intensity.</li>
               </ul>
             </div>
           </div>
