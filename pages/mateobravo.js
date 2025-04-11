@@ -80,8 +80,8 @@ export default function MateoBravo() {
                 <span className="text-amber-300 text-xl font-semibold">Youtube</span>
               </div>
               <div className="ml-8">
-                <a href="https://www.youtube.com/@MateoBravo" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
-                  youtube.com/@MateoBravo
+                <a href="https://www.youtube.com/@MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
+                  youtube.com/@MateoBravoPersonalTraining
                 </a>
               </div>
             </div>
@@ -92,8 +92,8 @@ export default function MateoBravo() {
                 <span className="text-amber-300 text-xl font-semibold">Instagram</span>
               </div>
               <div className="ml-8">
-                <a href="https://www.instagram.com/mateobravo" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
-                  instagram.com/mateobravo
+                <a href="https://www.instagram.com/flatfootmatt" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
+                  instagram.com/flatfootmatt
                 </a>
               </div>
             </div>
