@@ -1,23 +1,20 @@
-import MainNavBar from '../components/MainNavBar';
-import Link from 'next/link';
+import WeekLayout from '../components/WeekLayout';
 
 export default function ProgramOverview() {
   return (
-    <div className="min-h-screen bg-zinc-900">
-      <MainNavBar />
-      <main className="px-8 text-gray-200 font-sans">
-      <div className="max-w-[500px] mx-auto py-20">
-      <h1 className="text-orange-300 text-4xl font-bold mb-2">Program Overview</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Tables for Weeks 1 - 5</h2>
+    <WeekLayout
+      title="Contents Overview"
+      subtitle="Tables for Weeks 1 - 5"
+    >
+      {/* Week 1 */}
+      <section className="mb-8">
+  
 
-          {/* Week 1 */}
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
-              Week 1: Awareness & Activation
-            </h2>
+
 
             {/* Day 1 */}
             <div className="mb-4">
+              
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 1 - Day 1 - Groundwork and Awareness</h3>
               <table className="w-full text-left border-collapse border border-gray-700 table-fixed">
                 <thead>
@@ -50,6 +47,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 2 */}
             <div className="mb-4">
@@ -86,6 +84,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 3 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 1 - Day 3 - Breath Control and Rhythmic Movement</h3>
@@ -121,6 +120,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 4 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 1 - Day 4 - Pelvic and Rib Control</h3>
@@ -155,6 +155,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 5 */}
             <div className="mb-4">
@@ -192,11 +193,10 @@ export default function ProgramOverview() {
             </div>
           </section>
 
+
           {/* Week 2 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
-              Week 2: Rib Control & Hip Integration
-            </h2>
+
 
             {/* Day 1 */}
             <div className="mb-4">
@@ -233,6 +233,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 2 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 2 - Day 2 - Thoracic Rotation and Posterior Chain Activation</h3>
@@ -267,6 +268,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 3 */}
             <div className="mb-4">
@@ -303,6 +305,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 4 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 2 - Day 4 - Rib Shift and Thoracic Mobility</h3>
@@ -337,6 +340,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 5 */}
             <div className="mb-4">
@@ -374,11 +378,11 @@ export default function ProgramOverview() {
             </div>
           </section>
 
+
           {/* Week 3 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
-              Week 3: Pelvic Control & Breath Integration
-            </h2>
+
+
 
             {/* Day 1 */}
             <div className="mb-4">
@@ -415,6 +419,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 2 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 3 - Day 2 - Rib and Hip Coordination</h3>
@@ -449,6 +454,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 3 */}
             <div className="mb-4">
@@ -485,6 +491,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 4 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 3 - Day 4 - Hip and Ribcage Stability</h3>
@@ -519,6 +526,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 5 */}
             <div className="mb-4">
@@ -556,11 +564,11 @@ export default function ProgramOverview() {
             </div>
           </section>
 
+
           {/* Week 4 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
-              Week 4: Rib and Pelvic Stability in Motion
-            </h2>
+
+
 
             {/* Day 1 */}
             <div className="mb-4">
@@ -597,6 +605,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 2 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 4 - Day 2 - Core and Pelvic Stability in Action</h3>
@@ -631,6 +640,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 3 */}
             <div className="mb-4">
@@ -667,6 +677,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 4 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 4 - Day 4 - Hip and Rib Control under Load</h3>
@@ -701,6 +712,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 5 */}
             <div className="mb-4">
@@ -738,11 +750,11 @@ export default function ProgramOverview() {
             </div>
           </section>
 
+
           {/* Week 5 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
-              Week 5: Strength and Control Progression
-            </h2>
+
+
 
             {/* Day 1 */}
             <div className="mb-4">
@@ -779,6 +791,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 2 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 5 - Day 2 - Single Leg and Hip Control</h3>
@@ -813,6 +826,7 @@ export default function ProgramOverview() {
                 </tbody>
               </table>
             </div>
+
 
             {/* Day 3 */}
             <div className="mb-4">
@@ -849,6 +863,7 @@ export default function ProgramOverview() {
               </table>
             </div>
 
+
             {/* Day 4 */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 5 - Day 4 - Upper Body and Core Control</h3>
@@ -884,43 +899,45 @@ export default function ProgramOverview() {
               </table>
             </div>
 
-            {/* Day 5 */}
-            <div className="mb-4">
-              <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 5 - Day 5 - Mobility, Breath, and Control</h3>
-              <table className="w-full text-left border-collapse border border-gray-700 table-fixed">
-                <thead>
-                  <tr className="bg-gray-700 text-white">
-                    <th className="border border-gray-600 p-2 text-lg">Drill Name</th>
-                    <th className="border border-gray-600 p-2 text-base">Purpose/Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Horse Stance with Rib Control (Longer Hold)</td>
-                    <td className="border border-gray-600 p-2 text-base">Reinforce isometric lower body endurance.</td>
-                  </tr>
-                  <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Calf Raises with Rib and Pelvic Control</td>
-                    <td className="border border-gray-600 p-2 text-base">Strengthen calves while maintaining neutral alignment.</td>
-                  </tr>
-                  <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Tib Raises with Breath Awareness</td>
-                    <td className="border border-gray-600 p-2 text-base">Develop anterior shin strength and balance.</td>
-                  </tr>
-                  <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Hooklying Rib Expansion with Marching</td>
-                    <td className="border border-gray-600 p-2 text-base">Reinforce core and breath control with marching.</td>
-                  </tr>
-                  <tr className="hover:bg-gray-800">
-                    <td className="border border-gray-600 p-2 text-base">Supine Pelvic Rock with Breath Control</td>
-                    <td className="border border-gray-600 p-2 text-base">Enhance pelvic mobility and breath-guided awareness.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
+
+
+
+
+        {/* Day 5 */}
+        <div className="mb-4">
+          <h3 className="text-xl font-semibold mb-2 text-orange-300">Week 5 - Day 5 - Mobility, Breath, and Control</h3>
+          <table className="w-full text-left border-collapse border border-gray-700 table-fixed">
+            <thead>
+              <tr className="bg-gray-700 text-white">
+                <th className="border border-gray-600 p-2 text-lg">Drill Name</th>
+                <th className="border border-gray-600 p-2 text-base">Purpose/Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="hover:bg-gray-800">
+                <td className="border border-gray-600 p-2 text-base">Horse Stance with Rib Control (Longer Hold)</td>
+                <td className="border border-gray-600 p-2 text-base">Reinforce isometric lower body endurance.</td>
+              </tr>
+              <tr className="hover:bg-gray-800">
+                <td className="border border-gray-600 p-2 text-base">Calf Raises with Rib and Pelvic Control</td>
+                <td className="border border-gray-600 p-2 text-base">Strengthen calves while maintaining neutral alignment.</td>
+              </tr>
+              <tr className="hover:bg-gray-800">
+                <td className="border border-gray-600 p-2 text-base">Tib Raises with Breath Awareness</td>
+                <td className="border border-gray-600 p-2 text-base">Develop anterior shin strength and balance.</td>
+              </tr>
+              <tr className="hover:bg-gray-800">
+                <td className="border border-gray-600 p-2 text-base">Hooklying Rib Expansion with Marching</td>
+                <td className="border border-gray-600 p-2 text-base">Reinforce core and breath control with marching.</td>
+              </tr>
+              <tr className="hover:bg-gray-800">
+                <td className="border border-gray-600 p-2 text-base">Supine Pelvic Rock with Breath Control</td>
+                <td className="border border-gray-600 p-2 text-base">Enhance pelvic mobility and breath-guided awareness.</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </main>
-    </div>
+      </section>
+    </WeekLayout>
   );
 }

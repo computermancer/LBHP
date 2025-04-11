@@ -12,7 +12,7 @@ export default function DayButtons({ weekPath }) {
             <Link
               key={day}
               href={`${weekPath}/day${day}`}
-              className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap ${
+              className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap border border-zinc-700 ${
                 router.pathname === `${weekPath}/day${day}` ? 'bg-zinc-700' : 'hover:bg-zinc-700'
               }`}
             >

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import MainNavBar from '../components/MainNavBar';
+import WeekLayout from '../components/WeekLayout';
 
 emailjs.init('-ElvYDuaUUsIy5Qpj'); // Your public key
 
@@ -72,13 +72,11 @@ const Feedback = () => {
 
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainNavBar />
-      <main className="px-8 text-gray-200 font-sans">
-      <div className="max-w-[500px] mx-auto py-20">
-      <a> </a>
-
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Contact and Feedback</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Get in Touch</h2>
+      <WeekLayout
+        title="Contact and Feedback"
+        subtitle="Get in Touch"
+      >
+        <div className="space-y-6">
           <form
             onSubmit={handleSubmit}
             className="w-full sm:w-[500px] bg-zinc-800 p-6 rounded-2xl shadow-lg border border-zinc-700"
@@ -118,7 +116,7 @@ const Feedback = () => {
             </label>
             <button
               type="submit"
-              className="w-full bg-gray-700 hover:bg-gray-600 text-orange-300 font-bold py-2 px-4 rounded-lg text-xl transition-colors duration-200"
+              className="w-full bg-gray-700 hover:bg-gray-600 text-orange-300 font-bold py-2 px-4 rounded-lg text-xl transition-colors duration-200 border border-gray-600"
             >
               Send Message
             </button>
@@ -134,7 +132,7 @@ const Feedback = () => {
             )}
           </form>
         </div>
-      </main>
+      </WeekLayout>
     </div>
   );
 };

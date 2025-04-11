@@ -1,5 +1,5 @@
 import React from "react";
-import MainNavBar from '../components/MainNavBar';
+import WeekLayout from '../components/WeekLayout';
 
 export default function Download() {
   const pdfs = [
@@ -13,15 +13,14 @@ export default function Download() {
 
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainNavBar />
-      <main className="px-8 text-gray-200 font-sans">
-      <div className="max-w-[500px] mx-auto py-20">
-      <h1 className="text-orange-300 text-4xl font-bold mb-2">Download PDF's</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Program Materials</h2>
-          
-          <section className="mb-6">
+      <WeekLayout
+        title="Download PDF's"
+        subtitle="Program Materials"
+      >
+        <div className="space-y-6">
+          <section className="bg-zinc-900 rounded-lg border border-zinc-700 p-3">
             <p className="text-lg mb-6">
-              You can download each week or the entire program as a PDF.
+              You can download each week or the entire program as a PDF for offline refrence, or even to print out.
             </p>
             <div className="space-y-4">
               {pdfs.map((pdf) => (
@@ -38,7 +37,7 @@ export default function Download() {
             </div>
           </section>
         </div>
-      </main>
+      </WeekLayout>
     </div>
   );
 }

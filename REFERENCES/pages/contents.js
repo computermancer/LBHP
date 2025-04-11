@@ -15,7 +15,7 @@ export default function ProgramOverview() {
 
           {/* Week 1 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Week 1: Awareness & Activation
             </h2>
 
@@ -197,7 +197,7 @@ export default function ProgramOverview() {
 
           {/* Week 2 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Week 2: Rib Control & Hip Integration
             </h2>
 
@@ -379,7 +379,7 @@ export default function ProgramOverview() {
 
           {/* Week 3 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Week 3: Pelvic Control & Breath Integration
             </h2>
 
@@ -561,7 +561,7 @@ export default function ProgramOverview() {
 
           {/* Week 4 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Week 4: Rib and Pelvic Stability in Motion
             </h2>
 
@@ -743,7 +743,7 @@ export default function ProgramOverview() {
 
           {/* Week 5 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Week 5: Strength and Control Progression
             </h2>
 

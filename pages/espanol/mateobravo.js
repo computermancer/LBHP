@@ -80,7 +80,7 @@ export default function MateoBravo() {
                       href="https://www.mateobravo.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-lg leading-relaxed text-blue-400 hover:text-blue-300"
+                      className="text-lg leading-relaxed text-blue-500 hover:text-blue-300"
                     >
                       mateobravo.com
                     </a>
@@ -97,7 +97,7 @@ export default function MateoBravo() {
                       href="https://www.facebook.com/mateobravo"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-lg leading-relaxed text-blue-400 hover:text-blue-300"
+                      className="text-lg leading-relaxed text-blue-500 hover:text-blue-300"
                     >
                       facebook.com/MateoBravoPersonalTraining
                     </a>
@@ -114,7 +114,7 @@ export default function MateoBravo() {
                       href="https://www.youtube.com/@MateoBravoPersonalTraining"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-lg leading-relaxed text-blue-400 hover:text-blue-300"
+                      className="text-lg leading-relaxed text-blue-500 hover:text-blue-300"
                     >
                       youtube.com/@MateoBravoPersonalTraining
                     </a>
@@ -131,7 +131,7 @@ export default function MateoBravo() {
                       href="https://www.instagram.com/mateobravo"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-lg leading-relaxed text-blue-400 hover:text-blue-300"
+                      className="text-lg leading-relaxed text-blue-500 hover:text-blue-300"
                     >
                       instagram.com/mateobravo
                     </a>

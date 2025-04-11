@@ -76,7 +76,7 @@ export default function MateoBravo() {
                     <span className="text-amber-300 text-xl font-semibold">Website</span>
                   </div>
                   <div className="ml-8">
-                    <a href="https://www.mateobravo.com" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
+                    <a href="https://www.mateobravo.com" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
                       mateobravo.com
                     </a>
                   </div>
@@ -88,7 +88,7 @@ export default function MateoBravo() {
                     <span className="text-amber-300 text-xl font-semibold">Facebook</span>
                   </div>
                   <div className="ml-8">
-                    <a href="https://www.facebook.com/MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
+                    <a href="https://www.facebook.com/MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
                       facebook.com/MateoBravoPersonalTraining
                     </a>
                   </div>
@@ -100,7 +100,7 @@ export default function MateoBravo() {
                     <span className="text-amber-300 text-xl font-semibold">Youtube</span>
                   </div>
                   <div className="ml-8">
-                    <a href="https://www.youtube.com/@MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
+                    <a href="https://www.youtube.com/@MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
                       youtube.com/@MateoBravoPersonalTraining
                     </a>
                   </div>
@@ -112,7 +112,7 @@ export default function MateoBravo() {
                     <span className="text-amber-300 text-xl font-semibold">Instagram</span>
                   </div>
                   <div className="ml-8">
-                    <a href="https://www.instagram.com/flatfootmatt/" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-400 hover:text-blue-300">
+                    <a href="https://www.instagram.com/flatfootmatt/" target="_blank" rel="noopener noreferrer" className="text-lg leading-relaxed text-blue-500 hover:text-blue-300">
                       instagram.com/flatfootmatt/
                     </a>
                   </div>

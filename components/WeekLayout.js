@@ -1,5 +1,3 @@
-import Nav from './Nav';
-
 export default function WeekLayout({
   children,
   title,

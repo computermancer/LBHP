@@ -12,7 +12,7 @@ export default function Contenido() {
 
           {/* Semana 1 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Semana 1: Conciencia y Activación
             </h2>
 
@@ -194,7 +194,7 @@ export default function Contenido() {
 
           {/* Semana 2 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Semana 2: Control Costal e Integración de Cadera
             </h2>
 
@@ -376,7 +376,7 @@ export default function Contenido() {
 
           {/* Semana 3 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Semana 3: Control Pélvico e Integración de la Respiración
             </h2>
 
@@ -558,7 +558,7 @@ export default function Contenido() {
 
           {/* Semana 4 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Semana 4: Estabilidad Costal y Pélvica en Movimiento
             </h2>
 
@@ -740,7 +740,7 @@ export default function Contenido() {
 
           {/* Semana 5 */}
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-amber-200">
+            <h2 className="text-2xl font-bold mb-4 text-blue-500">
               Semana 5: Progresión de Fuerza y Control
             </h2>
 

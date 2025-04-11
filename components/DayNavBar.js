@@ -18,7 +18,7 @@ export default function DayNavBar({ prevDay, currentWeek, nextDay, disableNext }
         <div className="flex gap-0.5 text-gray-200 py-2 w-full justify-center">
           <button
             onClick={() => prevDay && router.push(prevDay)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${prevDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${prevDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!prevDay}
           >
             <svg className="w-4 h-4 mr-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -29,14 +29,14 @@ export default function DayNavBar({ prevDay, currentWeek, nextDay, disableNext }
           
           <Link
             href={currentWeek}
-            className="flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold hover:bg-zinc-700 text-center whitespace-nowrap"
+            className="flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold hover:bg-zinc-700 text-center whitespace-nowrap border border-zinc-700"
           >
             <span className="truncate">Current Week</span>
           </Link>
           
           <button
             onClick={() => nextDay && router.push(nextDay)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${nextDay && !disableNext ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${nextDay && !disableNext ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!nextDay || disableNext}
           >
             <span className="truncate">Next Day</span>

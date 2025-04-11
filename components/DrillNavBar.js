@@ -10,7 +10,7 @@ export default function DrillNavBar({ prevDrill, currentDay, nextDrill, disableP
         <div className="flex gap-0.5 text-gray-200 py-2 w-full justify-center">
           <button
             onClick={() => prevDrill && router.push(prevDrill)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${prevDrill && !disablePrevious ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${prevDrill && !disablePrevious ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!prevDrill || disablePrevious}
           >
             <svg className="w-4 h-4 mr-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -21,7 +21,7 @@ export default function DrillNavBar({ prevDrill, currentDay, nextDrill, disableP
           
           <button
             onClick={() => currentDay && router.push(currentDay)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap ${currentDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap border border-zinc-700 ${currentDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!currentDay}
           >
             <span className="truncate">Current Day</span>
@@ -29,7 +29,7 @@ export default function DrillNavBar({ prevDrill, currentDay, nextDrill, disableP
           
           <button
             onClick={() => nextDrill && router.push(nextDrill)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center ${nextDrill ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${nextDrill ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!nextDrill}
           >
             <span className="truncate">Next Drill</span>
