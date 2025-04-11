@@ -21,8 +21,8 @@ export default function DrillTemplateEspanol({
   return (
     <>
       <NavEspanol />
-      <main className="px-8 text-white min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
+      <main className="px-8 text-white font-sans pt-24">
+        <div className="max-w-[500px] mx-auto py-12">
           <div className="mb-4">
             <button
               onClick={() => router.back()}

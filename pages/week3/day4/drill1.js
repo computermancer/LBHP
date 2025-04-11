@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Drill1SupineHipShiftswithRibControl() {
   return (
-    <div className="min-h-screen bg-zinc-900">
-      <main className="px-8 text-gray-200 font-sans pt-4 pb-2">
+    <div className="bg-zinc-900">
+      <main className="px-8 text-gray-200 font-sans pt-8 pb-2">
         <div className="max-w-[500px] mx-auto">
           <div className="bg-zinc-900 rounded-lg border border-zinc-700 p-3 mb-3">
             <h1 className="text-orange-300 text-4xl font-bold mb-1">Week 3 - Day 4</h1>
