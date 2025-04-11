@@ -27,28 +27,28 @@ export default function Drill2SeatedThoracicFlexionandExtension() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Sit on a chair with feet flat on the floor.</li>
-                <li>Arms resting by your sides for support.</li>
+                <li>Sit upright in a firm chair, feet flat.</li>
+                <li>Hands resting on thighs or crossed over chest.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale to prepare while maintaining rib position.</li>
-                <li>Exhale and gently round your upper back.</li>
-                <li>Return to neutral and repeat with extension.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and flex the thoracic spine gently forward.</li>
+                <li>Inhale and extend the spine back to neutral.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 cycles per set
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 slow reps
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale during movement, inhale to return
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to flex, inhale to extend
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill2SeatedThoracicFlexionandExtension() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled thoracic movement</li>
-                <li>Maintained rib position</li>
+                <li>Smooth thoracic motion</li>
+                <li>Core engagement during flexion and extension</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to collapse or pelvis to tilt</li>
+                <li>Overarching or collapsing the spine</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the low back</li>
+                <li>Sharp pain or discomfort</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Perform with smaller range of motion if needed</li>
+                <li>Perform smaller movements for better control.</li>
               </ul>
             </div>
           </div>

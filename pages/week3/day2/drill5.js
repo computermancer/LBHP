@@ -43,10 +43,10 @@ export default function Drill5ProneHipIRandExtensionDrill() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2 – 3
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8 – 10 per side
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale during movement, inhale to return

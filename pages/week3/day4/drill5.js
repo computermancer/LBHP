@@ -27,28 +27,28 @@ export default function Drill5SupportedSideLyingHipAbduction() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Lie on your side with head supported by a pillow.</li>
-                <li>Bottom leg bent for stability, top leg straight.</li>
+                <li>Lie on your side with knees slightly bent.</li>
+                <li>Head supported by your arm.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale to prepare while maintaining rib position.</li>
-                <li>Exhale and lift top leg while keeping ribs stable.</li>
-                <li>Return to start and repeat.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and lift the top leg slightly without rotating the pelvis.</li>
+                <li>Hold for 2–3 seconds, then return.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 lifts per side
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale during lift, inhale to return
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to lift, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill5SupportedSideLyingHipAbduction() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled hip movement</li>
-                <li>Maintained rib position</li>
+                <li>Glute activation and hip control</li>
+                <li>Pelvic stability throughout</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to collapse or pelvis to tilt</li>
+                <li>Rolling the pelvis or hiking the hip</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the hip</li>
+                <li>Pain in the hips or lower back</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Perform with smaller range of motion if needed</li>
+                <li>Perform with a pillow between knees for support.</li>
               </ul>
             </div>
           </div>

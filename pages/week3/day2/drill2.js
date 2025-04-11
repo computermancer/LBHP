@@ -27,28 +27,28 @@ export default function Drill2SupineMarchingwithCoreControl() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Lie on your back with knees bent, feet flat on the floor.</li>
-                <li>Arms resting by your sides for support.</li>
+                <li>Lie on your back with knees bent, feet flat.</li>
+                <li>Arms resting by your sides.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Lift one foot off the floor while maintaining pelvic position.</li>
-                <li>Focus on keeping ribs and pelvis stable.</li>
-                <li>Switch legs with control and maintain core engagement.</li>
+                <li>Exhale and lift one knee toward your chest.</li>
+                <li>Inhale and return to the starting position.</li>
+                <li>Alternate sides while maintaining rib and pelvis control.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 alternations per set
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 reps per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Maintain steady breathing
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to lift, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill2SupineMarchingwithCoreControl() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled leg movement</li>
-                <li>Stable core and pelvic position</li>
+                <li>Core engagement and rib stability</li>
+                <li>Smooth, controlled leg movement</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to flare or pelvis to tilt</li>
+                <li>Arching the lower back</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the low back</li>
+                <li>Pain or discomfort in the lower back</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Perform with smaller leg lift if needed</li>
+                <li>Perform with feet closer to the floor for reduced intensity.</li>
               </ul>
             </div>
           </div>

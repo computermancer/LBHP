@@ -27,28 +27,28 @@ export default function Drill2SeatedHipShiftwithRibStability() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Sit on a chair with feet flat on the floor.</li>
-                <li>Place hands on your ribs for feedback.</li>
+                <li>Sit upright on a firm chair, feet flat on the floor.</li>
+                <li>Hands resting gently on your thighs.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Gently shift hips side to side while maintaining rib position.</li>
-                <li>Focus on keeping ribs stable during movement.</li>
-                <li>Move slowly and with control.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and gently shift one hip forward while maintaining rib stability.</li>
+                <li>Return to neutral and alternate sides.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 shifts per side
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 slow reps per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Maintain steady breathing
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to shift, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,26 +59,25 @@ export default function Drill2SeatedHipShiftwithRibStability() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled hip movement</li>
-                <li>Stable rib position</li>
+                <li>Smooth, controlled hip shifting</li>
+                <li>Ribcage remaining neutral and stable</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Rushing the movement</li>
-                <li>Allowing ribs to move with hips</li>
+                <li>Leaning or twisting the torso</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the low back</li>
+                <li>Pain or discomfort in the hips or lower back</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Use a back support if needed</li>
+                <li>Perform with smaller shifts for better control.</li>
               </ul>
             </div>
           </div>

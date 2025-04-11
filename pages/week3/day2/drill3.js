@@ -27,28 +27,28 @@ export default function Drill3SeatedThoracicRotationwithArmReach() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Sit on a chair with feet flat on the floor.</li>
-                <li>Arms extended forward at shoulder height.</li>
+                <li>Sit upright in a firm chair, feet flat.</li>
+                <li>Hands resting on thighs or crossed over chest.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale to prepare while maintaining rib position.</li>
-                <li>Exhale and rotate torso to one side while reaching with arms.</li>
-                <li>Return to center and repeat on other side.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and rotate your upper body to one side, reaching one arm forward.</li>
+                <li>Return to center and repeat on the opposite side.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 rotations per side
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale during rotation, inhale to return
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to rotate, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill3SeatedThoracicRotationwithArmReach() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled thoracic rotation</li>
-                <li>Maintained rib position</li>
+                <li>Smooth thoracic rotation</li>
+                <li>Rib stability while rotating</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to collapse or pelvis to rotate</li>
+                <li>Twisting from the lower back</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the back</li>
+                <li>Pain or discomfort during rotation</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Reduce range of rotation if needed</li>
+                <li>Perform with hands on knees for support.</li>
               </ul>
             </div>
           </div>

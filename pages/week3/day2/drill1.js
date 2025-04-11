@@ -27,15 +27,15 @@ export default function Drill1SeatedRibExpansionwithBreathControl() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Sit on a chair with feet flat on the floor.</li>
-                <li>Place hands on your lower ribs for feedback.</li>
+                <li>Sit upright in a firm chair, feet flat on the floor.</li>
+                <li>Hands resting gently on the sides of your ribcage.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale deeply through your nose, focusing on expanding your ribs.</li>
-                <li>Exhale slowly, allowing ribs to fall naturally.</li>
-                <li>Maintain controlled breathing throughout.</li>
+                <li>Inhale deeply through your nose, feeling ribs expand laterally.</li>
+                <li>Exhale and allow the ribs to return to neutral.</li>
+                <li>Focus on symmetrical expansion on both sides.</li>
               </ul>
             </div>
 
@@ -59,25 +59,25 @@ export default function Drill1SeatedRibExpansionwithBreathControl() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Expansion of the ribs during inhale</li>
-                <li>Relaxed, controlled breathing</li>
+                <li>Ribs expanding outward and back</li>
+                <li>Steady breath with minimal upper chest movement</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Chest dominance or shallow breathing</li>
+                <li>Shallow breathing or shrugging shoulders</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Dizziness or discomfort during breathing</li>
+                <li>Dizziness or discomfort</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Use a back support if needed</li>
+                <li>Place hands on thighs for added stability.</li>
               </ul>
             </div>
           </div>

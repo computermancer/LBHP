@@ -27,28 +27,28 @@ export default function Drill4QuadrupedRockBackwithBreathFocus() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Start on hands and knees with wrists under shoulders and knees under hips.</li>
-                <li>Hands shoulder-width apart, knees hip-width apart.</li>
+                <li>Begin on hands and knees, wrists under shoulders, knees under hips.</li>
+                <li>Maintain a neutral spine and pelvis.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale to prepare while maintaining neutral spine.</li>
-                <li>Exhale and slowly rock back towards your heels.</li>
-                <li>Focus on maintaining pelvic and rib control throughout.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and slowly shift your hips back toward your heels.</li>
+                <li>Inhale and return to the starting position.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 5–8 slow rocks per set
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 slow reps
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale during movement, inhale to return
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to rock back, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill4QuadrupedRockBackwithBreathFocus() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled movement through the hips</li>
-                <li>Maintained rib and pelvic position</li>
+                <li>Smooth pelvic movement with core control</li>
+                <li>Minimal arching or rounding of the spine</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to collapse or pelvis to tilt</li>
+                <li>Collapsing the lower back or pelvis</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the low back or knees</li>
+                <li>Pain in the knees or lower back</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Reduce range of motion if needed</li>
+                <li>Perform with hands elevated on a surface for reduced load.</li>
               </ul>
             </div>
           </div>

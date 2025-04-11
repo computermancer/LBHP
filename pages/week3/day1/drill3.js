@@ -28,27 +28,27 @@ export default function Drill3SupineDiaphragmResetwithReach() {
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
                 <li>Lie on your back with knees bent, feet flat on the floor.</li>
-                <li>Arms extended overhead on the floor.</li>
+                <li>Arms reaching toward the ceiling.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale deeply through your nose, allowing the belly to expand.</li>
-                <li>Exhale fully while reaching arms overhead.</li>
-                <li>Focus on maintaining pelvic position during breaths.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and reach both arms toward the ceiling, feeling ribs flatten.</li>
+                <li>Inhale and return to the starting position.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 5–8 breath cycles per set
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 reps
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Inhale 3–4 seconds, exhale 4–6 seconds
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to reach, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill3SupineDiaphragmResetwithReach() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Expansion of the belly and lower ribs</li>
-                <li>Controlled arm reach with breath</li>
+                <li>Core engagement and ribcage control</li>
+                <li>Smooth, controlled arm reach</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Over-tilting the pelvis or arching the back</li>
+                <li>Flaring ribs or arching the lower back</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Dizziness or discomfort during breathing</li>
+                <li>Pain or discomfort in the shoulders or lower back</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Keep arms at 45-degree angle if full overhead reach is difficult</li>
+                <li>Perform with knees supported by a pillow.</li>
               </ul>
             </div>
           </div>
