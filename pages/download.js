@@ -28,7 +28,7 @@ export default function Download() {
                   <a
                     href={pdf.file}
                     download={pdf.file.split('/').pop()}
-                    className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full text-left"
+                    className="w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-600"
                   >
                     {pdf.label}
                   </a>

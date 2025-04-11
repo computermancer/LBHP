@@ -3,10 +3,10 @@ import LangNavBar from '../components/LangNavBar';
 
 export default function Home() {
   const languages = [
-    { code: 'en', name: 'English' },
-    { code: 'es', name: 'Español' }
+    { code: 'home', name: 'English' },
+    { code: 'espanol/inicio', name: 'Español' }
   ];
-  const currentLanguage = 'en';
+  const currentLanguage = 'English';
 
   return (
     <div className="min-h-screen bg-zinc-900">
