@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week1Day2() {
   return (
@@ -10,56 +10,41 @@ export default function Week1Day2() {
       currentWeek="/week1"
       nextDay="/week1/day3"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week1/day2/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Side-Lying Rib Expansion
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Improve lateral ribcage expansion and breathing mechanics.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Side-Lying Rib Expansion"
+          description="Improve lateral ribcage expansion and breathing mechanics."
+          href="/week1/day2/drill1"
+        />
 
-        <div>
-          <Link href="/week1/day2/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Seated Thoracic Rotation
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Increase thoracic mobility and rotational control.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Seated Thoracic Rotation"
+          description="Increase thoracic mobility and rotational control."
+          href="/week1/day2/drill2"
+        />
 
-        <div>
-          <Link href="/week1/day2/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Standing Hip Hinge with Wall Reach
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop hip hinge awareness and control.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Standing Hip Hinge with Wall Reach"
+          description="Develop hip hinge awareness and control."
+          href="/week1/day2/drill3"
+        />
 
-        <div>
-          <Link href="/week1/day2/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Quadruped Rock Back with Neutral Spine
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Promote pelvic control with neutral spine.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Quadruped Rock Back with Neutral Spine"
+          description="Promote pelvic control with neutral spine."
+          href="/week1/day2/drill4"
+        />
 
-        <div>
-          <Link href="/week1/day2/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Wall Supported Squat Hold
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Build confidence in squat position with wall support.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Wall Supported Squat Hold"
+          description="Build confidence in squat position with wall support."
+          href="/week1/day2/drill5"
+        />
       </div>
     </DayLayout>
   );

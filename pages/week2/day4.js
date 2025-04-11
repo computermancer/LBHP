@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week2Day4() {
   return (
@@ -10,56 +10,41 @@ export default function Week2Day4() {
       currentWeek="/week2"
       nextDay="/week2/day5"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week2/day4/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Supine Rib Shift with Breath
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Enhance ribcage awareness and asymmetrical breath control.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Supine Rib Shift with Breath"
+          description="Enhance ribcage awareness and asymmetrical breath control."
+          href="/week2/day4/drill1"
+        />
 
-        <div>
-          <Link href="/week2/day4/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Seated Posterior Pelvic Rocking
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Maintain pelvic awareness and improve pelvic rhythm.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Seated Posterior Pelvic Rocking"
+          description="Maintain pelvic awareness and improve pelvic rhythm."
+          href="/week2/day4/drill2"
+        />
 
-        <div>
-          <Link href="/week2/day4/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Seated Thoracic Flexion/Extension
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop awareness of spinal flexion and extension.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Seated Thoracic Flexion/Extension"
+          description="Develop awareness of spinal flexion and extension."
+          href="/week2/day4/drill3"
+        />
 
-        <div>
-          <Link href="/week2/day4/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Supine Hip Shifts with Rib Stability
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Build core and hip stability through shifting patterns.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Supine Hip Shifts with Rib Stability"
+          description="Build core and hip stability through shifting patterns."
+          href="/week2/day4/drill4"
+        />
 
-        <div>
-          <Link href="/week2/day4/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Seated Breath with Pelvic Awareness
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Reinforce breath and pelvic positioning control.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Seated Breath with Pelvic Awareness"
+          description="Reinforce breath and pelvic positioning control."
+          href="/week2/day4/drill5"
+        />
       </div>
     </DayLayout>
   );

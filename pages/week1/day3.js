@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week1Day3() {
   return (
@@ -10,56 +10,41 @@ export default function Week1Day3() {
       currentWeek="/week1"
       nextDay="/week1/day4"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week1/day3/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Breath Reset in Side-Lying
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Promote ribcage and diaphragm reset through focused breath.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Breath Reset in Side-Lying"
+          description="Promote ribcage and diaphragm reset through focused breath."
+          href="/week1/day3/drill1"
+        />
 
-        <div>
-          <Link href="/week1/day3/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Rhythmic Reach & Roll
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Enhance rotational control and coordination.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Rhythmic Reach & Roll"
+          description="Enhance rotational control and coordination."
+          href="/week1/day3/drill2"
+        />
 
-        <div>
-          <Link href="/week1/day3/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Supported Breath Patterning
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Reinforce steady breath control and rib awareness.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Supported Breath Patterning"
+          description="Reinforce steady breath control and rib awareness."
+          href="/week1/day3/drill3"
+        />
 
-        <div>
-          <Link href="/week1/day3/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Relaxed Spine Rocking
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Encourage fluid motion through the pelvis and spine.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Relaxed Spine Rocking"
+          description="Encourage fluid motion through the pelvis and spine."
+          href="/week1/day3/drill4"
+        />
 
-        <div>
-          <Link href="/week1/day3/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Gentle Bilateral Rocking
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Improve pelvic mobility and relaxation.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Gentle Bilateral Rocking"
+          description="Improve pelvic mobility and relaxation."
+          href="/week1/day3/drill5"
+        />
       </div>
     </DayLayout>
   );

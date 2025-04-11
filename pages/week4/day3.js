@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week4Day3() {
   return (
@@ -10,56 +10,41 @@ export default function Week4Day3() {
       currentWeek="/week4"
       nextDay="/week4/day4"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week4/day3/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Cat-Cow with Rib Expansion
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop spinal flexion and extension with breath control.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Cat-Cow with Rib Expansion"
+          description="Develop spinal flexion and extension with breath control."
+          href="/week4/day3/drill1"
+        />
 
-        <div>
-          <Link href="/week4/day3/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Seated Posterior Pelvic Rocking
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Enhance awareness of pelvic motion in seated positions.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Seated Posterior Pelvic Rocking"
+          description="Enhance awareness of pelvic motion in seated positions."
+          href="/week4/day3/drill2"
+        />
 
-        <div>
-          <Link href="/week4/day3/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Supine 90-90 Rib Shift with Breath
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Build rib and pelvis coordination while breathing.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Supine 90-90 Rib Shift with Breath"
+          description="Build rib and pelvis coordination while breathing."
+          href="/week4/day3/drill3"
+        />
 
-        <div>
-          <Link href="/week4/day3/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Wall Supported Deep Squat Hold with Reach
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Increase squat stability with rib and pelvis awareness.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Wall Supported Deep Squat Hold with Reach"
+          description="Increase squat stability with rib and pelvis awareness."
+          href="/week4/day3/drill4"
+        />
 
-        <div>
-          <Link href="/week4/day3/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Supine Spine Twist with Breath
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Improve thoracic rotation with controlled breath.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Supine Spine Twist with Breath"
+          description="Improve thoracic rotation with controlled breath."
+          href="/week4/day3/drill5"
+        />
       </div>
     </DayLayout>
   );

@@ -1,58 +1,85 @@
 import DrillNavBar from '../../../components/DrillNavBar';
-import DrillTemplate from '../../../components/DrillTemplate';
+import VideoCard from '../../../components/VideoCard';
 import Link from 'next/link';
 
 export default function Drill5QuadrupedRockBackwithReachFocus() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <main className="px-8 text-gray-200 font-sans pt-0 pb-8">
+      <main className="px-8 text-gray-200 font-sans pt-4 pb-2">
         <div className="max-w-[500px] mx-auto">
-          <h1 className="text-orange-300 text-4xl font-bold mb-4">Week 4 - Day 1</h1>
-          <h2 className="text-orange-300 text-2xl font-bold mb-4">Drill 5: Quadruped Rock Back with Reach Focus</h2>
-          <div className="h-2"></div>
+          <div className="bg-zinc-900 rounded-lg border border-zinc-700 p-3 mb-3">
+            <h1 className="text-orange-300 text-4xl font-bold mb-1">Week 4 - Day 1</h1>
+            <h2 className="text-orange-300 text-2xl font-bold mb-0 leading-relaxed" style={{ lineHeight: '1.5em', height: '3em' }}>Drill 5: Quadruped Rock Back with Reach Focus</h2>
+          </div>
+          <div className="h-1"></div>
           <DrillNavBar 
             prevDrill="/week4/day1/drill4" 
             currentDay="/week4/day1" 
             nextDrill="/week4/day2/drill1" 
           />
-          <div className="h-8"></div>
+          <div className="h-6"></div>
           <div className="space-y-6">
-            <div className="space-y-4">
-              <div>
-                <DrillTemplate
-                  videoId="wn0IyvGBeUI"
-                  videoStart={2248}
-                  setup={[
-                    "Begin on hands and knees, wrists under shoulders, knees under hips.",
-                    "Maintain a neutral spine and pelvis."
-                  ]}
-                  instructions={[
-                    "Inhale to prepare.",
-                    "Exhale and slowly shift your hips back toward your heels while reaching one arm forward.",
-                    "Inhale and return to the starting position.",
-                    "Switch arms and repeat."
-                  ]}
-                  setsReps={[
-                    "Sets: 2–3",
-                    "Reps: 8–10 slow reps per side",
-                    "Breath: Exhale to rock back, inhale to return",
-                    "Rest: As needed"
-                  ]}
-                  whatToFeel={[
-                    "Smooth pelvic motion with core control",
-                    "Rib stability during reach"
-                  ]}
-                  whatToAvoid={[
-                    "Collapsing the lower back or pelvis"
-                  ]}
-                  redFlags={[
-                    "Pain in the knees or lower back"
-                  ]}
-                  regression={[
-                    "Perform with hands elevated on a surface for reduced load."
-                  ]}
-                />
+            <VideoCard
+              videoId="wn0IyvGBeUI"
+              videoStart={2248}
+            />
+
+            <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
+              <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
+              <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
+                <li>Begin on hands and knees, wrists under shoulders, knees under hips.</li>
+                <li>Maintain a neutral spine and pelvis.</li>
+              </ul>
+              
+              <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
+              <ul className="text-lg text-white leading-relaxed list-disc pl-5">
+                <li>Inhale to prepare.</li>
+                <li>Exhale and slowly shift your hips back toward your heels while reaching one arm forward.</li>
+                <li>Inhale and return to the starting position.</li>
+                <li>Switch arms and repeat.</li>
+              </ul>
+            </div>
+
+            <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
+              <div className="space-y-2">
+                <div className="text-lg text-white leading-relaxed">
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2 – 3
+                </div>
+                <div className="text-lg text-white leading-relaxed">
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8 – 10 slow reps per side
+                </div>
+                <div className="text-lg text-white leading-relaxed">
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to rock back, inhale to return
+                </div>
+                <div className="text-lg text-white leading-relaxed">
+                  <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
+                </div>
               </div>
+            </div>
+
+            <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
+              <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
+              <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
+                <li>Smooth pelvic motion with core control</li>
+                <li>Rib stability during reach</li>
+              </ul>
+              
+              <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
+              <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
+                <li>Collapsing the lower back or pelvis</li>
+              </ul>
+              
+              <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
+              <ul className="text-lg text-white leading-relaxed list-disc pl-5">
+                <li>Pain in the knees or lower back</li>
+              </ul>
+            </div>
+
+            <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
+              <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
+              <ul className="text-lg text-white leading-relaxed list-disc pl-5">
+                <li>Perform with hands elevated on a surface for reduced load.</li>
+              </ul>
             </div>
           </div>
         </div>

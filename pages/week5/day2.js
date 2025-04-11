@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week5Day2() {
   return (
@@ -10,56 +10,41 @@ export default function Week5Day2() {
       currentWeek="/week5"
       nextDay="/week5/day3"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week5/day2/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Staggered Stance Squats with Rib Stability
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop single-leg loading and pelvic control.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Staggered Stance Squats with Rib Stability"
+          description="Develop single-leg loading and pelvic control."
+          href="/week5/day2/drill1"
+        />
 
-        <div>
-          <Link href="/week5/day2/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Lateral Lunges with Breath Control
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Improve lateral hip control and rib stability.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Lateral Lunges with Breath Control"
+          description="Improve lateral hip control and rib stability."
+          href="/week5/day2/drill2"
+        />
 
-        <div>
-          <Link href="/week5/day2/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Side-Lying Hip Abduction with Breath Focus
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Build lateral hip strength with breath control.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Side-Lying Hip Abduction with Breath Focus"
+          description="Build lateral hip strength with breath control."
+          href="/week5/day2/drill3"
+        />
 
-        <div>
-          <Link href="/week5/day2/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Single-Leg Glute Bridge with Rib Stability
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop posterior chain strength and hip control.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Single-Leg Glute Bridge with Rib Stability"
+          description="Develop posterior chain strength and hip control."
+          href="/week5/day2/drill4"
+        />
 
-        <div>
-          <Link href="/week5/day2/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Supine Rib Shift with Core Engagement
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop core control with subtle rib shifting.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Supine Rib Shift with Core Engagement"
+          description="Develop core control with subtle rib shifting."
+          href="/week5/day2/drill5"
+        />
       </div>
     </DayLayout>
   );

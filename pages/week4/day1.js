@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week4Day1() {
   return (
@@ -10,56 +10,41 @@ export default function Week4Day1() {
       currentWeek="/week4"
       nextDay="/week4/day2"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week4/day1/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Supine Rib Shift with Breath Control
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop lateral rib control while maintaining pelvis stability.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Supine Rib Shift with Breath Control"
+          description="Develop lateral rib control while maintaining pelvis stability."
+          href="/week4/day1/drill1"
+        />
 
-        <div>
-          <Link href="/week4/day1/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Seated Hip Shifts with Breath Awareness
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Reinforce pelvic control and hip awareness in seated positions.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Seated Hip Shifts with Breath Awareness"
+          description="Reinforce pelvic control and hip awareness in seated positions."
+          href="/week4/day1/drill2"
+        />
 
-        <div>
-          <Link href="/week4/day1/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Hooklying Rib Expansion with Marching
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Build core and rib stability while adding dynamic movement.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Hooklying Rib Expansion with Marching"
+          description="Build core and rib stability while adding dynamic movement."
+          href="/week4/day1/drill3"
+        />
 
-        <div>
-          <Link href="/week4/day1/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Wall Supported Hinge with Arm Reach
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Strengthen posterior chain while maintaining ribcage control and focus on controlled arm reach.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Wall Supported Hinge with Arm Reach"
+          description="Strengthen posterior chain while maintaining ribcage control and focus on controlled arm reach."
+          href="/week4/day1/drill4"
+        />
 
-        <div>
-          <Link href="/week4/day1/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Quadruped Rock Back with Reach Focus
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Improve pelvic mobility with controlled rib and breath awareness.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Quadruped Rock Back with Reach Focus"
+          description="Improve pelvic mobility with controlled rib and breath awareness."
+          href="/week4/day1/drill5"
+        />
       </div>
     </DayLayout>
   );

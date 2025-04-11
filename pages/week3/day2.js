@@ -1,5 +1,5 @@
 import DayLayout from '../../components/DayLayout';
-import Link from 'next/link';
+import DrillCard from '../../components/DrillCard';
 
 export default function Week3Day2() {
   return (
@@ -10,56 +10,41 @@ export default function Week3Day2() {
       currentWeek="/week3"
       nextDay="/week3/day3"
     >
-      <div className="space-y-8">
-        <div>
-          <Link href="/week3/day2/drill1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 1: Seated Rib Expansion with Breath Control
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Promote ribcage mobility and lateral breath expansion.
-          </p>
-        </div>
+      <div className="space-y-4">
+        <DrillCard
+          number="1"
+          title="Seated Rib Expansion with Breath Control"
+          description="Promote ribcage mobility and lateral breath expansion."
+          href="/week3/day2/drill1"
+        />
 
-        <div>
-          <Link href="/week3/day2/drill2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 2: Supine Marching with Core Control
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Reinforce pelvic stability while moving the legs.
-          </p>
-        </div>
+        <DrillCard
+          number="2"
+          title="Supine Marching with Core Control"
+          description="Reinforce pelvic stability while moving the legs."
+          href="/week3/day2/drill2"
+        />
 
-        <div>
-          <Link href="/week3/day2/drill3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 3: Seated Thoracic Rotation with Arm Reach
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Develop rotational control and mobility.
-          </p>
-        </div>
+        <DrillCard
+          number="3"
+          title="Seated Thoracic Rotation with Arm Reach"
+          description="Develop rotational control and mobility."
+          href="/week3/day2/drill3"
+        />
 
-        <div>
-          <Link href="/week3/day2/drill4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 4: Wall Hamstring March with Rib Control
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Activate the posterior chain while maintaining rib stability.
-          </p>
-        </div>
+        <DrillCard
+          number="4"
+          title="Wall Hamstring March with Rib Control"
+          description="Activate the posterior chain while maintaining rib stability."
+          href="/week3/day2/drill4"
+        />
 
-        <div>
-          <Link href="/week3/day2/drill5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded text-left leading-relaxed h-[85px]">
-            Drill 5: Prone Hip IR and Extension Drill
-            <br />
-          </Link>
-          <p className="text-lg text-white mt-2 mb-4 leading-relaxed h-[40px]">
-            Build awareness of hip rotation and hip extension.
-          </p>
-        </div>
+        <DrillCard
+          number="5"
+          title="Prone Hip IR and Extension Drill"
+          description="Build awareness of hip rotation and hip extension."
+          href="/week3/day2/drill5"
+        />
       </div>
     </DayLayout>
   );
