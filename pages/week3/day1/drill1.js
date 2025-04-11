@@ -13,7 +13,7 @@ export default function Drill1HooklyingBreathwithPelvicAwareness() {
           </div>
           <div className="h-1"></div>
           <DrillNavBar 
-            prevDrill="/week3/day1" 
+            prevDrill="/week2/day5/drill5" 
             currentDay="/week3/day1" 
             nextDrill="/week3/day1/drill2" 
           />
