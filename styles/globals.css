@@ -4,6 +4,8 @@
 
 body {
   @apply bg-[#1a1a1a] text-gray-200 font-sans;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* Override autofill styles */

@@ -4,7 +4,7 @@ export default function WeekLayout({
   subtitle
 }) {
   return (
-    <div className="min-h-screen bg-zinc-900">
+    <div className="bg-zinc-900">
       <main className="px-8 text-gray-200 font-sans pt-4 pb-2">
         <div className="max-w-[500px] mx-auto">
           <div className="bg-zinc-900 rounded-lg border border-zinc-700 p-3 mb-3">

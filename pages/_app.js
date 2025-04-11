@@ -8,10 +8,10 @@ export default function App({ Component, pageProps }) {
   const isEnglishPage = !router.pathname.startsWith('/espanol');
 
   return (
-    <>
+    <div className="min-h-screen bg-zinc-900">
       {isEnglishPage && <MainNavBar />}
       <Component {...pageProps} />
       <Analytics />
-    </>
+    </div>
   );
 }
