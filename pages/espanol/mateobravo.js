@@ -128,7 +128,7 @@ export default function MateoBravo() {
                   </div>
                   <div className="ml-8">
                     <a
-                      href="https://www.instagram.com/mateobravo"
+                      href="https://www.instagram.com/flatfootmatt"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-lg leading-relaxed text-blue-500 hover:text-blue-300"
