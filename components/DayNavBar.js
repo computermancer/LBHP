@@ -18,28 +18,28 @@ export default function DayNavBar({ prevDay, currentWeek, nextDay, disableNext }
         <div className="flex gap-0.5 text-gray-200 py-2 w-full justify-center">
           <button
             onClick={() => prevDay && router.push(prevDay)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${prevDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-2 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${prevDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!prevDay}
           >
             <svg className="w-4 h-4 mr-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
-            <span className="truncate">Previous Day</span>
+            <span className="truncate">Day</span>
           </button>
           
           <Link
             href={currentWeek}
-            className="flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold hover:bg-zinc-700 text-center whitespace-nowrap border border-zinc-700"
+            className="flex-1 bg-zinc-800 px-2 py-2 rounded text-base font-semibold hover:bg-zinc-700 text-center whitespace-nowrap border border-zinc-700"
           >
-            <span className="truncate">Current Week</span>
+            <span className="truncate">Week</span>
           </Link>
           
           <button
             onClick={() => nextDay && router.push(nextDay)}
-            className={`flex-1 bg-zinc-800 px-1.5 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${nextDay && !disableNext ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            className={`flex-1 bg-zinc-800 px-2 py-2 rounded text-base font-semibold text-center whitespace-nowrap flex items-center justify-center border border-zinc-700 ${nextDay && !disableNext ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
             disabled={!nextDay || disableNext}
           >
-            <span className="truncate">Next Day</span>
+            <span className="truncate">Day</span>
             <svg className="w-4 h-4 ml-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
