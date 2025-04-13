@@ -35,7 +35,7 @@ function updateDayPage(sourcePath, targetPath) {
     }
 
     // Create the new content structure
-    let newContent = `import MainEspNavBar from '../../../components/MainEspNavBar';
+    let newContent = `import MainEspNavbar from '../../../components/MainEspNavbar';
 import EspDayLayout from '../../../components/EspDayLayout';
 import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
@@ -43,7 +43,7 @@ import Link from 'next/link';
 export default function Day() {
   return (
     <>
-      <MainEspNavBar />
+      <MainEspNavbar />
       <EspDayLayout
         title="${title}"
         subtitle="${subtitle}"

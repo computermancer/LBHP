@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function MainEspNavBar() {
+export default function MainEspNavbar() {
   return (
     <div className="sticky top-0 z-50 bg-zinc-900">
       <div className="px-8">

@@ -1,4 +1,4 @@
-import MainEspNavBar from '../../components/MainEspNavBar';
+import MainEspNavbar from '../../components/MainEspNavbar';
 import Link from 'next/link';
 import LangNavBar from '../../components/LangNavBar';
 import WeekLayout from '../../components/WeekLayout';
@@ -12,7 +12,7 @@ export default function Inicio() {
 
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainEspNavBar />
+      <MainEspNavbar />
       <WeekLayout
         title="Espalda Baja y Caderas"
         subtitle="Una Guía Suave de Reinicio"

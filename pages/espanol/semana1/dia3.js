@@ -1,4 +1,4 @@
-import MainEspNavBar from '../../../components/MainEspNavBar';
+import MainEspNavbar from '../../../components/MainEspNavbar';
 import EspDayLayout from '../../../components/EspDayLayout';
 import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Day3() {
   return (
     <>
-      <MainEspNavBar />
+      <MainEspNavbar />
       <EspDayLayout
         title="Semana 1 - Día 3"
         subtitle="Control Respiratorio y Movimiento Rítmico"

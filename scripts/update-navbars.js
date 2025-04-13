@@ -26,11 +26,11 @@ function updateFile(file) {
   
   // Replace import statement
   let newContent = content
-    .replace(/import NavEspanol from ['"]..\/..\/components\/NavEspanol['"]/g, 'import MainEspNavBar from "../../components/MainEspNavBar"');
+    .replace(/import NavEspanol from ['"]..\/..\/components\/NavEspanol['"]/g, 'import MainEspNavbar from "../../components/MainEspNavbar"');
 
   // Replace component usage
   newContent = newContent
-    .replace(/<NavEspanol\s*\/?>/g, '<MainEspNavBar />');
+    .replace(/<NavEspanol\s*\/?>/g, '<MainEspNavbar />');
 
   // Only write if changes were made
   if (content !== newContent) {

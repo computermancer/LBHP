@@ -5,7 +5,7 @@ const path = require('path');
 const espDrillBarTemplate = `
   return (
     <>
-      <MainEspNavBar />
+      <MainEspNavbar />
       <EspDrillBar
         title="{TITLE}"
         backButtonText="{BACK_BUTTON_TEXT}"
@@ -46,11 +46,11 @@ function updateFile(filePath) {
     // Read the file content
     let content = fs.readFileSync(filePath, 'utf8');
 
-    // Add MainEspNavBar import at the top (if not already present)
-    if (!content.includes('import MainEspNavBar')) {
+    // Add MainEspNavbar import at the top (if not already present)
+    if (!content.includes('import MainEspNavbar')) {
       content = content.replace(
         'import EspDrillBar',
-        'import MainEspNavBar from \"../../../../components/MainEspNavBar\";\nimport EspDrillBar'
+        'import MainEspNavbar from \"../../../../components/MainEspNavbar\";\nimport EspDrillBar'
       );
     }
 

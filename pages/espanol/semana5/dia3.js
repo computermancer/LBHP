@@ -1,4 +1,4 @@
-import MainEspNavBar from '../../../components/MainEspNavBar';
+import MainEspNavbar from '../../../components/MainEspNavbar';
 import EspDayLayout from '../../../components/EspDayLayout';
 import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Dia3() {
   return (
     <>
-      <MainEspNavBar />
+      <MainEspNavbar />
       <EspDayLayout
         title="Semana 5 - Día 3"
         subtitle="Cadena Posterior y Control de Cadera"

@@ -1,6 +1,6 @@
 import React from "react";
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavBar from '../../components/MainEspNavBar';
+import MainEspNavbar from '../../components/MainEspNavbar';
 
 export default function Descargar() {
   const pdfs = [
@@ -14,7 +14,7 @@ export default function Descargar() {
 
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainEspNavBar />
+      <MainEspNavbar />
       <WeekLayout
         title="Descargar PDF's"
         subtitle="Materiales del Programa"

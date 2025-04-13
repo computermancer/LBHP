@@ -27,10 +27,10 @@ function updateFile(file) {
       console.log(`Processing: ${file}`);
       
       // Update the import statement
-      let newContent = content.replace(/import NavEspanol from ['"]\.{3}\/components\/NavEspanol['"]/g, 'import MainEspNavBar from \'../../../components/MainEspNavBar\'');
+      let newContent = content.replace(/import NavEspanol from ['"]\.{3}\/components\/NavEspanol['"]/g, 'import MainEspNavbar from \'../../../components/MainEspNavbar\'');
       
-      // Replace all instances of NavEspanol with MainEspNavBar
-      newContent = newContent.replace(/NavEspanol/g, 'MainEspNavBar');
+      // Replace all instances of NavEspanol with MainEspNavbar
+      newContent = newContent.replace(/NavEspanol/g, 'MainEspNavbar');
       
       // Write the updated content
       fs.writeFileSync(file, newContent, 'utf8');

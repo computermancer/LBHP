@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavBar from '../../components/MainEspNavBar';
+import MainEspNavbar from '../../components/MainEspNavbar';
 
 emailjs.init('-ElvYDuaUUsIy5Qpj'); // Your public key
 
@@ -74,7 +74,7 @@ const Comentarios = () => {
 
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainEspNavBar />
+      <MainEspNavbar />
       <WeekLayout
         title="Comentarios"
         subtitle="¡Comparte tus pensamientos!"
