@@ -19,5 +19,15 @@ input:-webkit-autofill:active {
 /* Remove bullet points from labels */
 .remove-bullets {
   list-style: none;
-  padding-left: 0;
+}
+
+/* Link button focus styles */
+a {
+  @apply focus:outline-none focus:ring-0;
+  outline: none !important;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:active {
+  background-color: transparent;
 }
