@@ -1,10 +1,10 @@
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavbar from '../../components/MainEspNavbar';
+import MainEspNavBar from '../../components/MainEspNavBar';
 
 export default function ComoUsar() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainEspNavbar />
+      <MainEspNavBar />
       <WeekLayout
         title="Cómo Usar LBHP"
         subtitle="Guía del Programa"

@@ -8,21 +8,21 @@ function updateFile(espanolFile) {
   // Update the layout to match English version
   let newContent = espanolContent;
 
-  // Replace NavEspanol with MainEspNavbar if needed
+  // Replace NavEspanol with MainEspNavBar if needed
   if (newContent.includes('NavEspanol')) {
     newContent = newContent
-      .replace(/import NavEspanol from ['"]..\/..\/components\/NavEspanol['"]/g, 'import MainEspNavbar from "../../components/MainEspNavbar"')
-      .replace(/<NavEspanol\s*\/?>/g, '<MainEspNavbar />');
+      .replace(/import NavEspanol from ['"]..\/..\/components\/NavEspanol['"]/g, 'import MainEspNavBar from "../../components/MainEspNavBar"')
+      .replace(/<NavEspanol\s*\/?>/g, '<MainEspNavBar />');
   }
 
-  // Add MainEspNavbar if not present
-  if (!newContent.includes('import MainEspNavbar')) {
-    newContent = newContent.replace('import WeekLayout', 'import WeekLayout\nimport MainEspNavbar from "../../components/MainEspNavbar";');
+  // Add MainEspNavBar if not present
+  if (!newContent.includes('import MainEspNavBar')) {
+    newContent = newContent.replace('import WeekLayout', 'import WeekLayout\nimport MainEspNavBar from "../../components/MainEspNavBar";');
   }
 
   // Wrap content in fragment if not already wrapped
   if (!newContent.includes('<>')) {
-    newContent = newContent.replace(/<WeekLayout/, '<>\n      <MainEspNavbar />\n      <WeekLayout');
+    newContent = newContent.replace(/<WeekLayout/, '<>\n      <MainEspNavBar />\n      <WeekLayout');
     newContent = newContent.replace(/<\/WeekLayout>/, '    </WeekLayout>\n  </>');
   }
 

@@ -1,4 +1,4 @@
-import MainEspNavbar from './MainEspNavbar';
+import MainEspNavBar from './MainEspNavBar';
 import EspDrillNavBar from './EspDrillNavBar';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
@@ -29,7 +29,7 @@ export default function EspDrillBarTemplate({
 
   return (
     <>
-      <MainEspNavbar />
+      <MainEspNavBar />
       <main className="px-8 text-white font-sans pt-4 pb-2">
         <div className="max-w-[500px] mx-auto">
           <div className="bg-zinc-900 rounded-lg border border-zinc-700 p-3 mb-3">

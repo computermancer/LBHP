@@ -22,7 +22,6 @@ export default function Ejercicio1Inclinacinplvicaposteriorenlapared() {
       disableNext={false}
     >
       <EspDrillNavBar 
-        prevDrill="/espanol/semana1/dia1/ejercicio0" 
         currentDay="/espanol/semana1/dia1" 
         nextDrill="/espanol/semana1/dia1/ejercicio2" 
         disablePrevious={true}

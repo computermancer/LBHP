@@ -1,4 +1,4 @@
-import MainEspNavbar from '../../../components/MainEspNavbar';
+import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
 import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Day2() {
   return (
     <>
-      <MainEspNavbar />
+      <MainEspNavBar />
       <EspDayLayout
         title="Semana 1 - Día 2"
         subtitle="Expansión Costal y Enfoque en la Bisagra de Cadera"

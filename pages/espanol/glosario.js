@@ -1,10 +1,10 @@
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavbar from '../../components/MainEspNavbar';
+import MainEspNavBar from '../../components/MainEspNavBar';
 
 export default function Glosario() {
   return (
     <>
-      <MainEspNavbar />
+      <MainEspNavBar />
       <WeekLayout
         title="Glosario"
         subtitle="Términos y Conceptos Clave"

@@ -1,11 +1,11 @@
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavbar from '../../components/MainEspNavbar';
+import MainEspNavBar from '../../components/MainEspNavBar';
 import { FaGlobe, FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
 
 export default function MateoBravo() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainEspNavbar />
+      <MainEspNavBar />
       <WeekLayout
         title="Mateo Bravo"
         subtitle="Sobre el Creador"

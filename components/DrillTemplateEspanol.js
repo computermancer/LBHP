@@ -1,4 +1,4 @@
-import MainEspNavbar from './MainEspNavbar';
+import MainEspNavBar from './MainEspNavBar';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
@@ -20,7 +20,7 @@ export default function DrillTemplateEspanol({
 
   return (
     <>
-      <MainEspNavbar />
+      <MainEspNavBar />
       <main className="px-4 sm:px-8 text-white font-sans pt-24">
         <div className="max-w-[500px] mx-auto py-12">
           <div className="mb-4">

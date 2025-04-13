@@ -1,12 +1,12 @@
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavbar from '../../components/MainEspNavbar';
+import MainEspNavBar from '../../components/MainEspNavBar';
 import DayButtonsEsp from '../../components/DayButtonsEsp';
 import Card from '../../components/Card';
 
 export default function Week1() {
   return (
     <div className="min-h-screen bg-zinc-900">
-      <MainEspNavbar />
+      <MainEspNavBar />
       <WeekLayout
         title="Semana 1"
         subtitle="Conciencia y Activación"

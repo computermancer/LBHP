@@ -1,10 +1,10 @@
 import WeekLayout from '../../components/WeekLayout';
-import MainEspNavbar from '../../components/MainEspNavbar';
+import MainEspNavBar from '../../components/MainEspNavBar';
 
 export default function Contenido() {
   return (
     <>
-      <MainEspNavbar />
+      <MainEspNavBar />
       <WeekLayout
         title="Resumen del Programa"
         subtitle="Tablas para Semanas 1 - 5"
