@@ -7,8 +7,8 @@ export default function Ejercicio2Reposicinsupinadeldiafragmaconalcance() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Reposición Supina del Diafragma con Alcance"      backButtonText="Semana 2 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos estirados hacia el techo."]}
       instructions={[" Inhale profundamente en las costillas."," Exhale y extienda suavemente los brazos hacia el techo manteniendo el control de las costillas."," Vuelva a la posición inicial."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respirar: Exhala durante el alcance, inhala para volver","Descanso: Según sea necesario"]}

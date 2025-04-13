@@ -1,4 +1,5 @@
 import WeekLayout from '../components/WeekLayout';
+import VideoCard from '../components/VideoCard';
 
 export default function HowToUse() {
   return (
@@ -7,6 +8,12 @@ export default function HowToUse() {
       subtitle="Program Guide"
     >
       <div className="space-y-6">
+        {/* Video Card */}
+        <VideoCard
+          videoId="wn0IyvGBeUI"
+          videoStart={2248}
+        />
+
         <section className="bg-zinc-900 rounded-lg border border-zinc-700 p-3">
           <h2 className="text-orange-300 text-xl font-semibold mb-4">Structured but Flexible</h2>
           <p className="text-lg leading-relaxed mb-4">

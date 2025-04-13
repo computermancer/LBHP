@@ -7,8 +7,8 @@ export default function Ejercicio5RockBackcuadrpedoconenfoquedealcance() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Rock Back Cuadrúpedo con Enfoque de Alcance"      backButtonText="Semana 4 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Comience sobre manos y rodillas, muñecas debajo de los hombros, rodillas debajo de las caderas."," Mantenga la columna vertebral y la pelvis neutras."]}
       instructions={[" Inhala para prepararte."," Exhale y mueva lentamente las caderas hacia atrás, hacia los talones, mientras estira un brazo hacia delante."," Inhale y vuelva a la posición inicial."," Cambia de brazo y repite."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Exhala para retroceder, inhala para regresar","Descanso: Según sea necesario"]}

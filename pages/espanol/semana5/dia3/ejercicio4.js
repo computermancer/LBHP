@@ -7,8 +7,8 @@ export default function Ejercicio4Puentebilateraldeglteosconcontroldecostillasyp
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Puente Bilateral de Glúteos con Control de Costillas y Pelvis"      backButtonText="Semana 5 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos apoyados a los lados."]}
       instructions={[" Inhala para prepararte."," Exhale y levante las caderas hacia el techo mientras mantiene el control de las costillas."," Mantenga brevemente y vuelva a la posición inicial."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones","Respira: Exhala para levantar, inhala para bajar","Descanso: 30-45 segundos entre series"]}

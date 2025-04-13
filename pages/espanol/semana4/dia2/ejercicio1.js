@@ -7,8 +7,8 @@ export default function Ejercicio1Flexinyextensintorcicasentado() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Flexión y Extensión Torácica Sentado"      backButtonText="Semana 4 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas en los muslos o cruzadas sobre el pecho."]}
       instructions={[" Inhala para prepararte."," Exhale y flexione suavemente la columna torácica hacia delante."," Inhale y extienda la columna vertebral hasta la posición neutra."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Exhala para flexionar, inhala para extender","Descanso: Según sea necesario"]}

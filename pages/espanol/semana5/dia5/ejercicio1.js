@@ -7,8 +7,8 @@ export default function Ejercicio1Posturadecaballoconcontroldecostillassujecinms
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Postura de Caballo con Control de Costillas (sujeción Más Larga)"      backButtonText="Semana 5 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie con los pies separados a una distancia mayor que la anchura de los hombros, con las puntas de los pies ligeramente giradas hacia fuera."," Brazos extendidos hacia delante o manos en las caderas."]}
       instructions={[" Inhala para prepararte."," Exhale y baje las caderas hasta que los muslos estén paralelos al suelo."," Mantén la posición durante 30-45 segundos mientras mantienes el control de las costillas y la pelvis."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 2-3","Respiración: Respiración constante durante todo el recorrido","Descanso: 30-45 segundos entre presiones"]}

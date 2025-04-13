@@ -7,8 +7,8 @@ export default function Ejercicio2Rotacintorcicasentado() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Rotación Torácica Sentado"      backButtonText="Semana 1 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies planos y las manos cruzadas sobre el pecho."]}
       instructions={[" Inhala para prepararte."," Exhale y gire lentamente la parte superior del cuerpo hacia un lado."," Mantenga la pelvis y las caderas inmóviles, centrándose en la rotación torácica."," Vuelva al centro y repita por el otro lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}

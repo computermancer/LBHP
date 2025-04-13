@@ -7,8 +7,8 @@ export default function Ejercicio1Movimientosdecaderaendecbitosupinoconcontrolde
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Movimientos de Cadera en Decúbito Supino con Control de Costillas"      backButtonText="Semana 3 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Brazos apoyados a los lados."]}
       instructions={[" Exhale y mueva una cadera ligeramente más alta que la otra."," Inhala y vuelve a la posición neutra."," Cambia de lado y repite con control."," Conjuntos: 2-3","Repeticiones: 8-10 por lado"," Respirar: Exhala para cambiar, inhala para volver","Descanso: Según sea necesario"]}
       setsReps={[]}

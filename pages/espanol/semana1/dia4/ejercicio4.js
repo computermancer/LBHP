@@ -7,8 +7,8 @@ export default function Ejercicio4Desplazamientodecaderaendecbitosupinoconrespir
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Desplazamiento de Cadera en Decúbito Supino con Respiración"      backButtonText="Semana 1 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Brazos apoyados a los lados."]}
       instructions={[" Inhala para prepararte."," Exhale y mueva suavemente una cadera más arriba que la otra."," Mantener el control y la alineación."," Vuelva al punto muerto antes de cambiar de lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones controladas por lado","Respira: Exhala durante el cambio, inhala para volver","Descanso: Según sea necesario"]}

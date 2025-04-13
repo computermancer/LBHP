@@ -7,8 +7,8 @@ export default function Ejercicio4Marchadeisquiotibialesdepared() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Marcha de Isquiotibiales de Pared"      backButtonText="Semana 2 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con los pies apoyados en una pared, las rodillas y las caderas a 90 grados."]}
       instructions={[" Exhale y presione suavemente un talón contra la pared."," Levante ligeramente el pie opuesto de la pared."," Vuelva a la posición inicial y cambie de lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 marchas lentas por lado","Respirar: Exhala durante la elevación, inhala para regresar","Descanso: Según sea necesario"]}

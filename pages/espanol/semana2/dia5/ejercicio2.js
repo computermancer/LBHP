@@ -7,8 +7,8 @@ export default function Ejercicio2Gatovacaconenfoquerotacional() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Gato-vaca con Enfoque Rotacional"      backButtonText="Semana 2 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Empiece en posición cuadrúpeda, con las muñecas bajo los hombros y las rodillas bajo las caderas."]}
       instructions={[" Inhala y arquea la espalda, levantando el pecho (Vaca)."," Exhala y redondea la columna, metiendo la pelvis y la barbilla (Gato)."," Añada una suave rotación torácica extendiendo un brazo hacia el techo a cada lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Inhala para extender, exhala para flexionar","Descanso: Según sea necesario"]}

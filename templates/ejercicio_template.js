@@ -9,8 +9,8 @@ export default function FUNCTION_NAME() {
     <EspDrillBarTemplate
       title="" // Replace with exact title from CONTENT file
       backButtonText="" // Replace with appropriate back button text
-      videoId="" // Replace with appropriate video ID
-      videoStart={0} // Replace with appropriate start time
+      videoId="wn0IyvGBeUI" // Replace with appropriate video ID
+      videoStart={2248} // Replace with appropriate start time
       setup={[
         "", // Replace with setup instructions from CONTENT file
         "" // Add additional setup instructions as needed

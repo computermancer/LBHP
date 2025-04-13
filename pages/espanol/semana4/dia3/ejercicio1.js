@@ -7,8 +7,8 @@ export default function Ejercicio1Gatovacaconexpansindecostillas() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Gato-vaca con Expansión de Costillas"      backButtonText="Semana 4 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Comience sobre manos y rodillas, muñecas debajo de los hombros, rodillas debajo de las caderas."," Mantenga la columna vertebral neutra."]}
       instructions={[" Inhala y arquea la espalda, levantando el pecho y el coxis (Vaca)."," Exhala y redondea la columna, metiendo la pelvis y la barbilla (Gato)."," Coordina el movimiento con la respiración."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Inhala para extender, exhala para flexionar","Descanso: Según sea necesario"]}

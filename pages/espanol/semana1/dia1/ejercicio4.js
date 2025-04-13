@@ -7,8 +7,8 @@ export default function Ejercicio4Alcance9090supino() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Alcance 90-90 Supino"      backButtonText="Semana 1 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbese boca arriba con las caderas y las rodillas flexionadas a 90 grados (pies separados del suelo)."," Brazos estirados hacia el techo."]}
       instructions={[" Exhale y extienda los brazos hacia el techo mientras presiona suavemente la parte baja de la espalda contra el suelo."," Mantén una posición de piernas de 90-90; no dejes que las rodillas se desplacen ni que el pecho se levante."," Inhale y devuelva los brazos a la posición inicial sin perder el control del tronco."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 5-8 repeticiones lentas y controladas","Respira: Exhala durante el alcance, inhala para volver","Descanso: Según sea necesario"]}

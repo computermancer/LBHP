@@ -7,8 +7,8 @@ export default function Ejercicio1Gatovacaconconcienciadelarespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Gato-vaca con Conciencia de la Respiración"      backButtonText="Semana 3 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Comience sobre manos y rodillas, muñecas debajo de los hombros, rodillas debajo de las caderas."," Mantenga la columna vertebral neutra."]}
       instructions={[" Inhala y arquea la espalda, levantando el pecho y el coxis (Vaca)."," Exhala y redondea la columna, metiendo la pelvis y la barbilla (Gato)."," Muévete lentamente y coordínate con la respiración."," Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Inhala para extender, exhala para flexionar","Descanso: Según sea necesario"]}
       setsReps={[]}

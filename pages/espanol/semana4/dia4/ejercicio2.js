@@ -7,8 +7,8 @@ export default function Ejercicio2Alcancedebrazosypiernascuadrpedosconcontrol() 
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Alcance de Brazos y Piernas Cuadrúpedos con Control"      backButtonText="Semana 4 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Comience sobre manos y rodillas, muñecas debajo de los hombros, rodillas debajo de las caderas."," Mantenga la columna vertebral y la pelvis neutras."]}
       instructions={[" Inhala para prepararte."," Exhale y extienda un brazo y la pierna opuesta sin perder el control de la pelvis."," Inhale y vuelva a la posición inicial."," Cambia de lado y repite."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para extender, inhala para regresar","Descanso: Según sea necesario"]}

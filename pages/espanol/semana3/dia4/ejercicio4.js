@@ -7,8 +7,8 @@ export default function Ejercicio4Pressdepareddeisquiotibialesconconcienciadecad
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Press de Pared de Isquiotibiales con Conciencia de Cadera"      backButtonText="Semana 3 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con los pies apoyados en la pared, las rodillas a 90 grados."," Brazos apoyados a los lados."]}
       instructions={[" Exhale y presione suavemente los talones contra la pared."," Mantén la posición durante 5-8 segundos mientras mantienes el control pélvico."," Inhala y relájate."," Conjuntos: 2-3","Repeticiones: 5-8 segundos"," Respiración: Respiración constante durante todo el recorrido","Descanso: 30 segundos entre series"]}
       setsReps={[]}

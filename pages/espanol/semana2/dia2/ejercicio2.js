@@ -7,8 +7,8 @@ export default function Ejercicio2Bisagradecaderasentadaconrespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Bisagra de Cadera Sentada con Respiración"      backButtonText="Semana 2 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese en una silla firme, con los pies planos y las manos apoyadas en los muslos."]}
       instructions={[" Inhala para prepararte."," Exhala y gira las caderas hacia delante manteniendo la columna neutra."," Vuelva a la posición inicial con control."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones controladas","Respirar: Exhala para girar, inhala para volver","Descanso: Según sea necesario"]}

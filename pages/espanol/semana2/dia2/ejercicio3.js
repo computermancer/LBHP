@@ -7,8 +7,8 @@ export default function Ejercicio3Desplazamientoposteriordelpesodepie() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Desplazamiento Posterior del Peso de Pie"      backButtonText="Semana 2 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie con los pies separados a la anchura de las caderas y las rodillas ligeramente flexionadas."]}
       instructions={[" Exhale y desplace el peso ligeramente hacia atrás, hacia los talones."," Mantenga la columna vertebral neutra mientras se desplaza."," Vuelve al centro con control."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 turnos lentos","Respira: Exhala durante el cambio, inhala para volver","Descanso: Según sea necesario"]}

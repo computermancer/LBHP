@@ -7,8 +7,8 @@ export default function Ejercicio3Extensintorcicasentado() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Extensión Torácica Sentado"      backButtonText="Semana 1 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntate en una silla firme, con los pies planos y las manos detrás de la cabeza."]}
       instructions={[" Inhala para prepararte."," Exhale y extienda suavemente la parte superior de la espalda."," Mantener el contacto entre las costillas inferiores y la pelvis."," Vuelva al punto muerto y repita."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas y controladas","Respirar: Exhala durante la extensión, inhala para volver","Descanso: Según sea necesario"]}

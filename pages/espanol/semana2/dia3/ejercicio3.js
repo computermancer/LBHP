@@ -7,8 +7,8 @@ export default function Ejercicio3Rotacindelacolumnasentadoconrespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Rotación de la Columna Sentado con Respiración"      backButtonText="Semana 2 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies planos y las manos sobre el pecho."]}
       instructions={[" Inhala para prepararte."," Exhale y gire la parte superior del cuerpo hacia un lado mientras mantiene el control de las costillas."," Vuelva al centro y alterne los lados."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}

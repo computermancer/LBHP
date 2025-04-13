@@ -7,8 +7,8 @@ export default function Ejercicio3Balanceoplvicosentado() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Balanceo Pélvico Sentado"      backButtonText="Semana 1 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese en una silla firme, con los pies planos y las manos apoyadas en los muslos."]}
       instructions={[" Incline lentamente la pelvis hacia delante (arqueando la parte baja de la espalda) y hacia atrás (aplanando la parte baja de la espalda)."," Deja que la respiración guíe el ritmo de tus movimientos."," Mantenga la parte superior del cuerpo quieta y relajada."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-12 repeticiones controladas","Respira: Inhala al inclinarte hacia delante, exhala al inclinarte hacia atrás","Descanso: Según sea necesario"]}

@@ -7,8 +7,8 @@ export default function Ejercicio5Pressdetalnapoyadoenlapared() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Press de Talón Apoyado en la Pared"      backButtonText="Semana 2 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con los pies apoyados en una pared, las rodillas y las caderas a 90 grados."," Brazos apoyados a los lados o sobre las costillas."]}
       instructions={[" Presiona ambos talones suavemente contra la pared."," Mantén el contacto con la pared y concéntrate en trabajar los isquiotibiales."," Mantenga durante 5-10 segundos, luego relájese."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 5-8 prensas controladas","Respirar: Exhala durante la presión, inhala para soltar","Descanso: 20-40 segundos entre series"]}

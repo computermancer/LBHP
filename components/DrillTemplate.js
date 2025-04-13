@@ -22,7 +22,7 @@ export default function DrillTemplate({
           onClick={() => setIsOpen(!isOpen)}
           className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2"
         >
-          {isOpen ? 'Hide Video' : 'Show Video'}
+          {isOpen ? 'Hide Video' : 'Mostrar Video'}
         </button>
         {isOpen && videoId && (
           <div className="mt-4 relative w-full" style={{ paddingTop: '56.25%' }}>

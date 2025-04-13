@@ -7,8 +7,8 @@ export default function Ejercicio1Desplazamientodecostillasendecbitosupinoconres
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Desplazamiento de Costillas en Decúbito Supino con Respiración"      backButtonText="Semana 2 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Coloque las manos en las costillas inferiores para obtener información."]}
       instructions={[" Inhala profundamente, expandiendo las costillas lateralmente."," Exhale y mueva suavemente las costillas de lado a lado."," Vuelva al centro antes de cambiar de lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 desplazamientos lentos por lado","Respirar: Exhala durante el cambio, inhala para volver","Descanso: Según sea necesario"]}

@@ -7,8 +7,8 @@ export default function Ejercicio1Expansinlateraldelascostillas() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Expansión Lateral de las Costillas"      backButtonText="Semana 1 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate de lado con las rodillas flexionadas a 90 grados y apiladas."," Apoya el brazo de abajo debajo de la cabeza."]}
       instructions={[" Inhale profundamente en la parte inferior de las costillas."," Siente cómo las costillas se expanden lateralmente al inspirar."," Exhala lentamente y deja que las costillas caigan de forma natural."," Concéntrate en dirigir la respiración hacia la parte inferior de la caja torácica."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}

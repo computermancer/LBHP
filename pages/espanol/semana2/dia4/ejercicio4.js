@@ -7,8 +7,8 @@ export default function Ejercicio4Flexionesdecaderaendecbitosupinoconestabilidad
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Flexiones de Cadera en Decúbito Supino con Estabilidad Costal"      backButtonText="Semana 2 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Brazos apoyados a los lados o sobre las costillas para retroalimentarse."]}
       instructions={[" Exhale y mueva suavemente la pelvis de lado a lado."," Mantenga la caja torácica y la pelvis alineadas en todo momento."," Volver al centro después de cada turno."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante el cambio, inhala para volver","Descanso: Según sea necesario"]}

@@ -7,8 +7,8 @@ export default function Ejercicio1Flexionesdeparedconestabilidadcostal() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Flexiones de Pared con Estabilidad Costal"      backButtonText="Semana 5 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie frente a una pared, con las manos ligeramente más abiertas que la anchura de los hombros."," Los pies separados a la anchura de las caderas, el cuerpo en línea recta."]}
       instructions={[" Inhala para prepararte."," Exhale y baje el pecho hacia la pared, manteniendo el control de las costillas y la pelvis."," Inhala y vuelve a la posición inicial."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones","Respira: Exhala para empujar, inhala para bajar","Descanso: 30-45 segundos entre series"]}

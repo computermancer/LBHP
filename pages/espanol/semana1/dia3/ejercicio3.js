@@ -7,8 +7,8 @@ export default function Ejercicio3Patrnderespiracinapoyada() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Patrón de Respiración Apoyada"      backButtonText="Semana 1 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla, con los pies apoyados en el suelo."," Manos apoyadas suavemente sobre las costillas inferiores."]}
       instructions={[" Inhale profundamente hacia el vientre y las costillas inferiores."," Exhale completamente y sienta las costillas caer hacia atrás."," Respire lenta y constantemente."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}

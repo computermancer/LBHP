@@ -7,8 +7,8 @@ export default function Ejercicio1Movimientosdecaderaendecbitosupino() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Movimientos de Cadera en Decúbito Supino"      backButtonText="Semana 4 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Brazos apoyados a los lados."]}
       instructions={[" Exhale y mueva una cadera ligeramente más alta que la otra."," Inhala y vuelve a la posición neutra."," Cambia de lado y repite con control."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para cambiar, inhala para volver","Descanso: Según sea necesario"]}

@@ -7,8 +7,8 @@ export default function Ejercicio3Bisagradecaderadepieconalcancedepared() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Bisagra de Cadera de Pie con Alcance de Pared"      backButtonText="Semana 1 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de espaldas a una pared, con los pies separados a la anchura de las caderas."," Colóquese a unos 15 cm de la pared."]}
       instructions={[" Empuje las caderas hacia la pared manteniendo la columna neutra."," Extienda ambas manos hacia delante mientras realiza la bisagra."," Detente cuando tus caderas toquen ligeramente la pared."," Vuelva a ponerse de pie llevando las caderas hacia delante."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas y controladas","Respira: Inhala al girar, exhala al volver.","Descanso: Según sea necesario"]}

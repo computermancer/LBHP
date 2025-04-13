@@ -7,8 +7,8 @@ export default function Ejercicio4Sentadillaprofundaapoyadaenlaparedconalcance()
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Sentadilla Profunda Apoyada en la Pared con Alcance"      backButtonText="Semana 4 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie con la espalda apoyada en la pared y los pies ligeramente adelantados."," Brazos extendidos hacia delante para mantener el equilibrio."]}
       instructions={[" Exhale y baje lentamente en cuclillas, manteniendo el control de las costillas y la pelvis."," Mantenga durante 10-20 segundos."," Inhala y vuelve a ponerte de pie."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 2-3","Respiración: Respiración constante durante todo el recorrido","Descanso: 30-60 segundos entre series"]}

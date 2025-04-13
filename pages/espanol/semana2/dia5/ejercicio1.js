@@ -7,8 +7,8 @@ export default function Ejercicio1Respiracindecocodriloconexpansincostal() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Respiración de Cocodrilo con Expansión Costal"      backButtonText="Semana 2 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca abajo con la frente apoyada en las manos."," Piernas extendidas, dedos de los pies apuntando ligeramente hacia fuera."]}
       instructions={[" Inhale profundamente, sintiendo que su vientre presiona el suelo."," Exhale suavemente, permitiendo que las costillas se relajen y caigan."," Concéntrese en la expansión lateral de las costillas durante la inhalación."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}

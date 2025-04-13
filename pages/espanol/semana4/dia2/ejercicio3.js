@@ -7,8 +7,8 @@ export default function Ejercicio3Rotacindelacolumnasentadoconalcancedebrazos() 
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Rotación de la Columna Sentado con Alcance de Brazos"      backButtonText="Semana 4 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas en los muslos o cruzadas sobre el pecho."]}
       instructions={[" Inhala para prepararte."," Exhale y gire la parte superior del cuerpo hacia un lado, extendiendo un brazo hacia delante."," Vuelva al centro antes de girar al otro lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}

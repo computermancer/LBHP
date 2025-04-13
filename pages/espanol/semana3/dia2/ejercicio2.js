@@ -7,8 +7,8 @@ export default function Ejercicio2Marchasupinaconcontroldeltronco() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Marcha Supina con Control del Tronco"      backButtonText="Semana 3 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Brazos apoyados a los lados."]}
       instructions={[" Exhale y levante una rodilla hacia el pecho."," Inhale y vuelva a la posición inicial."," Alterne los lados manteniendo el control de las costillas y la pelvis."," Conjuntos: 2-3","Repeticiones: 8-10 repeticiones por lado","Respira: Exhala para levantar, inhala para volver","Descanso: Según sea necesario"]}
       setsReps={[]}

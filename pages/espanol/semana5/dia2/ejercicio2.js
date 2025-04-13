@@ -7,8 +7,8 @@ export default function Ejercicio2Estocadaslateralesconcontroldelarespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Estocadas Laterales con Control de la Respiración"      backButtonText="Semana 5 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie con los pies separados a la anchura de las caderas, las manos en las caderas o extendidas hacia delante."," Desplace el peso hacia un lado, doblando la rodilla."]}
       instructions={[" Inhala para prepararte."," Exhale y desplace el peso lateralmente, bajando en una estocada."," Inhala y vuelve al centro."," Cambia de lado y repite."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para bajar, inhala para volver","Descanso: 30-45 segundos entre series"]}

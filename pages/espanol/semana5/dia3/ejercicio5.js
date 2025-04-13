@@ -7,8 +7,8 @@ export default function Ejercicio5Torsindecolumnasupinaconrespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Torsión de Columna Supina con Respiración"      backButtonText="Semana 5 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos extendidos a los lados."]}
       instructions={[" Inhala para prepararte."," Exhale y baje suavemente las rodillas hacia un lado."," Inhala y vuelve al centro."," Alterne los lados con control."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para girar, inhala para volver","Descanso: Según sea necesario"]}

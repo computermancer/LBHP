@@ -7,8 +7,8 @@ export default function Ejercicio1Alcancecuadrpedoconcontroldecostillas() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Alcance Cuadrúpedo con Control de Costillas"      backButtonText="Semana 2 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Comienza en posición cuadrúpeda, con las manos bajo los hombros y las rodillas bajo las caderas."," Mantenga una columna vertebral neutra con las costillas alineadas."]}
       instructions={[" Inhala para prepararte."," Exhale y lentamente extienda un brazo hacia adelante mientras mantiene el control de las costillas."," Vuelva a la posición inicial y alterne los lados."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Exhala durante el alcance, inhala para volver","Descanso: Según sea necesario"]}

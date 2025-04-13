@@ -8,8 +8,8 @@ export default function Ejercicio5Balanceoplvicosupinoconcontroldelarespiracin()
     <EspDrillBarTemplate
       title="Ejercicio 5: Balanceo Pélvico Supino con Control de la Respiración"
       backButtonText="Semana 5 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Manos apoyadas en las costillas inferiores."]}
       instructions={[" Inhala para prepararte."," Exhale y balancee suavemente la pelvis hacia delante y hacia atrás."," Concéntrese en un movimiento suave y en mantener el control de las costillas."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Exhala para balancearte, inhala para regresar","Descanso: Según sea necesario"]}

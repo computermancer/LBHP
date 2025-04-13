@@ -7,8 +7,8 @@ export default function Ejercicio5Respiracinsentadaconcontroldecostillas() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Respiración Sentada con Control de Costillas"      backButtonText="Semana 1 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies planos."," Las manos apoyadas suavemente sobre las costillas."]}
       instructions={[" Inhala hacia las costillas inferiores y el vientre."," Exhale completamente, sintiendo las costillas caer hacia atrás."," Mantenga la pelvis neutra en todo momento."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}

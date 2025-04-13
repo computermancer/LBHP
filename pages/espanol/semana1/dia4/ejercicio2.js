@@ -7,8 +7,8 @@ export default function Ejercicio2Balanceoplvicoposteriorsentado() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Balanceo Pélvico Posterior Sentado"      backButtonText="Semana 1 - Día 4"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas suavemente sobre los muslos."]}
       instructions={[" Incline la pelvis hacia atrás (aplanando la parte baja de la espalda) y luego hacia delante (arqueando la parte baja de la espalda)."," Muévase lenta y suavemente entre las posiciones."," Utiliza la respiración para guiar el ritmo."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-12 repeticiones controladas","Respira: Inhala hacia delante, exhala hacia atrás","Descanso: Según sea necesario"]}

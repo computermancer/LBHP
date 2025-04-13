@@ -7,8 +7,8 @@ export default function Ejercicio1Sentadillasdepesocorporalconcontroldecostillas
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Sentadillas de Peso Corporal con Control de Costillas"      backButtonText="Semana 5 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie con los pies separados a la altura de los hombros, con los dedos ligeramente apuntando hacia fuera."," Brazos extendidos hacia delante o manos juntas delante del pecho."]}
       instructions={[" Inhala para prepararte."," Exhala y baja las caderas hacia abajo y atrás, manteniendo las costillas alineadas sobre la pelvis."," Inhala para volver a ponerte de pie."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 10-12 repeticiones lentas y controladas","Respirar: Exhala para bajar, inhala para subir","Descanso: 30-45 segundos entre series"]}

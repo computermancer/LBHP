@@ -7,8 +7,8 @@ export default function Ejercicio3Expansindelacostilladeganchoconmarcha() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Expansión de la Costilla de Gancho con Marcha"      backButtonText="Semana 4 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Manos apoyadas a los lados de las costillas."]}
       instructions={[" Inhala profundamente, expandiendo las costillas."," Exhale y levante una rodilla hacia el pecho mientras mantiene el control de las costillas."," Vuelva a la posición inicial y alterne los lados."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Exhala para levantar, inhala para volver","Descanso: Según sea necesario"]}

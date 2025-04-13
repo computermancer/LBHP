@@ -7,8 +7,8 @@ export default function Ejercicio2Respiracinabdominalcongancho() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Respiración Abdominal con Gancho"      backButtonText="Semana 1 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Coloca una mano en el pecho y la otra en el vientre."]}
       instructions={[" Inhale suavemente por la nariz, permitiendo que el vientre se eleve sin mover el pecho."," Exhale suavemente por la boca o la nariz, dejando que el vientre caiga de forma natural."," Céntrate en minimizar el movimiento de la parte superior del pecho."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}

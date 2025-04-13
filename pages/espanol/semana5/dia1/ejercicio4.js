@@ -7,8 +7,8 @@ export default function Ejercicio4Sentadillasparcialesconapoyoenlapared() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Sentadillas Parciales con Apoyo en la Pared"      backButtonText="Semana 5 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de espaldas a una pared, con un pie adelantado y el otro apoyado en la pared."," Baje a una posición de sentadilla dividida."]}
       instructions={[" Inhala para prepararte."," Exhale y mantenga la posición inferior de la sentadilla dividida."," Mantenga el control de las costillas y la pelvis durante todo el agarre."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 20-30 segundos por lado","Respiración: Respiración constante durante todo el recorrido","Descanso: 30-45 segundos entre presiones"]}

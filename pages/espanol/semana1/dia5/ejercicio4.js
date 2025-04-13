@@ -7,8 +7,8 @@ export default function Ejercicio4Marchasupinaconcontroldecostillas() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 4: Marcha Supina con Control de Costillas"      backButtonText="Semana 1 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos apoyados a los lados o palmas sobre las costillas inferiores."]}
       instructions={[" Exhale y levante una rodilla hacia el pecho."," Mantenga el control de las costillas y la pelvis durante todo el recorrido."," Baje la pierna hacia el suelo con control."," Alterne los lados."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Exhala para levantar, inhala para bajar","Descanso: Según sea necesario"]}

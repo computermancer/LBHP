@@ -7,8 +7,8 @@ export default function Ejercicio2CatCowconconcentracinenlarespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Cat-cow con Concentración en la Respiración"      backButtonText="Semana 1 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Comience sobre manos y rodillas, muñecas debajo de los hombros, rodillas debajo de las caderas."]}
       instructions={[" Inhala y arquea la espalda, levantando el pecho y el coxis (Vaca)."," Exhala y redondea la columna, metiendo la pelvis y la barbilla (Gato)."," Muévase suavemente entre las posiciones con control."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Inhala para extender, exhala para flexionar","Descanso: Según sea necesario"]}

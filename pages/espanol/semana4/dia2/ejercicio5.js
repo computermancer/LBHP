@@ -7,8 +7,8 @@ export default function Ejercicio5IRdecaderaendecbitopronoyextensinconcontrol() 
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Ir de Cadera en Decúbito Prono y Extensión con Control"      backButtonText="Semana 4 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca abajo con los brazos apoyados bajo la frente."," Piernas extendidas y dedos de los pies apuntando ligeramente hacia fuera."]}
       instructions={[" Inhala para prepararte."," Exhale y rote una cadera internamente sin levantar la pierna."," Inhala y vuelve a la posición neutra."," Realice la extensión de cadera levantando ligeramente la pierna del suelo."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Espira durante el movimiento, inspira para volver","Descanso: Según sea necesario"]}

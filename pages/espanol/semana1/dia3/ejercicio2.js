@@ -7,8 +7,8 @@ export default function Ejercicio2Alcanzaryrodarrtmicamente() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Alcanzar y Rodar Rítmicamente"      backButtonText="Semana 1 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con los brazos extendidos por encima de la cabeza."," Rodillas flexionadas, pies apoyados en el suelo."]}
       instructions={[" Extiende un brazo hacia arriba y a lo largo del cuerpo como si te estuvieras dando la vuelta."," Deja que la cabeza y la parte superior de la espalda sigan el movimiento."," Vuelva a la posición inicial."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Inhala antes del alcance, exhala al rodar","Descanso: Según sea necesario"]}

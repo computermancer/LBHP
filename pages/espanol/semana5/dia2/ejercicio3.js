@@ -7,8 +7,8 @@ export default function Ejercicio3Abduccindecaderaendecbitolateral() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 3: Abducción de Cadera en Decúbito Lateral"      backButtonText="Semana 5 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate de lado con las rodillas ligeramente flexionadas, apoyando la cabeza con el brazo."," La mano superior apoyada en la cadera o delante para mantener el equilibrio."]}
       instructions={[" Inhala para prepararte."," Exhale y levante la pierna de arriba manteniendo la estabilidad de la pelvis."," Inhala para volver al inicio."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respira: Exhala para levantar, inhala para volver","Descanso: Según sea necesario"]}

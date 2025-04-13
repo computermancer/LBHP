@@ -7,8 +7,8 @@ export default function Ejercicio2Bajadadepiernas9090supinaconrespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Bajada de Piernas 90-90 Supina con Respiración"      backButtonText="Semana 4 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las caderas y las rodillas a 90 grados."," Brazos apoyados a los lados."]}
       instructions={[" Inhala para prepararte."," Exhale y baje lentamente una pierna hacia el suelo manteniendo el control de las costillas."," Inhala para volver a la posición inicial y alterna los lados."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para bajar, inhala para volver","Descanso: Según sea necesario"]}

@@ -7,8 +7,8 @@ export default function Ejercicio5Respiracinsentadacondesplazamientodecadera() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Respiración Sentada con Desplazamiento de Cadera"      backButtonText="Semana 2 - Día 5"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies planos."," Manos apoyadas sobre la pelvis o los muslos."]}
       instructions={[" Inhale profundamente, manteniendo el control de la pelvis y las costillas."," Exhale y mueva suavemente la pelvis de lado a lado."," Vuelva al centro entre cada turno."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 cambios lentos por serie","Respirar: Inhala para prepararte, exhala durante el turno","Descanso: Entre series o según sea necesario"]}

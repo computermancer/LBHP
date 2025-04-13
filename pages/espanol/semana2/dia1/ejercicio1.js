@@ -7,8 +7,8 @@ export default function Ejercicio1Expansincostalsupinaconrespiracin() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 1: Expansión Costal Supina con Respiración"      backButtonText="Semana 2 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Coloque las manos suavemente sobre las costillas inferiores."]}
       instructions={[" Inhale profundamente en las costillas inferiores, sintiendo la expansión lateral."," Exhale suavemente, dejando que las costillas caigan de forma natural."," Mantenga una respiración lenta y controlada."]}
       setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}

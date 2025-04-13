@@ -1,5 +1,6 @@
 import WeekLayout from '../../components/WeekLayout';
 import MainEspNavBar from '../../components/MainEspNavBar';
+import VideoCardEsp from '../../components/VideoCardEsp';
 
 export default function ComoUsar() {
   return (
@@ -10,6 +11,12 @@ export default function ComoUsar() {
         subtitle="Guía del Programa"
       >
         <div className="space-y-6">
+          {/* Video Card */}
+          <VideoCardEsp
+            videoId="wn0IyvGBeUI"
+            videoStart={2248}
+          />
+
           <section className="bg-zinc-900 rounded-lg border border-zinc-700 p-3">
             <h2 className="text-orange-300 text-xl font-semibold mb-4">Estructurado pero Flexible</h2>
             <p className="text-lg leading-relaxed mb-4">
@@ -63,7 +70,7 @@ export default function ComoUsar() {
               <li>Conciencia</li>
               <li>Capacidad de autoevaluación</li>
               <li>Disposición a adaptarse</li>
-              <li>Confianza para moverse con intención</li>
+              <li>Confianza para moverte con intención</li>
             </ul>
           </section>
         </div>

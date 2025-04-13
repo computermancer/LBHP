@@ -7,8 +7,8 @@ export default function Ejercicio5Sentadillaconapoyoenlapared() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Sentadilla con Apoyo en la Pared"      backButtonText="Semana 1 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Colóquese de pie con la espalda apoyada en una pared, con los pies separados a la anchura de las caderas."," Deslícese hacia abajo en una sentadilla parcial con los muslos por encima del paralelo."]}
       instructions={[" Mantenga la posición en cuclillas con la columna vertebral neutra."," Presione suavemente los talones contra el suelo para activar los isquiotibiales."," Respira de forma constante durante toda la retención."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 15-30 segundos por sujeción","Respira: Mantén una respiración lenta y constante durante todo el recorrido.","Descanso: 30-40 segundos entre series"]}

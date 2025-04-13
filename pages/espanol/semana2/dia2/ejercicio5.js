@@ -7,8 +7,8 @@ export default function Ejercicio5EjerciciodeIRyextensindecaderaendecbitoprono()
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Ejercicio de Ir y Extensión de Cadera en Decúbito Prono"      backButtonText="Semana 2 - Día 2"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca abajo con las piernas estiradas."]}
       instructions={[" Inhala para prepararte."," Exhale y gire suavemente una pierna hacia dentro (rotación interna de la cadera)."," Inhala para volver a la posición neutra y cambia de lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}

@@ -201,8 +201,8 @@ export default function ${functionName}() {
     <EspDrillBarTemplate
       title="${exercise.title}"
       backButtonText="Semana ${exercise.week} - Día ${exercise.day}"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={${JSON.stringify(exercise.setup)}}
       instructions={${JSON.stringify(exercise.instructions)}}
       setsReps={${JSON.stringify(exercise.setsReps)}}

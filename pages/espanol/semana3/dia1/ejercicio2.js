@@ -7,8 +7,8 @@ export default function Ejercicio2Desplazamientodecaderasentadoconestabilidadcos
   return (
     <EspDrillBarTemplate
       title="Ejercicio 2: Desplazamiento de Cadera Sentado con Estabilidad Costal"      backButtonText="Semana 3 - Día 1"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas suavemente sobre los muslos."]}
       instructions={[" Inhala para prepararte."," Exhala y desplaza suavemente una cadera hacia delante manteniendo la estabilidad de las costillas."," Vuelva a la posición neutra y alterne los lados."," Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado"," Respirar: Exhala para cambiar, inhala para volver","Descanso: Según sea necesario"]}
       setsReps={[]}

@@ -7,8 +7,8 @@ export default function Ejercicio5Balanceobilateralsuave() {
   return (
     <EspDrillBarTemplate
       title="Ejercicio 5: Balanceo Bilateral Suave"      backButtonText="Semana 1 - Día 3"
-      videoId=""
-      videoStart={0}
+      videoId="wn0IyvGBeUI"
+      videoStart={2248}
       setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Los brazos descansan cómodamente a los lados."]}
       instructions={[" Mece suavemente ambas rodillas de lado a lado."," Muévase dentro de una amplitud de movimiento cómoda."," Vuelva al centro antes de cambiar de lado."]}
       setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 rocas lentas por lado","Respira: Inhala en el centro, exhala mientras te meces","Descanso: Según sea necesario"]}
