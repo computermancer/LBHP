@@ -1,38 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function BalanceoPélvicoPosteriorSentado() {
+export default function Ejercicio2Balanceoplvicoposteriorsentado() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 2: Balanceo Pélvico Posterior Sentado"
-      backButtonText="Semana 2 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate erguido en una silla firme, pies apoyados, manos en los muslos."
-      ]}
-      instructions={[
-        "Inhala para prepararte.",
-        "Exhala y balancea la pelvis hacia atrás (inclinación posterior), luego hacia adelante (inclinación anterior).",
-        "Muévete suavemente y mantén el control."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas",
-        "Respiración: Exhala durante el balanceo, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Movimiento suave a través de la pelvis y la columna lumbar."
-      ]}
-      whatToAvoid={[
-        "Movimientos bruscos o apresurados."
-      ]}
-      redFlags={[
-        "Dolor o malestar en la espalda baja."
-      ]}
-      regression={[
-        "Coloca las manos en las caderas para retroalimentación adicional."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 2: Balanceo Pélvico Posterior Sentado"      backButtonText="Semana 2 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies planos y las manos sobre los muslos."]}
+      instructions={[" Inhala para prepararte."," Exhale y balancee la pelvis hacia atrás (inclinación posterior), luego hacia delante (inclinación anterior)."," Muévase con suavidad y mantenga el control."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respirar: Exhala durante el balanceo, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Movimiento suave a través de la pelvis y la columna lumbar."]}
+      whatToAvoid={[" Movimientos bruscos o precipitados."]}
+      redFlags={[" Dolor o molestias en la zona lumbar."]}
+      regression={[" Coloque las manos en las caderas para obtener más información."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia4/ejercicio1" 
+        currentDay="/espanol/semana2/dia4" 
+        nextDrill="/espanol/semana2/dia4/ejercicio3" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

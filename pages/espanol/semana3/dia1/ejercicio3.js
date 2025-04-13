@@ -1,40 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio3ReinicioDelDiafragmaEnDecúbitoSupinoConAlcance() {
+export default function Ejercicio3Reposicinsupinadeldiafragmaconalcance() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Reinicio del Diafragma en Decúbito Supino con Alcance"
-      backButtonText="Semana 3 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas, pies apoyados en el suelo.",
-        "Brazos extendidos hacia el techo."
-      ]}
-      instructions={[
-        "Inhala para prepararte.",
-        "Exhala y extiende ambos brazos hacia el techo, sintiendo cómo las costillas se aplanan.",
-        "Inhala y regresa a la posición inicial."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones",
-        "Respiración: Exhala para extender, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Activación del core y control de la caja torácica",
-        "Extensión de brazos suave y controlada"
-      ]}
-      whatToAvoid={[
-        "Abrir las costillas o arquear la espalda baja"
-      ]}
-      redFlags={[
-        "Dolor o malestar en los hombros o la espalda baja"
-      ]}
-      regression={[
-        "Realiza con las rodillas apoyadas en una almohada."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Reposición Supina del Diafragma con Alcance"      backButtonText="Semana 3 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos extendidos hacia el techo."]}
+      instructions={[" Inhala para prepararte."," Exhale y extienda ambos brazos hacia el techo, sintiendo que las costillas se aplanan."," Inhale y vuelva a la posición inicial."," Conjuntos: 2-3","Repeticiones: 8-10 repeticiones"," Respirar: Exhala para llegar, inhala para volver","Descanso: Según sea necesario"]}
+      setsReps={[]}
+      whatToFeel={[" Compromiso del núcleo y control de la caja torácica."," Alcance del brazo suave y controlado."]}
+      whatToAvoid={[" Costillas ensanchadas o espalda baja arqueada."]}
+      redFlags={[" Dolor o molestias en los hombros o en la parte baja de la espalda."]}
+      regression={[" Realícelo con las rodillas apoyadas en una almohada."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana3/dia1/ejercicio2" 
+        currentDay="/espanol/semana3/dia1" 
+        nextDrill="/espanol/semana3/dia1/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

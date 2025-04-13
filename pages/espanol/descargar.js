@@ -1,5 +1,6 @@
 import React from "react";
-import NavEspanol from '../../components/NavEspanol';
+import WeekLayout from '../../components/WeekLayout';
+import MainEspNavBar from '../../components/MainEspNavBar';
 
 export default function Descargar() {
   const pdfs = [
@@ -12,14 +13,14 @@ export default function Descargar() {
   ];
 
   return (
-    <>
-      <NavEspanol />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Descargar PDF's</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Materiales del Programa</h2>
-          
-          <section className="mb-6">
+    <div className="min-h-screen bg-zinc-900">
+      <MainEspNavBar />
+      <WeekLayout
+        title="Descargar PDF's"
+        subtitle="Materiales del Programa"
+      >
+        <div className="space-y-6">
+          <section className="bg-zinc-900 rounded-lg border border-zinc-700 p-3">
             <p className="text-lg mb-6">
               Puedes descargar cada semana o el programa completo en formato PDF.
             </p>
@@ -29,7 +30,7 @@ export default function Descargar() {
                   <a
                     href={pdf.file}
                     download={pdf.file.split('/').pop()}
-                    className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded w-full text-left"
+                    className="w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded-lg transition-colors border border-gray-600"
                   >
                     {pdf.label}
                   </a>
@@ -38,7 +39,7 @@ export default function Descargar() {
             </div>
           </section>
         </div>
-      </main>
-    </>
+      </WeekLayout>
+    </div>
   );
 }

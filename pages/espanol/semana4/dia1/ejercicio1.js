@@ -1,41 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio1DesplazamientoCostalEnDecúbitoSupinoConControlRespiratorio() {
+export default function Ejercicio1Desplazamientodecostillasendecbitosupino() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 1: Desplazamiento Costal en Decúbito Supino con Control Respiratorio"
-      backButtonText="Semana 4 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas, pies apoyados.",
-        "Manos descansando suavemente en los lados de tu caja torácica."
-      ]}
-      instructions={[
-        "Inhala profundamente por la nariz, sintiendo cómo las costillas se expanden lateralmente.",
-        "Exhala y desplaza las costillas ligeramente hacia un lado mientras mantienes el control pélvico.",
-        "Regresa al centro y alterna los lados."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas por lado",
-        "Respiración: Exhala para desplazar, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Caja torácica expandiéndose y desplazándose lateralmente",
-        "Estabilidad pélvica mientras las costillas se mueven"
-      ]}
-      whatToAvoid={[
-        "Perder el control pélvico",
-        "Forzar el desplazamiento costal"
-      ]}
-      redFlags={[
-        "Dolor o malestar en las costillas o la espalda baja"
-      ]}
-      regression={[
-        "Realiza con desplazamientos costales más pequeños para mejorar el control."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 1: Desplazamiento de Costillas en Decúbito Supino"      backButtonText="Semana 4 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Manos apoyadas suavemente a los lados de la caja torácica."]}
+      instructions={[" Inhale profundamente por la nariz, sintiendo cómo las costillas se expanden lateralmente."," Exhale y desplace las costillas ligeramente hacia un lado manteniendo el control de la pelvis."," Vuelva al centro y alterne los lados."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala para cambiar, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" La caja torácica se expande y se desplaza lateralmente."," Estabilidad pélvica mientras se mueven las costillas."]}
+      whatToAvoid={[" Perder el control de la pelvis."," Forzar el cambio de costilla."]}
+      redFlags={[" Dolor o molestias en las costillas o en la parte baja de la espalda."]}
+      regression={[" Realícelo con pequeños desplazamientos de las costillas para mejorar el control."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana3/dia5/ejercicio5" 
+        currentDay="/espanol/semana4/dia1" 
+        nextDrill="/espanol/semana4/dia1/ejercicio2" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

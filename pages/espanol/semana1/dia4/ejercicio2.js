@@ -1,46 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioDeMovilidadLumbar() {
+export default function Ejercicio2Balanceoplvicoposteriorsentado() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 2: Ejercicio de Movilidad Lumbar"
-      backButtonText="Semana 1 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados en el suelo.",
-        "Coloca los brazos extendidos a los lados.",
-        "Mantén la cabeza y los hombros en contacto con el suelo."
-      ]}
-      instructions={[
-        "Gira suavemente las rodillas hacia un lado.",
-        "Mantén los hombros en contacto con el suelo.",
-        "Regresa a la posición central.",
-        "Repite el movimiento hacia el otro lado."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por lado",
-        "Duración: 3-5 segundos por rotación",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Rotación suave en la zona lumbar.",
-        "Estabilidad en los hombros y la parte superior del cuerpo.",
-        "Estiramiento en los músculos laterales de la espalda."
-      ]}
-      whatToAvoid={[
-        "Forzar la rotación o movimientos bruscos.",
-        "Mover los hombros o la cabeza.",
-        "Tensión en el cuello o los hombros."
-      ]}
-      redFlags={[
-        "Dolor agudo en la espalda o las caderas.",
-        "Mareos o sensación de inestabilidad."
-      ]}
-      regression={[
-        "Si la rotación es demasiado desafiante, reduce el rango de movimiento o realiza menos repeticiones."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 2: Balanceo Pélvico Posterior Sentado"      backButtonText="Semana 1 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas suavemente sobre los muslos."]}
+      instructions={[" Incline la pelvis hacia atrás (aplanando la parte baja de la espalda) y luego hacia delante (arqueando la parte baja de la espalda)."," Muévase lenta y suavemente entre las posiciones."," Utiliza la respiración para guiar el ritmo."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-12 repeticiones controladas","Respira: Inhala hacia delante, exhala hacia atrás","Descanso: Según sea necesario"]}
+      whatToFeel={[" Suave movimiento de balanceo a través de la pelvis."," Coordinación de la respiración con el movimiento."]}
+      whatToAvoid={[" Postura excesivamente arqueada o colapsada."]}
+      redFlags={[" Dolor o molestias en la parte baja de la espalda."]}
+      regression={[" Utiliza las manos en las caderas para aumentar la conciencia corporal."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia4/ejercicio1" 
+        currentDay="/espanol/semana1/dia4" 
+        nextDrill="/espanol/semana1/dia4/ejercicio3" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

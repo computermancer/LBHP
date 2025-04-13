@@ -1,38 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function RotaciónDeColumnaSentadoConRespiración() {
+export default function Ejercicio3Rotacindelacolumnasentadoconrespiracin() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Rotación de Columna Sentado con Respiración"
-      backButtonText="Semana 2 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate erguido en una silla firme, pies apoyados, manos en el pecho."
-      ]}
-      instructions={[
-        "Inhala para prepararte.",
-        "Exhala y rota la parte superior del cuerpo hacia un lado manteniendo el control de las costillas.",
-        "Regresa al centro y alterna los lados."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas por lado",
-        "Respiración: Exhala durante la rotación, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Rotación controlada a través de la columna torácica."
-      ]}
-      whatToAvoid={[
-        "Sobrerrotar o perder el control del core."
-      ]}
-      redFlags={[
-        "Dolor o malestar en la columna o las costillas."
-      ]}
-      regression={[
-        "Reduce el rango de rotación si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Rotación de la Columna Sentado con Respiración"      backButtonText="Semana 2 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies planos y las manos sobre el pecho."]}
+      instructions={[" Inhala para prepararte."," Exhale y gire la parte superior del cuerpo hacia un lado mientras mantiene el control de las costillas."," Vuelva al centro y alterne los lados."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Rotación controlada a través de la columna torácica."]}
+      whatToAvoid={[" Rotación excesiva o pérdida de control del núcleo."]}
+      redFlags={[" Dolor o molestias en la columna vertebral o las costillas."]}
+      regression={[" Reduzca el rango de rotación si es necesario."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia3/ejercicio2" 
+        currentDay="/espanol/semana2/dia3" 
+        nextDrill="/espanol/semana2/dia3/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

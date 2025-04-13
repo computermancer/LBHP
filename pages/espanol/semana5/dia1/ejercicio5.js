@@ -1,40 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio5MarchaEnDecubitoSupinoConControlCore() {
+export default function Ejercicio5Marchasupinaconcontroldeltronco() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Marcha en Decúbito Supino con Control Core"
-      backButtonText="Semana 5 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas, pies apoyados en el suelo.",
-        "Brazos descansando a los lados."
-      ]}
-      instructions={[
-        "Inhala para preparar.",
-        "Exhala y levanta un pie del suelo, manteniendo la estabilidad del core.",
-        "Inhala para regresar y alterna los lados."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas por lado",
-        "Respiración: Exhala para levantar, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Control y estabilidad del core",
-        "Movimiento suave y controlado de las piernas"
-      ]}
-      whatToAvoid={[
-        "Arquear la espalda baja"
-      ]}
-      redFlags={[
-        "Dolor o malestar en la espalda baja"
-      ]}
-      regression={[
-        "Realiza marchas más pequeñas para reducir la intensidad."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Marcha Supina con Control del Tronco"      backButtonText="Semana 5 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos apoyados a los lados."]}
+      instructions={[" Inhala para prepararte."," Exhale y levante un pie del suelo, manteniendo la estabilidad del tronco."," Inhala para volver y alterna los lados."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Exhala para levantar, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Control y estabilidad del núcleo."," Movimiento suave y controlado de las piernas."]}
+      whatToAvoid={[" Arquear la parte baja de la espalda."]}
+      redFlags={[" Dolor o molestias en la zona lumbar."]}
+      regression={[" Realice marchas más pequeñas para reducir la intensidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana5/dia1/ejercicio4" 
+        currentDay="/espanol/semana5/dia1" 
+        nextDrill="/espanol/semana5/dia2/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

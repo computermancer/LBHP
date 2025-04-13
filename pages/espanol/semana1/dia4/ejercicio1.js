@@ -1,46 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioDeMovilidadToracica() {
+export default function Ejercicio1Reposicinsupinadeldiafragma() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 1: Ejercicio de Movilidad Torácica"
-      backButtonText="Semana 1 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate de lado con las rodillas dobladas a 90 grados.",
-        "Extiende el brazo superior hacia arriba.",
-        "Mantén la cabeza apoyada en el brazo inferior."
-      ]}
-      instructions={[
-        "Gira suavemente el torso superior hacia atrás.",
-        "Mantén las caderas y las rodillas estables.",
-        "Regresa a la posición inicial.",
-        "Repite el movimiento en el otro lado."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por lado",
-        "Duración: 3-5 segundos por rotación",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Rotación suave en la parte media de la espalda.",
-        "Estabilidad en la pelvis y la zona lumbar.",
-        "Estiramiento en los músculos laterales del torso."
-      ]}
-      whatToAvoid={[
-        "Forzar la rotación o movimientos bruscos.",
-        "Mover la pelvis o las rodillas.",
-        "Tensión en el cuello o los hombros."
-      ]}
-      redFlags={[
-        "Dolor agudo en la espalda o las caderas.",
-        "Mareos o sensación de inestabilidad."
-      ]}
-      regression={[
-        "Si la rotación es demasiado desafiante, reduce el rango de movimiento o realiza menos repeticiones."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 1: Reposición Supina del Diafragma"      backButtonText="Semana 1 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Coloca una mano sobre el vientre y la otra sobre el pecho."]}
+      instructions={[" Inhale profundamente por la nariz, permitiendo que el vientre se expanda."," Exhala suavemente, sintiendo cómo cae el vientre."," Concéntrate en relajar las costillas y el diafragma."]}
+      setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}
+      whatToFeel={[" Expansión del vientre y de las costillas inferiores."," Respiración relajada y controlada."]}
+      whatToAvoid={[" Dominancia torácica o respiración superficial."]}
+      redFlags={[" Mareo o dificultad para mantener la posición."]}
+      regression={[" Apoya las rodillas con una almohada para reducir la tensión."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia3/ejercicio5" 
+        currentDay="/espanol/semana1/dia4" 
+        nextDrill="/espanol/semana1/dia4/ejercicio2" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

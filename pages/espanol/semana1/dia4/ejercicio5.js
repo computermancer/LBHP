@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioDeMovilidadGeneral() {
+export default function Ejercicio5Respiracinsentadaconcontroldecostillas() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Ejercicio de Movilidad General"
-      backButtonText="Semana 1 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate en una silla con la espalda recta.",
-        "Mantén los hombros relajados.",
-        "Coloca las manos en los muslos."
-      ]}
-      instructions={[
-        "Realiza movimientos suaves y controlados de rotación del torso.",
-        "Mantén la pelvis estable.",
-        "Incluye movimientos de flexión y extensión del cuello.",
-        "Combina movimientos de hombros y brazos."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por movimiento",
-        "Duración: 3-5 segundos por movimiento",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Movimiento fluido y coordinado.",
-        "Estabilidad en la parte central del cuerpo.",
-        "Liberación de tensión en diferentes áreas."
-      ]}
-      whatToAvoid={[
-        "Movimientos bruscos o forzados.",
-        "Tensión excesiva en cualquier área.",
-        "Pérdida de control o equilibrio."
-      ]}
-      redFlags={[
-        "Dolor agudo en cualquier parte del cuerpo.",
-        "Mareos o sensación de inestabilidad."
-      ]}
-      regression={[
-        "Si algún movimiento es demasiado desafiante, reduce el rango o la velocidad.",
-        "Realiza menos repeticiones si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Respiración Sentada con Control de Costillas"      backButtonText="Semana 1 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies planos."," Las manos apoyadas suavemente sobre las costillas."]}
+      instructions={[" Inhala hacia las costillas inferiores y el vientre."," Exhale completamente, sintiendo las costillas caer hacia atrás."," Mantenga la pelvis neutra en todo momento."]}
+      setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}
+      whatToFeel={[" Expansión y contracción de las costillas inferiores."," Respiración suave y relajada."]}
+      whatToAvoid={[" Postura de sobreesfuerzo o de colapso."]}
+      redFlags={[" Dificultad para mantener el control."]}
+      regression={[" Coloque una almohada detrás de la parte inferior de la espalda para apoyarse."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia4/ejercicio4" 
+        currentDay="/espanol/semana1/dia4" 
+        nextDrill="/espanol/semana1/dia5/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

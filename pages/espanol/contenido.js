@@ -1,15 +1,15 @@
-import NavEspanol from '../../components/NavEspanol';
+import WeekLayout from '../../components/WeekLayout';
+import MainEspNavBar from '../../components/MainEspNavBar';
 
 export default function Contenido() {
   return (
     <>
-      <NavEspanol />
-
-      <main className="pt-20 p-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Resumen del Programa</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Tablas para Semanas 1 - 5</h2>
-
+      <MainEspNavBar />
+      <WeekLayout
+        title="Resumen del Programa"
+        subtitle="Tablas para Semanas 1 - 5"
+      >
+        <div className="space-y-6">
           {/* Semana 1 */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4 text-blue-500">
@@ -920,7 +920,7 @@ export default function Contenido() {
             </div>
           </section>
         </div>
-      </main>
+      </WeekLayout>
     </>
   );
 }

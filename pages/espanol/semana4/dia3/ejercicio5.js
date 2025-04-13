@@ -1,41 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio5TorsionEspinalEnDecubitoSupinoConRespiración() {
+export default function Ejercicio5Torsindecolumnasupinaconrespiracin() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Torsión Espinal en Decúbito Supino con Respiración"
-      backButtonText="Semana 4 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas, pies apoyados en el suelo.",
-        "Brazos extendidos hacia los lados."
-      ]}
-      instructions={[
-        "Inhala para preparar.",
-        "Exhala y baja suavemente las rodillas hacia un lado.",
-        "Inhala y regresa al centro.",
-        "Alterna los lados con control."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por lado",
-        "Respiración: Exhala para rotar, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Rotación suave de la columna",
-        "Movimiento controlado con la respiración"
-      ]}
-      whatToAvoid={[
-        "Torsión desde la zona lumbar"
-      ]}
-      redFlags={[
-        "Dolor o malestar durante la rotación"
-      ]}
-      regression={[
-        "Limita el rango de movimiento para reducir la intensidad."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Torsión de Columna Supina con Respiración"      backButtonText="Semana 4 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos extendidos a los lados."]}
+      instructions={[" Inhala para prepararte."," Exhale y baje suavemente las rodillas hacia un lado."," Inhala y vuelve al centro."," Alterne los lados con control."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para girar, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Rotación suave de la columna vertebral."," Movimiento controlado con la respiración."]}
+      whatToAvoid={[" Torsión de la parte inferior de la espalda."]}
+      redFlags={[" Dolor o molestias durante la rotación."]}
+      regression={[" Limite la amplitud de movimiento para una menor intensidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana4/dia3/ejercicio4" 
+        currentDay="/espanol/semana4/dia3" 
+        nextDrill="/espanol/semana4/dia4/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

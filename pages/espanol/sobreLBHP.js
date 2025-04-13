@@ -1,21 +1,21 @@
-import NavEspanol from '../../components/NavEspanol';
-import Link from 'next/link';
+import WeekLayout from '../../components/WeekLayout';
+import MainEspNavBar from '../../components/MainEspNavBar';
 
 export default function SobreLBHP() {
   return (
-    <>
-      <NavEspanol />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Sobre LBHP</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Entendiendo el Programa</h2>
-
-          <section className="space-y-6">
-            <p className="text-lg leading-relaxed">
+    <div className="min-h-screen bg-zinc-900">
+      <MainEspNavBar />
+      <WeekLayout
+        title="Sobre LBHP"
+        subtitle="Entendiendo el Programa"
+      >
+        <div className="space-y-6">
+          <section className="bg-zinc-900 rounded-lg border border-zinc-700 p-3">
+            <p className="text-lg leading-relaxed mb-4">
               El Programa de Espalda Baja y Caderas (LBHP) es un programa guiado basado en ejercicios con peso corporal diseñado para ayudar a las personas a moverse mejor y restaurar la confianza en sus caderas, pelvis y espalda baja.
             </p>
 
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed mb-4">
               Ya sea que te hayas sentido rígido, estés lidiando con molestias recurrentes o simplemente sepas que algo no está bien en tu movimiento, LBHP te ofrece un camino claro y de apoyo hacia adelante. Cada semana, explorarás ejercicios que mejoran el control, la movilidad y la conexión entre tus caderas, columna vertebral, costillas y respiración.
             </p>
 
@@ -24,7 +24,7 @@ export default function SobreLBHP() {
             </p>
           </section>
         </div>
-      </main>
-    </>
+      </WeekLayout>
+    </div>
   );
 }

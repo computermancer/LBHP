@@ -1,38 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function DesplazamientoDePesoPosteriorDePie() {
+export default function Ejercicio3Desplazamientoposteriordelpesodepie() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Desplazamiento de Peso Posterior de Pie"
-      backButtonText="Semana 2 - Día 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Párate con los pies separados al ancho de las caderas, rodillas ligeramente flexionadas."
-      ]}
-      instructions={[
-        "Exhala y desplaza tu peso ligeramente hacia atrás en los talones.",
-        "Mantén una columna neutral mientras te desplazas.",
-        "Regresa al centro con control."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 desplazamientos lentos",
-        "Respiración: Exhala durante el desplazamiento, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Activación de los isquiotibiales y la cadena posterior."
-      ]}
-      whatToAvoid={[
-        "Inclinarte demasiado hacia atrás o perder el equilibrio."
-      ]}
-      redFlags={[
-        "Dolor o malestar en las rodillas o la espalda."
-      ]}
-      regression={[
-        "Realiza el ejercicio cerca de una pared para mayor equilibrio."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Desplazamiento Posterior del Peso de Pie"      backButtonText="Semana 2 - Día 2"
+      videoId=""
+      videoStart={0}
+      setup={[" Colóquese de pie con los pies separados a la anchura de las caderas y las rodillas ligeramente flexionadas."]}
+      instructions={[" Exhale y desplace el peso ligeramente hacia atrás, hacia los talones."," Mantenga la columna vertebral neutra mientras se desplaza."," Vuelve al centro con control."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 turnos lentos","Respira: Exhala durante el cambio, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Compromiso de los isquiotibiales y de la cadena posterior."]}
+      whatToAvoid={[" Inclinarse demasiado hacia atrás o perder el equilibrio."]}
+      redFlags={[" Dolor o molestias en rodillas o espalda."]}
+      regression={[" Realícelo cerca de una pared para mayor equilibrio."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia2/ejercicio2" 
+        currentDay="/espanol/semana2/dia2" 
+        nextDrill="/espanol/semana2/dia2/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

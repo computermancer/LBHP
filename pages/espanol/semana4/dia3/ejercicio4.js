@@ -1,41 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio4SentadillaProfundaApoyadaEnParedConAlcance() {
+export default function Ejercicio4Sentadillaprofundaapoyadaenlaparedconalcance() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 4: Sentadilla Profunda Apoyada en Pared con Alcance"
-      backButtonText="Semana 4 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Párate con la espalda contra la pared, pies ligeramente adelante.",
-        "Brazos extendidos hacia adelante para mantener el equilibrio."
-      ]}
-      instructions={[
-        "Exhala y baja lentamente a una sentadilla, manteniendo el control costal y pélvico.",
-        "Mantén la posición durante 10-20 segundos.",
-        "Inhala y regresa a la posición de pie."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 2-3 mantenimientos",
-        "Respiración: Respiración constante durante todo el ejercicio",
-        "Descanso: 30-60 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación de glúteos e isquiotibiales",
-        "Estabilidad de la caja torácica mientras mantienes la sentadilla"
-      ]}
-      whatToAvoid={[
-        "Rodillas colapsando hacia adentro",
-        "Perder el control costal y pélvico"
-      ]}
-      redFlags={[
-        "Dolor agudo o malestar en las rodillas"
-      ]}
-      regression={[
-        "Realiza una sentadilla más alta para reducir la intensidad."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 4: Sentadilla Profunda Apoyada en la Pared con Alcance"      backButtonText="Semana 4 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Colóquese de pie con la espalda apoyada en la pared y los pies ligeramente adelantados."," Brazos extendidos hacia delante para mantener el equilibrio."]}
+      instructions={[" Exhale y baje lentamente en cuclillas, manteniendo el control de las costillas y la pelvis."," Mantenga durante 10-20 segundos."," Inhala y vuelve a ponerte de pie."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 2-3","Respiración: Respiración constante durante todo el recorrido","Descanso: 30-60 segundos entre series"]}
+      whatToFeel={[" Activación de glúteos e isquiotibiales."," Estabilidad de la caja torácica mientras se mantiene la sentadilla."]}
+      whatToAvoid={[" Las rodillas se hunden hacia dentro."," Perder el control de las costillas y la pelvis."]}
+      redFlags={[" Dolor agudo o molestias en las rodillas."]}
+      regression={[" Realiza una sentadilla más alta para reducir la intensidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana4/dia3/ejercicio3" 
+        currentDay="/espanol/semana4/dia3" 
+        nextDrill="/espanol/semana4/dia3/ejercicio5" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

@@ -1,38 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioDeRotaciónInternaYExtensiónDeCaderaEnDecúbitoProno() {
+export default function Ejercicio5EjerciciodeIRyextensindecaderaendecbitoprono() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Ejercicio de Rotación Interna y Extensión de Cadera en Decúbito Prono"
-      backButtonText="Semana 2 - Día 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca abajo con las piernas extendidas rectas."
-      ]}
-      instructions={[
-        "Inhala para prepararte.",
-        "Exhala y rota suavemente una pierna hacia adentro (rotación interna de cadera).",
-        "Inhala para regresar a la posición neutral y cambia de lado."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas por lado",
-        "Respiración: Exhala durante la rotación, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Activación sutil en las caderas y la pelvis."
-      ]}
-      whatToAvoid={[
-        "Sobrerrotar o perder el control."
-      ]}
-      redFlags={[
-        "Dolor o malestar en las caderas."
-      ]}
-      regression={[
-        "Coloca una almohada debajo de la pelvis para apoyo."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Ejercicio de Ir y Extensión de Cadera en Decúbito Prono"      backButtonText="Semana 2 - Día 2"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca abajo con las piernas estiradas."]}
+      instructions={[" Inhala para prepararte."," Exhale y gire suavemente una pierna hacia dentro (rotación interna de la cadera)."," Inhala para volver a la posición neutra y cambia de lado."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Activación sutil en las caderas y la pelvis."]}
+      whatToAvoid={[" Rotación excesiva o pérdida de control."]}
+      redFlags={[" Dolor o molestias en las caderas."]}
+      regression={[" Coloque una almohada debajo de la pelvis para apoyarse."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia2/ejercicio4" 
+        currentDay="/espanol/semana2/dia2" 
+        nextDrill="/espanol/semana2/dia3/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

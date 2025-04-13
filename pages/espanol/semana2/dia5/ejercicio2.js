@@ -1,38 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function GatoVacaConEnfoqueRotacional() {
+export default function Ejercicio2Gatovacaconenfoquerotacional() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 2: Gato-Vaca con Enfoque Rotacional"
-      backButtonText="Semana 2 - Día 5"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Comienza en posición cuadrúpeda, muñecas bajo los hombros, rodillas bajo las caderas."
-      ]}
-      instructions={[
-        "Inhala y arquea tu espalda, elevando el pecho (Vaca).",
-        "Exhala y redondea tu columna, metiendo la pelvis y la barbilla (Gato).",
-        "Agrega rotación torácica suave alcanzando un brazo hacia el techo en cada lado."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas",
-        "Respiración: Inhala para extender, exhala para flex",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Movimiento fluido a través de la columna y mayor rotación."
-      ]}
-      whatToAvoid={[
-        "Arquear demasiado o colapsar la postura."
-      ]}
-      redFlags={[
-        "Dolor o malestar en la columna."
-      ]}
-      regression={[
-        "Limita la rotación si el control es difícil."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 2: Gato-vaca con Enfoque Rotacional"      backButtonText="Semana 2 - Día 5"
+      videoId=""
+      videoStart={0}
+      setup={[" Empiece en posición cuadrúpeda, con las muñecas bajo los hombros y las rodillas bajo las caderas."]}
+      instructions={[" Inhala y arquea la espalda, levantando el pecho (Vaca)."," Exhala y redondea la columna, metiendo la pelvis y la barbilla (Gato)."," Añada una suave rotación torácica extendiendo un brazo hacia el techo a cada lado."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respira: Inhala para extender, exhala para flexionar","Descanso: Según sea necesario"]}
+      whatToFeel={[" Movimiento fluido a través de la columna vertebral y aumento de la rotación."]}
+      whatToAvoid={[" Postura global o de colapso."]}
+      redFlags={[" Dolor o molestias en la columna vertebral."]}
+      regression={[" Limitar la rotación si el control es difícil."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia5/ejercicio1" 
+        currentDay="/espanol/semana2/dia5" 
+        nextDrill="/espanol/semana2/dia5/ejercicio3" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

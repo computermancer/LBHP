@@ -1,45 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function PresionDeIsquiotibialesEnPared() {
+export default function Ejercicio5Pressdeparedparaisquiotibiales() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Presión de Isquiotibiales en la Pared"
-      backButtonText="Semana 1 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba cerca de una pared.",
-        "Flexiona las rodillas y coloca los pies contra la pared."
-      ]}
-      instructions={[
-        "Presiona suavemente los talones contra la pared, activando los isquiotibiales.",
-        "Mantén la zona lumbar en contacto con el suelo.",
-        "Sostén la contracción durante 3-5 segundos.",
-        "Relaja y repite."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10",
-        "Duración: 3-5 segundos por contracción",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación suave de los isquiotibiales.",
-        "Estabilidad en la zona lumbar.",
-        "Control al presionar contra la pared."
-      ]}
-      whatToAvoid={[
-        "Arquear la zona lumbar.",
-        "Movimientos bruscos o apresurados.",
-        "Tensión excesiva en los músculos."
-      ]}
-      redFlags={[
-        "Dolor agudo en la zona lumbar o las caderas.",
-        "Dificultad para mantener la posición."
-      ]}
-      regression={[
-        "Si es demasiado desafiante, reduce la intensidad de la presión o el tiempo de contracción."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Press de Pared Para Isquiotibiales"      backButtonText="Semana 1 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con los pies apoyados en la pared, las rodillas y las caderas a 90 grados."," Brazos apoyados a los lados o palmas sobre las costillas inferiores."]}
+      instructions={[" Presione suavemente ambos talones contra la pared como si intentara deslizarla hacia abajo."," Evite levantar las caderas; deje que los isquiotibiales se enganchen y estabilicen la pelvis."," Respira de forma constante durante todo el recorrido."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: pulsaciones de 5-10 segundos","Respiración: Respiración lenta y constante durante cada pulsación","Descanso: 20-40 segundos entre series"]}
+      whatToFeel={[" Tensión suave de los isquiotibiales."," Sutil compromiso del núcleo como anclaje de la pelvis."]}
+      whatToAvoid={[" Empujando a través de los dedos de los pies."," Contener la respiración o apretar excesivamente los glúteos."]}
+      redFlags={[" Calambres o molestias agudas."," Sacudirse o bracear excesivamente."]}
+      regression={[" Mueva los pies ligeramente hacia abajo en la pared para reducir la intensidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia1/ejercicio4" 
+        currentDay="/espanol/semana1/dia1" 
+        nextDrill="/espanol/semana1/dia2/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

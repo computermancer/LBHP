@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function BisagraDeCaderaConPalos() {
+export default function Ejercicio3Bisagradecaderadepieconalcancedepared() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Bisagra de Cadera con Palos"
-      backButtonText="Semana 1 - Día 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Coloca un palo o vara detrás de la espalda.",
-        "El palo debe tocar tres puntos: la parte posterior de la cabeza, la parte media de la espalda y el sacro.",
-        "Mantén los pies separados al ancho de los hombros."
-      ]}
-      instructions={[
-        "Mantén el palo en contacto con los tres puntos durante todo el movimiento.",
-        "Empuja las caderas hacia atrás como si intentaras cerrar una puerta con ellas.",
-        "Inclina el torso hacia adelante manteniendo la espalda recta.",
-        "Regresa a la posición inicial empujando las caderas hacia adelante."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10",
-        "Duración: 3-5 segundos por repetición",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Estiramiento en la parte posterior de los muslos.",
-        "Activación de los glúteos al empujar las caderas hacia adelante.",
-        "Mantenimiento de la alineación del palo en los tres puntos."
-      ]}
-      whatToAvoid={[
-        "Doblar la espalda o perder el contacto con el palo.",
-        "Mover las rodillas hacia adelante.",
-        "Movimientos bruscos o rápidos."
-      ]}
-      redFlags={[
-        "Dolor en la parte baja de la espalda.",
-        "Pérdida de equilibrio o mareos."
-      ]}
-      regression={[
-        "Si mantener el palo es difícil, comienza sin él y enfócate en el movimiento de la cadera.",
-        "Reduce el rango de movimiento si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Bisagra de Cadera de Pie con Alcance de Pared"      backButtonText="Semana 1 - Día 2"
+      videoId=""
+      videoStart={0}
+      setup={[" Colóquese de espaldas a una pared, con los pies separados a la anchura de las caderas."," Colóquese a unos 15 cm de la pared."]}
+      instructions={[" Empuje las caderas hacia la pared manteniendo la columna neutra."," Extienda ambas manos hacia delante mientras realiza la bisagra."," Detente cuando tus caderas toquen ligeramente la pared."," Vuelva a ponerse de pie llevando las caderas hacia delante."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas y controladas","Respira: Inhala al girar, exhala al volver.","Descanso: Según sea necesario"]}
+      whatToFeel={[" Los isquiotibiales y los glúteos se activan durante la bisagra."," Longitud a través de la columna vertebral y el núcleo comprometido."]}
+      whatToAvoid={[" Redondear la parte baja de la espalda."," Empujar las caderas demasiado hacia atrás, causando pérdida de equilibrio."]}
+      redFlags={[" Dolor o molestias en la parte baja de la espalda."]}
+      regression={[" Colóquese más cerca de la pared para reducir la profundidad de las bisagras."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia2/ejercicio2" 
+        currentDay="/espanol/semana1/dia2" 
+        nextDrill="/espanol/semana1/dia2/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

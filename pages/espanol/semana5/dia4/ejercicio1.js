@@ -1,40 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio1FlexionesEnParedConEstabilidadCostal() {
+export default function Ejercicio1Flexionesdeparedconestabilidadcostal() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 1: Flexiones en Pared con Estabilidad Costal"
-      backButtonText="Semana 5 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Párate frente a una pared, manos colocadas ligeramente más anchas que los hombros.",
-        "Pies separados al ancho de las caderas, cuerpo en línea recta."
-      ]}
-      instructions={[
-        "Inhala para preparar.",
-        "Exhala y baja el pecho hacia la pared, manteniendo el control costal y pélvico.",
-        "Inhala y empuja para regresar a la posición inicial."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones",
-        "Respiración: Exhala para empujar, inhala para bajar",
-        "Descanso: 30-45 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Pecho, hombros y core activados",
-        "Alineación mantenida de costillas y pelvis"
-      ]}
-      whatToAvoid={[
-        "Arquear la espalda baja o perder el control del core"
-      ]}
-      redFlags={[
-        "Dolor en hombros o muñecas"
-      ]}
-      regression={[
-        "Realiza con una inclinación más alta (más cerca de la pared)."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 1: Flexiones de Pared con Estabilidad Costal"      backButtonText="Semana 5 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Colóquese de pie frente a una pared, con las manos ligeramente más abiertas que la anchura de los hombros."," Los pies separados a la anchura de las caderas, el cuerpo en línea recta."]}
+      instructions={[" Inhala para prepararte."," Exhale y baje el pecho hacia la pared, manteniendo el control de las costillas y la pelvis."," Inhala y vuelve a la posición inicial."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones","Respira: Exhala para empujar, inhala para bajar","Descanso: 30-45 segundos entre series"]}
+      whatToFeel={[" Pecho, hombros y tronco comprometidos."," Alineación mantenida de costilla y pelvis."]}
+      whatToAvoid={[" Arquear la zona lumbar o perder el control del tronco."]}
+      redFlags={[" Dolor en hombros o muñecas."]}
+      regression={[" Realícelo con una inclinación mayor (más cerca de la pared)."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana5/dia3/ejercicio5" 
+        currentDay="/espanol/semana5/dia4" 
+        nextDrill="/espanol/semana5/dia4/ejercicio2" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function BisagraDeCaderaConPeso() {
+export default function Ejercicio5Sentadillaconapoyoenlapared() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Bisagra de Cadera con Peso"
-      backButtonText="Semana 1 - Día 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Sostén un peso ligero (como una mancuerna o kettlebell) con ambas manos.",
-        "Párate con los pies separados al ancho de los hombros.",
-        "Mantén los brazos extendidos frente al cuerpo."
-      ]}
-      instructions={[
-        "Empuja las caderas hacia atrás mientras inclinas el torso hacia adelante.",
-        "Mantén la espalda recta y el pecho elevado.",
-        "Baja el peso a lo largo de las piernas.",
-        "Regresa a la posición inicial empujando las caderas hacia adelante."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10",
-        "Duración: 3-5 segundos por repetición",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación de los glúteos y los músculos posteriores del muslo.",
-        "Estiramiento en la parte posterior de las piernas.",
-        "Mantenimiento de la alineación de la columna."
-      ]}
-      whatToAvoid={[
-        "Doblar la espalda o inclinar los hombros hacia adelante.",
-        "Dejar que las rodillas se doblen demasiado.",
-        "Movimientos bruscos o pérdida de control del peso."
-      ]}
-      redFlags={[
-        "Dolor en la parte baja de la espalda o las rodillas.",
-        "Pérdida de equilibrio o tensión excesiva."
-      ]}
-      regression={[
-        "Si el peso es demasiado pesado, usa un peso más ligero o elimínalo.",
-        "Reduce el rango de movimiento si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Sentadilla con Apoyo en la Pared"      backButtonText="Semana 1 - Día 2"
+      videoId=""
+      videoStart={0}
+      setup={[" Colóquese de pie con la espalda apoyada en una pared, con los pies separados a la anchura de las caderas."," Deslícese hacia abajo en una sentadilla parcial con los muslos por encima del paralelo."]}
+      instructions={[" Mantenga la posición en cuclillas con la columna vertebral neutra."," Presione suavemente los talones contra el suelo para activar los isquiotibiales."," Respira de forma constante durante toda la retención."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 15-30 segundos por sujeción","Respira: Mantén una respiración lenta y constante durante todo el recorrido.","Descanso: 30-40 segundos entre series"]}
+      whatToFeel={[" Tensión a través de cuádriceps, isquiotibiales y glúteos."," Pelvis estable y compromiso del núcleo."]}
+      whatToAvoid={[" Arquear o aplanar la parte baja de la espalda."," Desplazar el peso sobre los dedos de los pies."]}
+      redFlags={[" Dolor de rodilla o espalda."]}
+      regression={[" Reduzca la profundidad de la sentadilla o manténgala durante menos tiempo."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia2/ejercicio4" 
+        currentDay="/espanol/semana1/dia2" 
+        nextDrill="/espanol/semana1/dia3/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

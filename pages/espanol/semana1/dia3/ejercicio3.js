@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioRespiratorioCombinado() {
+export default function Ejercicio3Patrnderespiracinapoyada() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Ejercicio Respiratorio Combinado"
-      backButtonText="Semana 1 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados en el suelo.",
-        "Coloca una mano en el abdomen y la otra en la caja torácica.",
-        "Relaja los hombros y el cuello."
-      ]}
-      instructions={[
-        "Inhala lentamente, expandiendo primero el abdomen y luego la caja torácica.",
-        "Siente cómo el aire llena el abdomen y luego sube hacia la caja torácica.",
-        "Exhala lentamente, contrayendo primero la caja torácica y luego el abdomen.",
-        "Mantén un ritmo suave y controlado."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 5-8 respiraciones",
-        "Duración: 4-6 segundos por inhalación, 4-6 segundos por exhalación",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Expansión secuencial del abdomen y la caja torácica durante la inhalación.",
-        "Contracción secuencial de la caja torácica y el abdomen durante la exhalación.",
-        "Respiración fluida y coordinada."
-      ]}
-      whatToAvoid={[
-        "Elevar los hombros durante la inhalación.",
-        "Contener la respiración.",
-        "Respirar demasiado rápido o forzar la respiración."
-      ]}
-      redFlags={[
-        "Mareos o sensación de desmayo.",
-        "Dolor en el pecho o el abdomen."
-      ]}
-      regression={[
-        "Si la respiración combinada es difícil, practica primero la respiración diafragmática y costal por separado.",
-        "Reduce la duración de las respiraciones si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Patrón de Respiración Apoyada"      backButtonText="Semana 1 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla, con los pies apoyados en el suelo."," Manos apoyadas suavemente sobre las costillas inferiores."]}
+      instructions={[" Inhale profundamente hacia el vientre y las costillas inferiores."," Exhale completamente y sienta las costillas caer hacia atrás."," Respire lenta y constantemente."]}
+      setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}
+      whatToFeel={[" Expansión a través de las costillas y el vientre."," Relajación con mínimo movimiento de la parte superior del pecho."]}
+      whatToAvoid={[" Contener la respiración o forzar la espiración."]}
+      redFlags={[" Mareo o malestar."]}
+      regression={[" Inclínese ligeramente hacia delante para obtener una mejor respuesta."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia3/ejercicio2" 
+        currentDay="/espanol/semana1/dia3" 
+        nextDrill="/espanol/semana1/dia3/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

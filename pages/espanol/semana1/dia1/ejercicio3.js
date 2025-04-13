@@ -1,45 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function BalanceoPelvicoSentado() {
+export default function Ejercicio3Balanceoplvicosentado() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Balanceo Pélvico Sentado"
-      backButtonText="Semana 1 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate en una silla firme con los pies apoyados en el suelo.",
-        "Mantén la espalda recta y los hombros relajados."
-      ]}
-      instructions={[
-        "Inclina la pelvis hacia adelante, arqueando ligeramente la zona lumbar.",
-        "Luego inclina la pelvis hacia atrás, aplanando la zona lumbar contra el respaldo de la silla.",
-        "Muévete lentamente y con control entre estas dos posiciones.",
-        "Concéntrate en sentir el movimiento en la pelvis y la zona lumbar."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 movimientos lentos",
-        "Duración: 3-5 segundos por movimiento",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Movimiento suave en la pelvis y la zona lumbar.",
-        "Cambio en la tensión de los músculos abdominales.",
-        "Mayor conciencia de la posición pélvica."
-      ]}
-      whatToAvoid={[
-        "Movimientos bruscos o apresurados.",
-        "Tensión excesiva en los hombros o el cuello.",
-        "Arquear demasiado la espalda."
-      ]}
-      redFlags={[
-        "Dolor agudo en la zona lumbar o las caderas.",
-        "Mareos o sensación de inestabilidad."
-      ]}
-      regression={[
-        "Si el movimiento es demasiado desafiante, reduce el rango de movimiento o realiza menos repeticiones."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Balanceo Pélvico Sentado"      backButtonText="Semana 1 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese en una silla firme, con los pies planos y las manos apoyadas en los muslos."]}
+      instructions={[" Incline lentamente la pelvis hacia delante (arqueando la parte baja de la espalda) y hacia atrás (aplanando la parte baja de la espalda)."," Deja que la respiración guíe el ritmo de tus movimientos."," Mantenga la parte superior del cuerpo quieta y relajada."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-12 repeticiones controladas","Respira: Inhala al inclinarte hacia delante, exhala al inclinarte hacia atrás","Descanso: Según sea necesario"]}
+      whatToFeel={[" Movimiento suave a través de la pelvis y la parte baja de la espalda."," Facilidad y ritmo con la respiración."]}
+      whatToAvoid={[" Tensar los hombros o la parte superior de la espalda."," Postura arqueada o colapsada."]}
+      redFlags={[" Dolor durante cualquier parte del movimiento."," Incapacidad para aislar el movimiento pélvico."]}
+      regression={[" Coloque las manos en las caderas para obtener retroalimentación si no está seguro de dónde proviene el movimiento."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia1/ejercicio2" 
+        currentDay="/espanol/semana1/dia1" 
+        nextDrill="/espanol/semana1/dia1/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

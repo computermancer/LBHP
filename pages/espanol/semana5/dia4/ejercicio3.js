@@ -1,40 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio3FlexionesEnSueloConControlCostalYPelvico() {
+export default function Ejercicio3Flexionesdesueloconcontroldecostillasypelvis() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Flexiones en Suelo con Control Costal y Pélvico"
-      backButtonText="Semana 5 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Comienza en posición de plancha, manos ligeramente más anchas que los hombros.",
-        "Mantén el control costal y pélvico."
-      ]}
-      instructions={[
-        "Inhala para preparar.",
-        "Exhala y baja el pecho hacia el suelo.",
-        "Inhala y empuja para regresar a la posición inicial."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 6-8 repeticiones",
-        "Respiración: Exhala para empujar, inhala para bajar",
-        "Descanso: 45-60 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Pecho, tríceps y core activados",
-        "Posición estable de costillas y pelvis"
-      ]}
-      whatToAvoid={[
-        "Colapsar los hombros o arquear la espalda"
-      ]}
-      redFlags={[
-        "Dolor en hombros o muñecas"
-      ]}
-      regression={[
-        "Realiza sobre las rodillas o con rango de movimiento reducido."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Flexiones de Suelo con Control de Costillas y Pelvis"      backButtonText="Semana 5 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Empiece en posición de plancha, con las manos ligeramente más abiertas que la anchura de los hombros."," Mantener el control de las costillas y la pelvis."," Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas en los muslos o cruzadas sobre el pecho."]}
+      instructions={[" Inhala para prepararte."," Exhale y gire la parte superior del cuerpo hacia un lado, extendiendo un brazo hacia delante."," Vuelva al centro antes de girar al otro lado."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 6-8 repeticiones","Respira: Exhala para empujar, inhala para bajar","Descanso: 45-60 segundos entre series","Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Pecho, tríceps y tronco comprometidos."," Posición estable de las costillas y la pelvis."," Rotación torácica controlada."," Movimiento escapular con alcance."]}
+      whatToAvoid={[" Colapso a través de los hombros o arqueando la espalda."," Rotación desde las caderas o la parte baja de la espalda."]}
+      redFlags={[" Dolor en hombros o muñecas."," Dolor o molestias durante la rotación."]}
+      regression={[" Realizar de rodillas o con alcance reducido."," Realizar con las manos en las rodillas para apoyo."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana5/dia4/ejercicio2" 
+        currentDay="/espanol/semana5/dia4" 
+        nextDrill="/espanol/semana5/dia4/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

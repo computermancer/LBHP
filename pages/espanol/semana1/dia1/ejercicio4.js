@@ -1,45 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Alcance9090EnPosicionSupina() {
+export default function Ejercicio4Alcance9090supino() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 4: Alcance 90-90 en Posición Supina"
-      backButtonText="Semana 1 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas a 90 grados y los pies elevados.",
-        "Los brazos descansan a los lados del cuerpo."
-      ]}
-      instructions={[
-        "Mantén la zona lumbar en contacto con el suelo.",
-        "Extiende lentamente una pierna hacia adelante, manteniendo la rodilla a 90 grados.",
-        "Regresa la pierna a la posición inicial de manera controlada.",
-        "Alterna entre ambas piernas."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 6-8 por pierna",
-        "Duración: 3-5 segundos por movimiento",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación suave de los músculos abdominales.",
-        "Estabilidad en la zona lumbar.",
-        "Control al mover las piernas."
-      ]}
-      whatToAvoid={[
-        "Arquear la zona lumbar.",
-        "Movimientos bruscos o apresurados.",
-        "Tensión en el cuello o los hombros."
-      ]}
-      redFlags={[
-        "Dolor agudo en la zona lumbar o las caderas.",
-        "Dificultad para mantener la posición."
-      ]}
-      regression={[
-        "Si es demasiado desafiante, realiza el ejercicio con las rodillas más flexionadas o reduce el número de repeticiones."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 4: Alcance 90-90 Supino"      backButtonText="Semana 1 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbese boca arriba con las caderas y las rodillas flexionadas a 90 grados (pies separados del suelo)."," Brazos estirados hacia el techo."]}
+      instructions={[" Exhale y extienda los brazos hacia el techo mientras presiona suavemente la parte baja de la espalda contra el suelo."," Mantén una posición de piernas de 90-90; no dejes que las rodillas se desplacen ni que el pecho se levante."," Inhale y devuelva los brazos a la posición inicial sin perder el control del tronco."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 5-8 repeticiones lentas y controladas","Respira: Exhala durante el alcance, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Activación suave del tronco con la espalda baja en el suelo."," Tensión a través de los abdominales sin refuerzo."]}
+      whatToAvoid={[" Costillas ensanchadas o espalda baja arqueada."," Alcanzar desde los hombros o forzar el cuello."]}
+      redFlags={[" Dolor de cuello o tensión excesiva."," Pérdida de la posición o del control de la respiración."]}
+      regression={[" Coloque los pies sobre una silla o un banco si mantener la posición 90-90 le resulta demasiado difícil."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia1/ejercicio3" 
+        currentDay="/espanol/semana1/dia1" 
+        nextDrill="/espanol/semana1/dia1/ejercicio5" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

@@ -5,7 +5,7 @@ export default function LangNavBar({ languages, currentLanguage }) {
   const router = useRouter();
 
   return (
-    <div className="bg-zinc-900 z-[60]">
+    <div className="sticky top-0 z-52 bg-zinc-900">
       <div className="max-w-[500px] mx-auto">
         <div className="flex gap-0.5 text-gray-200 py-2 w-full justify-center">
           {languages.map((lang, index) => (

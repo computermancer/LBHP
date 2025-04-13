@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioRespiratorioAvanzado() {
+export default function Ejercicio5Balanceobilateralsuave() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Ejercicio Respiratorio Avanzado"
-      backButtonText="Semana 1 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate en una silla con la espalda recta.",
-        "Coloca las manos en las costillas laterales.",
-        "Relaja los hombros y el cuello."
-      ]}
-      instructions={[
-        "Inhala lentamente, expandiendo las costillas en todas direcciones.",
-        "Mantén el abdomen relativamente estable.",
-        "Exhala lentamente, contrayendo las costillas.",
-        "Coordina la respiración con el movimiento de las manos."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 5-8 respiraciones",
-        "Duración: 4-6 segundos por inhalación, 4-6 segundos por exhalación",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Expansión suave de las costillas durante la inhalación.",
-        "Contracción suave de las costillas durante la exhalación.",
-        "Respiración controlada y rítmica."
-      ]}
-      whatToAvoid={[
-        "Elevar los hombros durante la inhalación.",
-        "Contener la respiración.",
-        "Respirar demasiado rápido o forzar la respiración."
-      ]}
-      redFlags={[
-        "Mareos o sensación de desmayo.",
-        "Dolor en el pecho o el abdomen."
-      ]}
-      regression={[
-        "Si la respiración avanzada es difícil, practica primero la respiración básica.",
-        "Reduce la duración de las respiraciones si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Balanceo Bilateral Suave"      backButtonText="Semana 1 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Los brazos descansan cómodamente a los lados."]}
+      instructions={[" Mece suavemente ambas rodillas de lado a lado."," Muévase dentro de una amplitud de movimiento cómoda."," Vuelva al centro antes de cambiar de lado."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 rocas lentas por lado","Respira: Inhala en el centro, exhala mientras te meces","Descanso: Según sea necesario"]}
+      whatToFeel={[" Movilidad suave de la pelvis y la zona lumbar."," Movimiento relajado con control."]}
+      whatToAvoid={[" Forzar demasiado las rodillas."," Tensión a través de la columna vertebral."]}
+      redFlags={[" Dolor agudo o malestar."]}
+      regression={[" Reduzca la amplitud de movimiento si es necesario."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia3/ejercicio4" 
+        currentDay="/espanol/semana1/dia3" 
+        nextDrill="/espanol/semana1/dia4/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

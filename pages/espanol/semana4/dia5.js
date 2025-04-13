@@ -1,53 +1,58 @@
-import NavEspanol from '../../../components/NavEspanol';
+import MainEspNavBar from '../../../components/MainEspNavBar';
+import EspDayLayout from '../../../components/EspDayLayout';
+import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
 
 export default function Dia5() {
   return (
     <>
-      <NavEspanol />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Semana 4 - Día 5</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Integración de Movimientos y Control Respiratorio</h2>
-
+      <MainEspNavBar />
+      <EspDayLayout
+        title="Semana 4 - Día 5"
+        subtitle="Integración de Movimientos y Control Respiratorio"
+        prevDay="/espanol/semana4/dia4"
+        currentWeek="/espanol/semana4"
+        nextDay="/espanol/semana5/dia1"
+      >
+        <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <div>
-              <Link href="/espanol/semana4/dia5/ejercicio1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 1: Bisagra de Cadera con Control Costal
-              </Link>
-              <p className="text-lg text-white mt-2">Desarrolla la bisagra de cadera mientras mantienes el control costal y pélvico.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana4/dia5/ejercicio2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 2: Sentadilla con Control Respiratorio
-              </Link>
-              <p className="text-lg text-white mt-2">Mejora la sentadilla con enfoque en la respiración y el control del core.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana4/dia5/ejercicio3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 3: Rotación de Columna con Alcance
-              </Link>
-              <p className="text-lg text-white mt-2">Desarrolla la rotación torácica con control pélvico.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana4/dia5/ejercicio4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 4: Marcha de Isquiotibiales con Estabilidad
-              </Link>
-              <p className="text-lg text-white mt-2">Refuerza la cadena posterior mientras mantienes la estabilidad del core.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana4/dia5/ejercicio5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
-                Ejercicio 5: Respiración Diafragmática con Movimiento
-              </Link>
-              <p className="text-lg text-white mb-4">Integra la respiración diafragmática con movimientos dinámicos.</p>
-            </div>
+            <DrillCard
+              number="1"
+              title="Bisagra de Cadera con Control Costal"
+              description="Desarrolla la bisagra de cadera mientras mantienes el control costal y pélvico."
+              href="/espanol/semana4/dia5/ejercicio1"
+            />
+            
+            <DrillCard
+              number="2"
+              title="Sentadilla con Control Respiratorio"
+              description="Mejora la sentadilla con enfoque en la respiración y el control del core."
+              href="/espanol/semana4/dia5/ejercicio2"
+            />
+            
+            <DrillCard
+              number="3"
+              title="Rotación de Columna con Alcance"
+              description="Desarrolla la rotación torácica con control pélvico."
+              href="/espanol/semana4/dia5/ejercicio3"
+            />
+            
+            <DrillCard
+              number="4"
+              title="Marcha de Isquiotibiales con Estabilidad"
+              description="Refuerza la cadena posterior mientras mantienes la estabilidad del core."
+              href="/espanol/semana4/dia5/ejercicio4"
+            />
+            
+            <DrillCard
+              number="5"
+              title="Respiración Diafragmática con Movimiento"
+              description="Integra la respiración diafragmática con movimientos dinámicos."
+              href="/espanol/semana4/dia5/ejercicio5"
+            />
           </div>
         </div>
-      </main>
+      </EspDayLayout>
     </>
   );
-} 
+}

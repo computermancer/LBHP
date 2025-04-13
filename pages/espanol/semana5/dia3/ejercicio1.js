@@ -1,41 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio1RDLEnPosturaEscalonadaConConcienciaDeCadera() {
+export default function Ejercicio1StaggeredStanceRDLconconcienciadecadera() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 1: RDL en Postura Escalonada con Conciencia de Cadera"
-      backButtonText="Semana 5 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Párate con los pies separados al ancho de las caderas, un pie ligeramente atrás (posición de apoyo).",
-        "Flexiona desde las caderas, manteniendo la espalda neutral."
-      ]}
-      instructions={[
-        "Inhala para preparar.",
-        "Exhala y flexiona hacia adelante, manteniendo el control costal y pélvico.",
-        "Regresa a la posición de pie con control.",
-        "Cambia de pierna y repite."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por lado",
-        "Respiración: Exhala para flexar, inhala para regresar",
-        "Descanso: 30-45 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación de glúteos e isquiotibiales",
-        "Estabilidad pélvica y costal"
-      ]}
-      whatToAvoid={[
-        "Redondear o arquear la espalda"
-      ]}
-      redFlags={[
-        "Dolor agudo en isquiotibiales o espalda baja"
-      ]}
-      regression={[
-        "Realiza una flexión más pequeña con menor rango de movimiento."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 1: Staggered Stance Rdl con Conciencia de Cadera"      backButtonText="Semana 5 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Colóquese de pie con los pies separados a la anchura de las caderas y un pie ligeramente retrasado (posición de pata de cabra)."," Flexiona las caderas, manteniendo la espalda neutra."]}
+      instructions={[" Inhala para prepararte."," Exhala y gira hacia delante, manteniendo el control de las costillas y la pelvis."," Vuelva a ponerse de pie con control."," Cambia de pierna y repite."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 por lado","Respirar: Exhala para girar, inhala para volver","Descanso: 30-45 segundos entre series"]}
+      whatToFeel={[" Compromiso de glúteos e isquiotibiales."," Estabilidad pélvica y costal."]}
+      whatToAvoid={[" Redondear o arquear la espalda."]}
+      redFlags={[" Dolor agudo en los isquiotibiales o en la parte baja de la espalda."]}
+      regression={[" Realice una bisagra más pequeña con menos amplitud de movimiento."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana5/dia2/ejercicio5" 
+        currentDay="/espanol/semana5/dia3" 
+        nextDrill="/espanol/semana5/dia3/ejercicio2" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

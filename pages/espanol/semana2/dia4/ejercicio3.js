@@ -1,39 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function FlexiónExtensiónTorácicaSentado() {
+export default function Ejercicio3FlexinExtensintorcicasentado() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 3: Flexión/Extensión Torácica Sentado"
-      backButtonText="Semana 2 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate erguido en una silla firme, pies apoyados, manos en el pecho."
-      ]}
-      instructions={[
-        "Inhala para prepararte.",
-        "Exhala y flexiona suavemente hacia adelante a través de la parte superior de la espalda.",
-        "Inhala y extiende a través de la columna torácica, elevando el pecho.",
-        "Muévete suavemente entre las posiciones."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas",
-        "Respiración: Exhala durante la flexión, inhala para extender",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Flexión y extensión controlada a través de la columna torácica."
-      ]}
-      whatToAvoid={[
-        "Arquear demasiado o colapsar la postura."
-      ]}
-      redFlags={[
-        "Dolor o malestar en la columna."
-      ]}
-      regression={[
-        "Realiza con los brazos cruzados para menos tensión."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 3: Flexión/extensión Torácica Sentado"      backButtonText="Semana 2 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies planos y las manos sobre el pecho."]}
+      instructions={[" Inhala para prepararte."," Exhale y flexione suavemente hacia delante la parte superior de la espalda."," Inhale y extienda la columna torácica, levantando el pecho."," Muévete suavemente entre posiciones."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respiración: Espira durante la flexión, inspira para extender","Descanso: Según sea necesario"]}
+      whatToFeel={[" Flexión y extensión controladas de la columna torácica."]}
+      whatToAvoid={[" Postura global o de colapso."]}
+      redFlags={[" Dolor o molestias en la columna vertebral."]}
+      regression={[" Realícelo con los brazos cruzados para reducir la tensión."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia4/ejercicio2" 
+        currentDay="/espanol/semana2/dia4" 
+        nextDrill="/espanol/semana2/dia4/ejercicio4" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

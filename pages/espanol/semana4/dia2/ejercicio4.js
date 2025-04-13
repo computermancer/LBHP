@@ -1,40 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio4MarchaDeIsquiotibialesEnParedConEstabilidadCostal() {
+export default function Ejercicio4Marchadeisquiotibialesenparedconestabilidadcostal() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 4: Marcha de Isquiotibiales en Pared con Estabilidad Costal"
-      backButtonText="Semana 4 - Día 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con los pies en la pared, rodillas a 90 grados.",
-        "Brazos descansando a los lados."
-      ]}
-      instructions={[
-        "Exhala y presiona suavemente los talones contra la pared.",
-        "Levanta un pie ligeramente de la pared mientras mantienes el control costal.",
-        "Regresa a la posición inicial y alterna los lados."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas por lado",
-        "Respiración: Exhala para levantar, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Activación del core y estabilidad costal",
-        "Movimiento suave y controlado de las piernas"
-      ]}
-      whatToAvoid={[
-        "Arquear la espalda baja"
-      ]}
-      redFlags={[
-        "Dolor o malestar en la espalda baja"
-      ]}
-      regression={[
-        "Realiza marchas más pequeñas para reducir la intensidad."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 4: Marcha de Isquiotibiales en Pared con Estabilidad Costal"      backButtonText="Semana 4 - Día 2"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con los pies apoyados en la pared, las rodillas a 90 grados."," Brazos apoyados a los lados."]}
+      instructions={[" Exhale y presione suavemente los talones contra la pared."," Levante ligeramente un pie de la pared manteniendo el control de las costillas."," Vuelva a la posición inicial y alterne los lados."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas por lado","Respira: Exhala para levantar, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Activación del núcleo y estabilidad de las costillas."," Movimiento suave y controlado de las piernas."]}
+      whatToAvoid={[" Arquear la parte baja de la espalda."]}
+      redFlags={[" Dolor o molestias en la zona lumbar."]}
+      regression={[" Realice marchas más pequeñas para reducir la intensidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana4/dia2/ejercicio3" 
+        currentDay="/espanol/semana4/dia2" 
+        nextDrill="/espanol/semana4/dia2/ejercicio5" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

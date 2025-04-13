@@ -1,39 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function ReinicioDelDiafragmaEnDecúbitoSupinoConAlcance() {
+export default function Ejercicio2Reposicinsupinadeldiafragmaconalcance() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 2: Reinicio del Diafragma en Decúbito Supino con Alcance"
-      backButtonText="Semana 2 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas, pies apoyados en el suelo.",
-        "Brazos extendidos hacia el techo."
-      ]}
-      instructions={[
-        "Inhala profundamente en las costillas.",
-        "Exhala y alcanza suavemente hacia el techo manteniendo el control de las costillas.",
-        "Regresa a la posición inicial."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 repeticiones lentas",
-        "Respiración: Exhala durante el alcance, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Activación del core y estabilidad de la caja torácica."
-      ]}
-      whatToAvoid={[
-        "Abrir las costillas o arquear la espalda."
-      ]}
-      redFlags={[
-        "Dolor o malestar en los hombros o las costillas."
-      ]}
-      regression={[
-        "Reduce el rango de movimiento si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 2: Reposición Supina del Diafragma con Alcance"      backButtonText="Semana 2 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos estirados hacia el techo."]}
+      instructions={[" Inhale profundamente en las costillas."," Exhale y extienda suavemente los brazos hacia el techo manteniendo el control de las costillas."," Vuelva a la posición inicial."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones lentas","Respirar: Exhala durante el alcance, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Activación de la estabilidad del núcleo y la caja torácica."]}
+      whatToAvoid={[" Ensanchamiento de las costillas o arqueamiento de la espalda."]}
+      redFlags={[" Dolor o molestias en los hombros o las costillas."]}
+      regression={[" Reduzca la amplitud de movimiento si es necesario."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia3/ejercicio1" 
+        currentDay="/espanol/semana2/dia3" 
+        nextDrill="/espanol/semana2/dia3/ejercicio3" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

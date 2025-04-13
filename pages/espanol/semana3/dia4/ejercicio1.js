@@ -1,40 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function Ejercicio1DesplazamientosDeCaderaEnDecúbitoSupinoConControlCostal() {
+export default function Ejercicio1Movimientosdecaderaendecbitosupinoconcontroldecostillas() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 1: Desplazamientos de Cadera en Decúbito Supino con Control Costal"
-      backButtonText="Semana 3 - Día 4"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas flexionadas, pies apoyados.",
-        "Brazos descansando a los lados."
-      ]}
-      instructions={[
-        "Exhala y desplaza una cadera ligeramente más alta que la otra.",
-        "Inhala y regresa a la posición neutral.",
-        "Cambia de lado y repite con control."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por lado",
-        "Respiración: Exhala para desplazar, inhala para regresar",
-        "Descanso: Según sea necesario"
-      ]}
-      whatToFeel={[
-        "Movimiento sutil de cadera con estabilidad costal",
-        "Desplazamientos suaves y controlados"
-      ]}
-      whatToAvoid={[
-        "Perder el control de la caja torácica y la pelvis"
-      ]}
-      redFlags={[
-        "Dolor o malestar en las caderas o la columna"
-      ]}
-      regression={[
-        "Realiza desplazamientos más pequeños para mejorar el control."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 1: Movimientos de Cadera en Decúbito Supino con Control de Costillas"      backButtonText="Semana 3 - Día 4"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies planos."," Brazos apoyados a los lados."]}
+      instructions={[" Exhale y mueva una cadera ligeramente más alta que la otra."," Inhala y vuelve a la posición neutra."," Cambia de lado y repite con control."," Conjuntos: 2-3","Repeticiones: 8-10 por lado"," Respirar: Exhala para cambiar, inhala para volver","Descanso: Según sea necesario"]}
+      setsReps={[]}
+      whatToFeel={[" Sutil movimiento de cadera con estabilidad costal."," Cambios suaves y controlados."]}
+      whatToAvoid={[" Perder el control de la caja torácica y la pelvis."]}
+      redFlags={[" Dolor o molestias en las caderas o la columna vertebral."]}
+      regression={[" Realice turnos más pequeños para mejorar el control."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana3/dia3/ejercicio5" 
+        currentDay="/espanol/semana3/dia4" 
+        nextDrill="/espanol/semana3/dia4/ejercicio2" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

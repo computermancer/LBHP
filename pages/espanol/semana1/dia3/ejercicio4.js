@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioRespiratorioConMovimiento() {
+export default function Ejercicio4Balanceorelajadodelacolumnavertebral() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 4: Ejercicio Respiratorio con Movimiento"
-      backButtonText="Semana 1 - Día 3"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate en una silla con la espalda recta.",
-        "Coloca las manos en los hombros.",
-        "Relaja los hombros y el cuello."
-      ]}
-      instructions={[
-        "Inhala lentamente mientras elevas los brazos hacia arriba.",
-        "Mantén los codos ligeramente doblados.",
-        "Exhala lentamente mientras bajas los brazos.",
-        "Coordina la respiración con el movimiento."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 5-8 respiraciones",
-        "Duración: 4-6 segundos por inhalación, 4-6 segundos por exhalación",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Expansión suave del pecho durante la inhalación.",
-        "Contracción suave del pecho durante la exhalación.",
-        "Movimiento fluido y coordinado con la respiración."
-      ]}
-      whatToAvoid={[
-        "Elevar los hombros durante la inhalación.",
-        "Contener la respiración.",
-        "Movimientos bruscos o rápidos."
-      ]}
-      redFlags={[
-        "Mareos o sensación de desmayo.",
-        "Dolor en el pecho o el abdomen."
-      ]}
-      regression={[
-        "Si el movimiento es difícil, practica solo la respiración sin mover los brazos.",
-        "Reduce la duración de las respiraciones si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 4: Balanceo Relajado de la Columna Vertebral"      backButtonText="Semana 1 - Día 3"
+      videoId=""
+      videoStart={0}
+      setup={[" Empiece en posición cuadrúpeda, con las manos bajo los hombros y las rodillas bajo las caderas."]}
+      instructions={[" Balancéese suavemente hacia delante y hacia atrás, dejando que la columna vertebral se mueva con naturalidad."," Concéntrese en mantener un movimiento suave y rítmico."," Respira de forma constante durante todo el movimiento."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-12 rocas lentas","Respira: Inhala al balancearte hacia delante, exhala al balancearte hacia atrás","Descanso: Según sea necesario"]}
+      whatToFeel={[" Estiramiento suave de las caderas y la zona lumbar."," Movimiento relajado y fluido."]}
+      whatToAvoid={[" Tensar los hombros o bracear en exceso."]}
+      redFlags={[" Dolor o molestias en la parte baja de la espalda."]}
+      regression={[" Utiliza una toalla doblada bajo las rodillas para mayor comodidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia3/ejercicio3" 
+        currentDay="/espanol/semana1/dia3" 
+        nextDrill="/espanol/semana1/dia3/ejercicio5" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

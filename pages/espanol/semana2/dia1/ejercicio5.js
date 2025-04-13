@@ -1,44 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function PresionDeTalonConApoyoEnPared() {
+export default function Ejercicio5Pressdetalnapoyadoenlapared() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Presión de Talón con Apoyo en Pared"
-      backButtonText="Semana 2 - Día 1"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Apoya la espalda contra la pared.",
-        "Flexiona las rodillas ligeramente.",
-        "Mantén los pies separados al ancho de los hombros."
-      ]}
-      instructions={[
-        "Inhala y expande las costillas.",
-        "Al exhalar, presiona los talones contra el suelo.",
-        "Mantén la tensión en los isquiotibiales."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por serie",
-        "Tempo: 3 segundos por fase",
-        "Descanso: 30-60 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación de los isquiotibiales.",
-        "Estabilidad en la zona pélvica."
-      ]}
-      whatToAvoid={[
-        "Arquear la espalda baja.",
-        "Movimientos bruscos o rápidos."
-      ]}
-      redFlags={[
-        "Dolor en la zona lumbar o rodillas.",
-        "Pérdida de control del movimiento."
-      ]}
-      regression={[
-        "Reduce el ángulo de flexión de rodillas.",
-        "Añade una almohada entre la espalda y la pared."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Press de Talón Apoyado en la Pared"      backButtonText="Semana 2 - Día 1"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca arriba con los pies apoyados en una pared, las rodillas y las caderas a 90 grados."," Brazos apoyados a los lados o sobre las costillas."]}
+      instructions={[" Presiona ambos talones suavemente contra la pared."," Mantén el contacto con la pared y concéntrate en trabajar los isquiotibiales."," Mantenga durante 5-10 segundos, luego relájese."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 5-8 prensas controladas","Respirar: Exhala durante la presión, inhala para soltar","Descanso: 20-40 segundos entre series"]}
+      whatToFeel={[" Activación de los isquiotibiales y compromiso sutil del tronco."]}
+      whatToAvoid={[" Presionar demasiado o levantar la pelvis."]}
+      redFlags={[" Calambres o molestias agudas."]}
+      regression={[" Mueva los pies ligeramente hacia abajo en la pared para reducir la intensidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana2/dia1/ejercicio4" 
+        currentDay="/espanol/semana2/dia1" 
+        nextDrill="/espanol/semana2/dia2/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

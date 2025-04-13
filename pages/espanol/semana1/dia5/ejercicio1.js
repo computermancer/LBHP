@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioDeEstabilizacionPelvica() {
+export default function Ejercicio1Respiracindiafragmticaenposicindecocodrilo() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 1: Ejercicio de Estabilización Pélvica"
-      backButtonText="Semana 1 - Día 5"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados en el suelo.",
-        "Coloca los brazos a los lados del cuerpo.",
-        "Mantén la espalda en una posición neutral."
-      ]}
-      instructions={[
-        "Inhala profundamente preparándote para el movimiento.",
-        "Al exhalar, presiona suavemente la parte baja de la espalda contra el suelo.",
-        "Mantén la posición por 3-5 segundos.",
-        "Regresa lentamente a la posición inicial mientras inhalas."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 10-12",
-        "Duración: 3-5 segundos por repetición",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Activación de los músculos abdominales profundos.",
-        "Estabilidad en la zona lumbar.",
-        "Control del movimiento pélvico."
-      ]}
-      whatToAvoid={[
-        "Arquear excesivamente la espalda.",
-        "Contener la respiración.",
-        "Movimientos bruscos o rápidos."
-      ]}
-      redFlags={[
-        "Dolor en la parte baja de la espalda.",
-        "Tensión excesiva en el cuello o los hombros."
-      ]}
-      regression={[
-        "Si el ejercicio es demasiado desafiante, reduce el tiempo de mantención.",
-        "Realiza menos repeticiones si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 1: Respiración Diafragmática en Posición de Cocodrilo"      backButtonText="Semana 1 - Día 5"
+      videoId=""
+      videoStart={0}
+      setup={[" Túmbate boca abajo con la frente apoyada en las manos."," Piernas extendidas, dedos de los pies apuntando ligeramente hacia fuera."]}
+      instructions={[" Inhale profundamente, sintiendo cómo su vientre empuja hacia el suelo."," Exhale suavemente, dejando que las costillas y el vientre caigan de forma natural."," Concéntrate en expandir la respiración hacia la parte posterior y los lados de la caja torácica."]}
+      setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}
+      whatToFeel={[" Presiona el vientre contra el suelo con cada inhalación."," Respiración relajada y constante."]}
+      whatToAvoid={[" Respiración torácica superficial."," Mantener la tensión en la parte superior del cuerpo."]}
+      redFlags={[" Mareos o malestar."]}
+      regression={[" Coloque una almohada bajo el vientre para mayor comodidad."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia4/ejercicio5" 
+        currentDay="/espanol/semana1/dia5" 
+        nextDrill="/espanol/semana1/dia5/ejercicio2" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

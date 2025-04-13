@@ -1,45 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function RotacionToracicaSentado() {
+export default function Ejercicio2Rotacintorcicasentado() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 2: Rotación Torácica Sentado"
-      backButtonText="Semana 1 - Día 2"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Siéntate en una silla firme con los pies apoyados en el suelo.",
-        "Coloca las manos detrás de la cabeza con los codos abiertos."
-      ]}
-      instructions={[
-        "Mantén la pelvis estable y gira suavemente el torso hacia un lado.",
-        "Siente el estiramiento en la parte media de la espalda.",
-        "Regresa al centro y repite hacia el otro lado.",
-        "Mantén la respiración suave y controlada durante todo el movimiento."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 6-8 por lado",
-        "Duración: 3-5 segundos por rotación",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Rotación suave en la parte media de la espalda.",
-        "Estabilidad en la pelvis y la zona lumbar.",
-        "Estiramiento en los músculos laterales del torso."
-      ]}
-      whatToAvoid={[
-        "Forzar la rotación o movimientos bruscos.",
-        "Mover la pelvis o inclinar el cuerpo.",
-        "Tensión en el cuello o los hombros."
-      ]}
-      redFlags={[
-        "Dolor agudo en la espalda o las caderas.",
-        "Mareos o sensación de inestabilidad."
-      ]}
-      regression={[
-        "Si la rotación es demasiado desafiante, reduce el rango de movimiento o realiza menos repeticiones."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 2: Rotación Torácica Sentado"      backButtonText="Semana 1 - Día 2"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies planos y las manos cruzadas sobre el pecho."]}
+      instructions={[" Inhala para prepararte."," Exhale y gire lentamente la parte superior del cuerpo hacia un lado."," Mantenga la pelvis y las caderas inmóviles, centrándose en la rotación torácica."," Vuelva al centro y repita por el otro lado."]}
+      setsReps={["Conjuntos: 2-3","Repeticiones: 8-10 repeticiones por lado","Respirar: Exhala durante la rotación, inhala para volver","Descanso: Según sea necesario"]}
+      whatToFeel={[" Rotación suave a través de la parte superior de la espalda."," Respiración controlada guiando el movimiento."]}
+      whatToAvoid={[" Rotación desde las caderas o la parte baja de la espalda."," Movimientos bruscos o precipitados."]}
+      redFlags={[" Dolor o molestias en la columna vertebral."]}
+      regression={[" Apoye las manos en una mesa si le resulta difícil mantener la posición."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia2/ejercicio1" 
+        currentDay="/espanol/semana1/dia2" 
+        nextDrill="/espanol/semana1/dia2/ejercicio3" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

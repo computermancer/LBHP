@@ -1,47 +1,29 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
-export default function EjercicioDeEstabilizacionAvanzada() {
+export default function Ejercicio5Respiracinsentadayconcienciaplvica() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 5: Ejercicio de Estabilización Avanzada"
-      backButtonText="Semana 1 - Día 5"
-      videoId="wn0IyvGBeUI"
-      videoStart={2248}
-      setup={[
-        "Acuéstate boca arriba con las rodillas dobladas y los pies apoyados en el suelo.",
-        "Extiende los brazos hacia el techo.",
-        "Mantén la espalda en una posición neutral."
-      ]}
-      instructions={[
-        "Inhala profundamente preparándote para el movimiento.",
-        "Al exhalar, baja un brazo por encima de la cabeza mientras elevas la pierna opuesta.",
-        "Mantén la estabilidad central y la espalda en contacto con el suelo.",
-        "Regresa a la posición inicial mientras inhalas."
-      ]}
-      setsReps={[
-        "Series: 2-3",
-        "Repeticiones: 8-10 por lado",
-        "Duración: 3-5 segundos por repetición",
-        "Descanso: 30 segundos entre series"
-      ]}
-      whatToFeel={[
-        "Estabilidad en todo el cuerpo.",
-        "Control del movimiento coordinado.",
-        "Activación de los músculos centrales."
-      ]}
-      whatToAvoid={[
-        "Arquear la espalda.",
-        "Perder la estabilidad central.",
-        "Movimientos bruscos o rápidos."
-      ]}
-      redFlags={[
-        "Dolor en la parte baja de la espalda.",
-        "Tensión excesiva en el cuello o los hombros."
-      ]}
-      regression={[
-        "Si el ejercicio es demasiado desafiante, practica primero los movimientos por separado.",
-        "Reduce el rango de movimiento si es necesario."
-      ]}
-    />
+    <EspDrillBarTemplate
+      title="Ejercicio 5: Respiración Sentada y Conciencia Pélvica"      backButtonText="Semana 1 - Día 5"
+      videoId=""
+      videoStart={0}
+      setup={[" Siéntese erguido en una silla firme, con los pies apoyados en el suelo."," Manos apoyadas suavemente sobre el vientre y las costillas inferiores."]}
+      instructions={[" Inhale profundamente hacia el vientre y las costillas."," Exhale completamente manteniendo la pelvis neutra."," Mantener la conciencia de la posición de las costillas y la pelvis en todo momento."]}
+      setsReps={["Conjuntos: 2","Repeticiones: 5-8 ciclos de respiración por serie","Respira: Inhala 3-4 segundos, exhala 4-6 segundos","Descanso: Entre series o según sea necesario"]}
+      whatToFeel={[" Conciencia de la expansión de las costillas y control pélvico."," Respiración suave y constante con mínima implicación de la parte superior del tórax."]}
+      whatToAvoid={[" Postura de sobreesfuerzo o de colapso."," Respiración torácica superficial."]}
+      redFlags={[" Dificultad para mantener el control de la respiración."]}
+      regression={[" Coloque una almohada detrás de la parte inferior de la espalda para mayor apoyo."]}
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana1/dia5/ejercicio4" 
+        currentDay="/espanol/semana1/dia5" 
+        nextDrill="/espanol/semana2/dia1/ejercicio1" 
+        disablePrevious={false}
+        disableNext={false}
+      />
+    </EspDrillBarTemplate>
   );
 }

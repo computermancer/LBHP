@@ -1,4 +1,4 @@
-import NavEspanol from './NavEspanol';
+import MainEspNavBar from './MainEspNavBar';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
@@ -20,32 +20,32 @@ export default function DrillTemplateEspanol({
 
   return (
     <>
-      <NavEspanol />
-      <main className="px-8 text-white font-sans pt-24">
+      <MainEspNavBar />
+      <main className="px-4 sm:px-8 text-white font-sans pt-24">
         <div className="max-w-[500px] mx-auto py-12">
           <div className="mb-4">
             <button
               onClick={() => router.back()}
-              className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-4xl font-bold py-2 px-4 rounded text-left"
+              className="block w-full bg-primary-900 hover:bg-primary-800 text-primary-200 text-4xl font-bold py-2 px-4 rounded text-left transition-colors duration-200"
             >
               {backButtonText}
             </button>
           </div>
 
-          <h2 className="text-orange-300 text-3xl font-bold mb-6">{title}</h2>
+          <h2 className="text-primary-200 text-3xl font-bold mb-6">{title}</h2>
 
           {/* Collapsible Video Section */}
           <div className="mb-6">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2"
+              className="bg-primary-900 hover:bg-primary-800 text-primary-200 text-xl font-semibold py-2 px-4 rounded mb-2 transition-colors duration-200"
             >
               {isOpen ? 'Ocultar Video' : 'Mostrar Video'}
             </button>
             {isOpen && videoId && (
-              <div className="mt-4 relative w-full" style={{ paddingTop: '56.25%' }}>
+              <div className="mt-4 relative w-full aspect-video rounded-lg overflow-hidden bg-primary-800">
                 <iframe
-                  className="absolute top-0 left-0 w-full h-full"
+                  className="w-full h-full"
                   src={`https://www.youtube.com/embed/${videoId}?si=ag7LzQN-vqxK0DbX&amp;start=${videoStart || 0}`}
                   title="Video del Ejercicio"
                   frameBorder="0"
@@ -56,64 +56,64 @@ export default function DrillTemplateEspanol({
           </div>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Preparación:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Preparación:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {setup.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Instrucciones:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Instrucciones:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {instructions.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Series / Repeticiones / Respiración / Descanso:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Series / Repeticiones / Respiración / Descanso:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {setsReps.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Qué Debes Sentir:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Qué Debes Sentir:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {whatToFeel.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Qué Debes Evitar:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Qué Debes Evitar:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {whatToAvoid.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Señales de Alerta:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Banderas Rojas:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {redFlags.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
 
           <section className="mb-6">
-            <h3 className="text-xl text-orange-300 font-semibold mb-2">Regresión:</h3>
-            <ul className="list-disc list-inside text-white text-lg">
+            <h3 className="text-primary-200 text-xl font-semibold mb-2">Regresión:</h3>
+            <ul className="list-disc list-inside text-white text-lg space-y-2">
               {regression.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="leading-relaxed">{item}</li>
               ))}
             </ul>
           </section>
@@ -121,4 +121,4 @@ export default function DrillTemplateEspanol({
       </main>
     </>
   );
-} 
+}

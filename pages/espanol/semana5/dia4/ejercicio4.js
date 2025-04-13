@@ -1,21 +1,19 @@
-import DrillTemplateEspanol from '../../../../components/DrillTemplateEspanol';
+import EspDrillBarTemplate from '../../../../components/EspDrillBarTemplate';
+import EspDrillNavBar from '../../../../components/EspDrillNavBar';
+import VideoCard from '../../../../components/VideoCard';
+import Link from 'next/link';
 
 export default function Ejercicio4RotacionDeColumnaSentadoConAlcance() {
   return (
-    <DrillTemplateEspanol
-      title="Ejercicio 4: Rotación de Columna Sentado con Alcance"
-      backButtonText="Semana 5 - Día 4"
+    <EspDrillBarTemplate
+      title="Ejercicio 4: Rotación de Columna Sentado con Alcance"      backButtonText="Semana 5 - Día 4"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[
         "Siéntate erguido en una silla firme, pies apoyados en el suelo.",
         "Manos descansando en los muslos o cruzadas sobre el pecho."
       ]}
-      instructions={[
-        "Inhala para preparar.",
-        "Exhala y rota la parte superior del cuerpo hacia un lado, extendiendo un brazo hacia adelante.",
-        "Regresa al centro antes de rotar hacia el otro lado."
-      ]}
+      instructions={[]}
       setsReps={[
         "Series: 2-3",
         "Repeticiones: 8-10 repeticiones lentas por lado",
@@ -33,8 +31,15 @@ export default function Ejercicio4RotacionDeColumnaSentadoConAlcance() {
         "Dolor o malestar durante la rotación"
       ]}
       regression={[
-        "Realiza con las manos sobre las rodillas para apoyo."
+        "Realiza una rotación más pequeña con menos amplitud de movimiento."
       ]}
-    />
+    >
+      <EspDrillNavBar 
+        prevDrill="/espanol/semana5/dia4/ejercicio3" 
+        currentDay="/espanol/semana5/dia4" 
+        nextDrill="/espanol/semana5/dia4/ejercicio5" 
+        disablePrevious={false}
+      />
+    </EspDrillBarTemplate>
   );
-} 
+}

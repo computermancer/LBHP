@@ -1,53 +1,58 @@
-import NavEspanol from '../../../components/NavEspanol';
+import MainEspNavBar from '../../../components/MainEspNavBar';
+import EspDayLayout from '../../../components/EspDayLayout';
+import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
 
 export default function Dia4() {
   return (
     <>
-      <NavEspanol />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Semana 3 - Día 4</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Estabilidad de Cadera y Caja Torácica</h2>
-
+      <MainEspNavBar />
+      <EspDayLayout
+        title="Semana 3 - Día 4"
+        subtitle="Estabilidad de Cadera y Caja Torácica"
+        prevDay="/espanol/semana3/dia3"
+        currentWeek="/espanol/semana3"
+        nextDay="/espanol/semana3/dia5"
+      >
+        <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <div>
-              <Link href="/espanol/semana3/dia4/ejercicio1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 1: Desplazamientos de Cadera en Decúbito Supino con Control Costal
-              </Link>
-              <p className="text-lg text-white mt-2">Desarrolla el control de los desplazamientos pélvicos mientras mantienes la estabilidad costal.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia4/ejercicio2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 2: Flexión y Extensión Torácica Sentado
-              </Link>
-              <p className="text-lg text-white mt-2">Mejora la movilidad de la columna torácica y el control postural.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia4/ejercicio3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 3: Alcance de Brazo y Pierna en Cuatro Puntos con Control
-              </Link>
-              <p className="text-lg text-white mt-2">Desarrolla la estabilidad del core y los hombros mientras mantienes la columna neutral.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia4/ejercicio4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 4: Presión de Isquiotibiales en Pared con Conciencia de Cadera
-              </Link>
-              <p className="text-lg text-white mt-2">Refuerza la activación de los isquiotibiales y el control pélvico.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia4/ejercicio5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
-                Ejercicio 5: Abducción de Cadera en Decúbito Lateral con Apoyo
-              </Link>
-              <p className="text-lg text-white mb-4">Desarrolla la fuerza y estabilidad lateral de la cadera.</p>
-            </div>
+            <DrillCard
+              number="1"
+              title="Movimientos de cadera en decúbito supino con control de costillas"
+              description="Desarrolla el control de los desplazamientos pélvicos mientras mantienes la estabilidad costal."
+              href="/espanol/semana3/dia4/ejercicio1"
+            />
+            
+            <DrillCard
+              number="2"
+              title="Flexión y extensión torácica sentado"
+              description="Mejora la movilidad de la columna torácica y el control postural."
+              href="/espanol/semana3/dia4/ejercicio2"
+            />
+            
+            <DrillCard
+              number="3"
+              title="Alcance de brazos y piernas cuadrúpedos con control"
+              description="Desarrolla la estabilidad del core y los hombros mientras mantienes la columna neutral."
+              href="/espanol/semana3/dia4/ejercicio3"
+            />
+            
+            <DrillCard
+              number="4"
+              title="Press de pared de isquiotibiales con conciencia de cadera"
+              description="Refuerza la activación de los isquiotibiales y el control pélvico."
+              href="/espanol/semana3/dia4/ejercicio4"
+            />
+            
+            <DrillCard
+              number="5"
+              title="Abducción de cadera en decúbito lateral con apoyo"
+              description="Desarrolla la fuerza y estabilidad lateral de la cadera."
+              href="/espanol/semana3/dia4/ejercicio5"
+            />
           </div>
         </div>
-      </main>
+      </EspDayLayout>
     </>
   );
-} 
+}

@@ -1,53 +1,58 @@
-import NavEspanol from '../../../components/NavEspanol';
+import MainEspNavBar from '../../../components/MainEspNavBar';
+import EspDayLayout from '../../../components/EspDayLayout';
+import DrillCard from '../../../components/DrillCard';
 import Link from 'next/link';
 
 export default function Dia1() {
   return (
     <>
-      <NavEspanol />
-      <main className="px-8 text-gray-200 min-h-screen font-sans">
-        <div className="max-w-[500px] mx-auto py-8">
-          <h1 className="text-orange-300 text-4xl font-bold mb-2">Semana 3 - Día 1</h1>
-          <h2 className="text-orange-300 text-xl font-semibold mb-4">Control Pélvico e Integración Respiratoria</h2>
-
+      <MainEspNavBar />
+      <EspDayLayout
+        title="Semana 3 - Día 1"
+        subtitle="Control Pélvico e Integración Respiratoria"
+        prevDay="/espanol/semana2/dia5"
+        currentWeek="/espanol/semana3"
+        nextDay="/espanol/semana3/dia2"
+      >
+        <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <div>
-              <Link href="/espanol/semana3/dia1/ejercicio1" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 1: Respiración en Decúbito Supino con Conciencia Pélvica
-              </Link>
-              <p className="text-lg text-white mt-2">Mejora el control respiratorio y establece conciencia del movimiento pélvico.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia1/ejercicio2" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 2: Desplazamiento de Cadera Sentado con Estabilidad Costal
-              </Link>
-              <p className="text-lg text-white mt-2">Desarrolla el control del desplazamiento de cadera con movimiento mínimo de la caja torácica.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia1/ejercicio3" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 3: Reinicio del Diafragma en Decúbito Supino con Alcance
-              </Link>
-              <p className="text-lg text-white mt-2">Refuerza el control de la caja torácica durante los ciclos respiratorios.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia1/ejercicio4" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded">
-                Ejercicio 4: Balanceo Hacia Atrás en Posición Cuadrúpeda con Enfoque Respiratorio
-              </Link>
-              <p className="text-lg text-white mt-2">Mejora la movilidad pélvica y mantiene la estabilidad del core.</p>
-            </div>
-
-            <div>
-              <Link href="/espanol/semana3/dia1/ejercicio5" className="block w-full bg-gray-700 hover:bg-gray-600 text-orange-300 text-xl font-semibold py-2 px-4 rounded mb-2">
-                Ejercicio 5: Bisagra de Cadera con Apoyo en Pared y Alcance de Brazo
-              </Link>
-              <p className="text-lg text-white mb-4">Desarrolla la activación de la cadena posterior mientras mantiene el control costal.</p>
-            </div>
+            <DrillCard
+              number="1"
+              title="Respiración de enganche con conciencia pélvica"
+              description="Mejora el control respiratorio y establece conciencia del movimiento pélvico."
+              href="/espanol/semana3/dia1/ejercicio1"
+            />
+            
+            <DrillCard
+              number="2"
+              title="Desplazamiento de cadera sentado con estabilidad costal"
+              description="Desarrolla el control del desplazamiento de cadera con movimiento mínimo de la caja torácica."
+              href="/espanol/semana3/dia1/ejercicio2"
+            />
+            
+            <DrillCard
+              number="3"
+              title="Reposición supina del diafragma con alcance"
+              description="Refuerza el control de la caja torácica durante los ciclos respiratorios."
+              href="/espanol/semana3/dia1/ejercicio3"
+            />
+            
+            <DrillCard
+              number="4"
+              title="Rock Back cuadrúpedo con concentración en la respiración"
+              description="Mejora la movilidad pélvica y mantiene la estabilidad del core."
+              href="/espanol/semana3/dia1/ejercicio4"
+            />
+            
+            <DrillCard
+              number="5"
+              title="Bisagra apoyada en la pared con alcance del brazo"
+              description="Desarrolla la activación de la cadena posterior mientras mantiene el control costal."
+              href="/espanol/semana3/dia1/ejercicio5"
+            />
           </div>
         </div>
-      </main>
+      </EspDayLayout>
     </>
   );
-} 
+}
