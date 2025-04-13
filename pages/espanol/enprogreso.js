@@ -24,10 +24,8 @@ export default function EnProgreso() {
           <section className="bg-zinc-900 rounded-lg border border-zinc-700 p-3">
             <h2 className="text-orange-300 text-xl font-semibold mb-4">Qué Viene Siguiente</h2>
             <ul className="list-disc pl-6 space-y-2 text-lg leading-relaxed">
-              <li>Actualizando instrucciones y señales según sea necesario para mayor claridad y precisión</li>
               <li>Utilizando comentarios de usuarios para refinar y mejorar la usabilidad</li>
               <li>Agregando soporte de video para cada ejercicio para ayudar con el aprendizaje y la confianza</li>
-              <li>Creando una versión en español para mayor accesibilidad</li>
               <li>Construyendo un sistema de glosario mejorado para explicar términos y posiciones</li>
               <li>Optimizando la resolución dinámica para una visualización más fluida en tablets y computadoras de escritorio</li>
             </ul>

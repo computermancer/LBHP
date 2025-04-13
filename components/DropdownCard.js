@@ -4,17 +4,17 @@ import { FaChevronDown } from 'react-icons/fa';
 
 export default function DropdownCard({ title, items }) {
   const [isOpen, setIsOpen] = useState(false);
-
+  
   return (
     <div className="bg-zinc-900 rounded-lg border border-zinc-700 overflow-hidden">
-      <div className="bg-zinc-800 p-3">
-        <h2 
-          className="text-gray-200 text-xl font-semibold cursor-pointer mb-4 flex items-center justify-between"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {title}
+      <div 
+        className="bg-zinc-800 p-3 cursor-pointer"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="flex items-center justify-between">
+          <h2 className="text-gray-200 text-xl font-semibold">{title}</h2>
           <FaChevronDown className={`text-gray-200 text-lg ${isOpen ? 'rotate-180' : ''}`} />
-        </h2>
+        </div>
       </div>
       {isOpen && (
         <div className="bg-zinc-900 p-3">

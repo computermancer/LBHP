@@ -10,11 +10,13 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-900">
       <main className="px-8 text-gray-200 font-sans pt-4 pb-2">
         <div className="max-w-[500px] mx-auto">
+          <div className="h-0"></div>
           <div className="bg-zinc-900 rounded-lg border border-zinc-700 p-3 mb-3">
             <h1 className="text-orange-300 text-4xl font-bold mb-1">Low Back & Hips Program</h1>
             <h2 className="text-orange-300 text-2xl font-bold mb-0 leading-relaxed" style={{ lineHeight: '1.5em', height: '3em' }}>A Gentle Reset Guide</h2>
           </div>
           <div className="h-1"></div>
+          <div className="h-2"></div>
 
           <div className="space-y-6">
             {/* Language Card */}
@@ -24,9 +26,9 @@ export default function Home() {
             <DropdownCard
               title="Information"
               items={[
-                { href: "/about", text: "About LBHP" },
+                { href: "/aboutLBHP", text: "About LBHP" },
                 { href: "/howtouse", text: "How to Use LBHP" },
-                { href: "/inprogress", text: "Work in Progress" },
+                { href: "/workinprogress", text: "Work in Progress" },
                 { href: "/mateobravo", text: "Mateo Bravo" }
               ]}
             />

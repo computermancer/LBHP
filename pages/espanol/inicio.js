@@ -22,7 +22,9 @@ export default function Inicio() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-6">
-            <LanguageCardEsp />
+            <div className="mt-2">
+              <LanguageCardEsp />
+            </div>
 
             <DropdownCardEsp
               title="Información"
@@ -37,10 +39,10 @@ export default function Inicio() {
             <DropdownCardEsp
               title="Recursos"
               items={[
-                { href: "/espanol/contenidos", text: "Contenido Resumen" },
+                { href: "/espanol/contenido", text: "Contenido Resumen" },
                 { href: "/espanol/glosario", text: "Glosario" },
-                { href: "/espanol/descarga", text: "Descargar PDF's" },
-                { href: "/espanol/feedback", text: "Contacto y Retroalimentación" }
+                { href: "/espanol/descargar", text: "Descargar PDF's" },
+                { href: "/espanol/comentarios", text: "Contacto y Retroalimentación" }
               ]}
             />
 
