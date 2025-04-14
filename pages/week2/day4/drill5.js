@@ -15,8 +15,7 @@ export default function Week2Day4Drill5() {
           <DrillNavBar 
             prevDrill="/week2/day4/drill4" 
             currentDay="/week2/day4" 
-            nextDrill="/week2/day5/drill1" 
-            disableNext={true}
+            nextDrill="/week3/day1/drill1" 
           />
           <div className="h-6"></div>
           <div className="space-y-6">

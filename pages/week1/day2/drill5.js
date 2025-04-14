@@ -16,7 +16,6 @@ export default function WallSupportedSquatHold() {
             prevDrill="/week1/day2/drill4" 
             currentDay="/week1/day2" 
             nextDrill="/week1/day3/drill1" 
-            disableNext={true}
           />
           <div className="h-6"></div>
           <div className="space-y-6">

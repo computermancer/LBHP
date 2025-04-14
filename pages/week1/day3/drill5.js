@@ -16,7 +16,6 @@ export default function GentleBilateralRocking() {
             prevDrill="/week1/day3/drill4" 
             currentDay="/week1/day3" 
             nextDrill="/week1/day4/drill1" 
-            disableNext={true}
           />
           <div className="h-6"></div>
           <div className="space-y-6">

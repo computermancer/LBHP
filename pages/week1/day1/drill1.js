@@ -17,6 +17,7 @@ export default function PosteriorPelvicTiltonWall() {
             currentDay="/week1/day1" 
             nextDrill="/week1/day1/drill2" 
             disablePrevious={true}
+            disableDay={false}
           />
           <div className="h-6"></div>
           <div className="space-y-6">

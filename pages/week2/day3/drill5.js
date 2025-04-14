@@ -15,8 +15,7 @@ export default function Drill5WallSupportedDeepSquat() {
           <DrillNavBar 
             prevDrill="/week2/day3/drill4" 
             currentDay="/week2/day3" 
-            nextDrill="/week2/day4/drill1" 
-            disableNext={true}
+            nextDrill="/week3/day1/drill1" 
           />
           <div className="h-6"></div>
           <div className="space-y-6">

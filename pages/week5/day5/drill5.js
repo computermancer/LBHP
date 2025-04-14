@@ -15,6 +15,8 @@ export default function Drill5SupinePelvicRockwithBreathControl() {
           <DrillNavBar 
             prevDrill="/week5/day5/drill4" 
             currentDay="/week5/day5" 
+            nextDrill="/week1/day1/drill1" 
+            disableNext={true}
           />
           <div className="h-6"></div>
           <div className="space-y-6">
