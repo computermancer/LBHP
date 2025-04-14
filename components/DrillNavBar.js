@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
-export default function DrillNavBar({ prevDrill, currentDay, nextDrill, disablePrevious = false, disableNext = false }) {
+export default function DrillNavBar({ prevDrill, currentDay, nextDrill, disablePrevious = false, disableNext = false, disableDay = false }) {
   const router = useRouter();
 
   return (
@@ -21,8 +21,8 @@ export default function DrillNavBar({ prevDrill, currentDay, nextDrill, disableP
           
           <button
             onClick={() => currentDay && router.push(currentDay)}
-            className={`flex-1 bg-zinc-800 px-2 py-2 rounded text-base font-semibold text-center whitespace-nowrap border border-zinc-700 ${!disablePrevious ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
-            disabled={disablePrevious}
+            className={`flex-1 bg-zinc-800 px-2 py-2 rounded text-base font-semibold text-center whitespace-nowrap border border-zinc-700 ${!disableDay ? 'hover:bg-zinc-700' : 'opacity-50 cursor-not-allowed'}`}
+            disabled={disableDay}
           >
             <span className="truncate">Day</span>
           </button>
