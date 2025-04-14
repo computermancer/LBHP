@@ -16,7 +16,7 @@ export default function Icono() {
       <a href="https://www.instagram.com/flatfootmatt" target="_blank" rel="noopener noreferrer" className="text-[#E4405F] hover:text-[#FF6980]">
         <FaInstagram className="text-3xl" />
       </a>
-      <Link href="/feedback" className="text-gray-300 hover:text-gray-100">
+      <Link href="/espanol/comentarios" className="text-gray-300 hover:text-gray-100">
         <FaEnvelope className="text-3xl" />
       </Link>
     </div>
