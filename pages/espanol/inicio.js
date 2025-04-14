@@ -2,7 +2,7 @@ import MainEspNavBar from '../../components/MainEspNavBar';
 import Link from 'next/link';
 import LangNavBar from '../../components/LangNavBar';
 import WeekLayout from '../../components/WeekLayout';
-import Icono from '../../components/icono';
+import Icono from '../../components/espicono';
 import DropdownCardEsp from '../../components/DropdownCardEsp';
 import LanguageCardEsp from '../../components/LanguageCardEsp';
 
