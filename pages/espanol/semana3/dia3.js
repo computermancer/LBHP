@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia3() {
@@ -16,38 +16,38 @@ export default function Dia3() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Gato-vaca con conciencia de la respiración"
-              description="Desarrolla el control de la flexión y extensión espinal."
+              title="Gato-vaca con Conciencia de la Respiración"
+              description="Desarrollar el control de la flexión y extensión de la columna vertebral."
               href="/espanol/semana3/dia3/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Balanceo pélvico posterior sentado"
+              title="Balanceo Pélvico Posterior Sentado"
               description="Mejora el control pélvico y aumenta la conciencia del movimiento."
               href="/espanol/semana3/dia3/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Cambio de costillas 90-90 supino con respiración"
-              description="Desarrolla la estabilidad del core y mejora el movimiento guiado por la respiración."
+              title="Cambio de Costillas 90-90 Supino con Respiración"
+              description="Desarrolla la estabilidad del tronco y mejora los movimientos guiados por la respiración."
               href="/espanol/semana3/dia3/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Sentadilla apoyada en la pared con alcance"
-              description="Aumenta la confianza en la posición de sentadilla con movimiento de la parte superior del cuerpo."
+              title="Sentadilla en Pared con Alcance"
+              description="Aumentar la confianza en la posición en cuclillas con el movimiento de la parte superior del cuerpo."
               href="/espanol/semana3/dia3/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Torsión de columna supina con respiración"
-              description="Mejora la rotación torácica con control respiratorio."
+              title="Torsión de Columna Supina con Respiración"
+              description="Mejorar la rotación torácica con control de la respiración."
               href="/espanol/semana3/dia3/ejercicio5"
             />
           </div>

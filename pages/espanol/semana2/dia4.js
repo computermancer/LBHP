@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia4() {
@@ -16,38 +16,38 @@ export default function Dia4() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Desplazamiento de costillas en decúbito supino con respiración"
-              description="Coordinar la respiración con el movimiento de las piernas."
+              title="Desplazamiento de Costillas en Decúbito Supino con Respiración"
+              description="Mejorar la conciencia de la caja torácica y el control de la respiración asimétrica."
               href="/espanol/semana2/dia4/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Balanceo pélvico posterior sentado"
-              description="Mejorar el control rotacional en posición vertical."
+              title="Balanceo Pélvico Posterior Sentado"
+              description="Mantener la conciencia pélvica y mejorar el ritmo pélvico."
               href="/espanol/semana2/dia4/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Flexión/Extensión torácica sentado"
-              description="Integrar el movimiento de piernas con la bisagra de cadera."
+              title="Flexión/extensión Torácica Sentado"
+              description="Desarrollar la conciencia de la flexión y extensión de la columna vertebral."
               href="/espanol/semana2/dia4/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Flexiones de cadera en decúbito supino con estabilidad costal"
-              description="Mantener la estabilidad durante el movimiento de piernas."
+              title="Movimientos de Cadera en Decúbito Supino con Estabilidad Costal"
+              description="Desarrolla la estabilidad del tronco y la cadera mediante patrones de cambio."
               href="/espanol/semana2/dia4/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Respiración sentada con conciencia pélvica"
-              description="Integrar la rotación con el movimiento de paso adelante."
+              title="Respiración Sentada con Conciencia Pélvica"
+              description="Reforzar la respiración y el control de la posición pélvica."
               href="/espanol/semana2/dia4/ejercicio5"
             />
           </div>

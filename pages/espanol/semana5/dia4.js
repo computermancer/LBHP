@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia4() {
@@ -16,38 +16,38 @@ export default function Dia4() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Ejercicio 1: Flexiones de pared con estabilidad costal"
-              description="Introduce el empuje del cuerpo superior mientras mantienes el control del core."
+              title="Flexiones de Pared con Estabilidad Costal"
+              description="Introducir el prensado de la parte superior del cuerpo manteniendo el control del tronco."
               href="/espanol/semana5/dia4/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Ejercicio 2: Flexiones en silla con estabilidad pélvica"
+              title="Flexiones en Silla con Estabilidad Pélvica"
               description="Progresa el empuje con mayor carga mientras mantienes el control."
               href="/espanol/semana5/dia4/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Ejercicio 3: Flexiones de suelo con control de costillas y pelvis"
+              title="Flexiones de Suelo con Control de Costillas y Pelvis"
               description="Desarrolla la fuerza del cuerpo superior y core en posición de plancha."
               href="/espanol/semana5/dia4/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Ejercicio 4: Rotación de columna sentado con alcance"
+              title="Rotación de la Columna Sentado con Alcance"
               description="Desarrolla la rotación torácica y el movimiento escapular."
               href="/espanol/semana5/dia4/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Ejercicio 5: IR de cadera en decúbito lateral y respiración"
-              description="Mejora la movilidad de cadera y el control respiratorio."
+              title="Ir de Cadera en Decúbito Lateral y Respiración"
+              description="Mejora la movilidad de la cadera y el control de la respiración."
               href="/espanol/semana5/dia4/ejercicio5"
             />
           </div>

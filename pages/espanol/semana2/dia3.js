@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia3() {
@@ -16,38 +16,38 @@ export default function Dia3() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Enganchar los relojes pélvicos"
-              description="Coordinar la respiración con el movimiento de los brazos."
+              title="Relojes Pélvicos Hooklying"
+              description="Desarrollar una conciencia y un control sutiles de la inclinación pélvica."
               href="/espanol/semana2/dia3/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Reposición supina del diafragma con alcance"
-              description="Mejorar el control rotacional en posición vertical."
+              title="Reposición Supina del Diafragma con Alcance"
+              description="Perfecciona el control de la respiración con un alcance activo de la parte superior del cuerpo."
               href="/espanol/semana2/dia3/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Rotación de la columna sentado con respiración"
-              description="Integrar el movimiento de brazos con la bisagra de cadera."
+              title="Rotación de la Columna Sentado con Respiración"
+              description="Aumentar la rotación torácica controlando la respiración."
               href="/espanol/semana2/dia3/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Abducción de cadera en decúbito lateral con apoyo"
-              description="Mantener la estabilidad durante el movimiento de brazos."
+              title="Abducción Lateral de Cadera con Apoyo"
+              description="Mejorar la fuerza lateral de la cadera y la estabilidad pélvica."
               href="/espanol/semana2/dia3/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Sentadilla profunda apoyada en la pared"
-              description="Integrar la rotación con el movimiento de paso."
+              title="Sentadilla Profunda Apoyada en la Pared"
+              description="Aumenta la confianza en la posición de sentadilla profunda manteniendo el control."
               href="/espanol/semana2/dia3/ejercicio5"
             />
           </div>

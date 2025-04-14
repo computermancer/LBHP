@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Day2() {
@@ -9,45 +9,45 @@ export default function Day2() {
       <MainEspNavBar />
       <EspDayLayout
         title="Semana 1 - Día 2"
-        subtitle="Expansión Costal y Enfoque en la Bisagra de Cadera"
+        subtitle="Expansión Costal y Enfoque en la queque de Cadera"
         prevDay="/espanol/semana1/dia1"
         currentWeek="/espanol/semana1"
         nextDay="/espanol/semana1/dia3"
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Expansión Lateral de las Costillas"
-              description="Desarrollar conciencia de la inclinación pélvica y control lumbar."
+              title="Expansión Costal Lateral"
+              description="Mejorar la expansión lateral de la caja torácica y la mecánica respiratoria."
               href="/espanol/semana1/dia2/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
               title="Rotación Torácica Sentado"
-              description="Mejorar el control de la respiración y la función diafragmática."
+              description="Aumentar la movilidad torácica y el control rotacional."
               href="/espanol/semana1/dia2/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
               title="Bisagra de Cadera de Pie con Alcance de Pared"
-              description="Aumentar la movilidad pélvica y la coordinación."
+              description="Desarrollar la conciencia y el control de la bisagra de la cadera."
               href="/espanol/semana1/dia2/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
               title="Rock Back Cuadrúpedo con Columna Neutra"
-              description="Mejorar la estabilidad del core y mantener la alineación costilla-pelvis."
+              description="Fomentar el control pélvico con la columna vertebral neutra."
               href="/espanol/semana1/dia2/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Sentadilla con Apoyo en la Pared"
-              description="Activar los isquiotibiales para estabilizar la pelvis y el core."
+              title="Sentadilla en Pared"
+              description="Aumenta la confianza en la posición en cuclillas con apoyo en la pared."
               href="/espanol/semana1/dia2/ejercicio5"
             />
           </div>

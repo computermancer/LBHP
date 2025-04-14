@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia1() {
@@ -16,38 +16,38 @@ export default function Dia1() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Respiración de enganche con conciencia pélvica"
-              description="Mejora el control respiratorio y establece conciencia del movimiento pélvico."
+              title="Respiración con Gancho y Conciencia Pélvica"
+              description="Mejorar el control de la respiración y tomar conciencia de los movimientos pélvicos."
               href="/espanol/semana3/dia1/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Desplazamiento de cadera sentado con estabilidad costal"
+              title="Desplazamiento de Cadera Sentado con Estabilidad Costal"
               description="Desarrolla el control del desplazamiento de cadera con movimiento mínimo de la caja torácica."
               href="/espanol/semana3/dia1/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Reposición supina del diafragma con alcance"
+              title="Reposición Supina del Diafragma con Alcance"
               description="Refuerza el control de la caja torácica durante los ciclos respiratorios."
               href="/espanol/semana3/dia1/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Rock Back cuadrúpedo con concentración en la respiración"
-              description="Mejora la movilidad pélvica y mantiene la estabilidad del core."
+              title="Rock Back Cuadrúpedo con Concentración en la Respiración"
+              description="Mejore la movilidad pélvica y mantenga la estabilidad central."
               href="/espanol/semana3/dia1/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Bisagra apoyada en la pared con alcance del brazo"
-              description="Desarrolla la activación de la cadena posterior mientras mantiene el control costal."
+              title="Bisagra de Pared con Brazo Extensible"
+              description="Desarrolla la activación de la cadena posterior mientras mantienes el control de las costillas."
               href="/espanol/semana3/dia1/ejercicio5"
             />
           </div>

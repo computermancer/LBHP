@@ -4,7 +4,7 @@ import DropdownCardEsp from './DropdownCardEsp';
 export default function LanguageCardEsp() {
   const languages = [
     { code: '/home', name: 'English' },
-    { code: 'espanol/inicio', name: 'Español' }
+    { code: '/espanol/inicio', name: 'Español' }
   ];
   const currentLanguage = 'Español';
 

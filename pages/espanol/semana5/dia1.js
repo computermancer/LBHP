@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia1() {
@@ -16,37 +16,37 @@ export default function Dia1() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Ejercicio 1: Sentadillas de peso corporal con control de costillas"
-              description="Refuerza la mecánica de la sentadilla con estabilidad del core."
+              title="Sentadillas de Peso Corporal con Control de Costillas"
+              description="Refuerza la mecánica de la sentadilla con estabilidad central."
               href="/espanol/semana5/dia1/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Ejercicio 2: Postura de caballo (paralela al suelo)"
+              title="Postura de Caballo (paralela al Suelo)"
               description="Desarrolla fuerza isométrica y resistencia en la parte inferior del cuerpo."
               href="/espanol/semana5/dia1/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Ejercicio 3: Kickstand RDL con control de cadera"
+              title="Kickstand Rdl con Control de Cadera"
               description="Mejora la cadena posterior y la estabilidad de cadera."
               href="/espanol/semana5/dia1/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Ejercicio 4: Sentadillas parciales con apoyo en la pared"
-              description="Fortalece glúteos, cuádriceps y core en posición dividida."
+              title="Sentadilla Partida Apoyada en la Pared"
+              description="Fortalece los glúteos, los cuádriceps y el tronco en una postura dividida."
               href="/espanol/semana5/dia1/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Ejercicio 5: Marcha supina con control del tronco"
+              title="Marcha Supina con Control del Tronco"
               description="Refuerza la estabilidad pélvica durante el movimiento dinámico."
               href="/espanol/semana5/dia1/ejercicio5"
             />

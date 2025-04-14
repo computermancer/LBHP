@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia2() {
@@ -16,38 +16,38 @@ export default function Dia2() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Ejercicio 1: Sentadillas escalonadas con estabilidad costal"
+              title="Sentadillas Escalonadas con Estabilidad Costal"
               description="Desarrolla la carga en una sola pierna y el control pélvico."
               href="/espanol/semana5/dia2/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Ejercicio 2: Estocadas laterales con control de la respiración"
+              title="Estocadas Laterales con Control de la Respiración"
               description="Mejora el control lateral de cadera y la estabilidad costal."
               href="/espanol/semana5/dia2/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Ejercicio 3: Abducción de cadera en decúbito lateral con concentración en la respiración"
-              description="Desarrolla la fuerza lateral de cadera con control respiratorio."
+              title="Abducción de Cadera en Decúbito Lateral con Concentración en la Respiración"
+              description="Desarrolla la fuerza lateral de la cadera controlando la respiración."
               href="/espanol/semana5/dia2/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Ejercicio 4: Puente de glúteos a una pierna con estabilidad costal"
+              title="Puente de Glúteos a Una Pierna con Estabilidad Costal"
               description="Desarrolla la fuerza de la cadena posterior y el control de cadera."
               href="/espanol/semana5/dia2/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Ejercicio 5: Desplazamiento de costillas en decúbito supino con compromiso del tronco"
-              description="Desarrolla el control del core con desplazamiento sutil de costillas."
+              title="Desplazamiento de Costillas en Decúbito Supino con Compromiso del Tronco"
+              description="Desarrolla el control del tronco con un sutil desplazamiento de las costillas."
               href="/espanol/semana5/dia2/ejercicio5"
             />
           </div>

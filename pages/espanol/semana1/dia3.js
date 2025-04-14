@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Day3() {
@@ -16,38 +16,38 @@ export default function Day3() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Restablecimiento de la Respiración en Tumbado Lateral"
-              description="Desarrollar conciencia de la inclinación pélvica y control lumbar."
+              title="Restablecimiento de la Respiración en Decúbito Lateral"
+              description="Fomenta el restablecimiento de la caja torácica y el diafragma mediante la respiración concentrada."
               href="/espanol/semana1/dia3/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
               title="Alcanzar y Rodar Rítmicamente"
-              description="Mejorar el control de la respiración y la función diafragmática."
+              description="Mejorar el control rotacional y la coordinación."
               href="/espanol/semana1/dia3/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Patrón de Respiración con Apoyo"
-              description="Aumentar la movilidad pélvica y la coordinación."
+              title="Patrones de Respiración Asistida"
+              description="Refuerza el control de la respiración y la conciencia de las costillas."
               href="/espanol/semana1/dia3/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
               title="Balanceo Relajado de la Columna Vertebral"
-              description="Mejorar la estabilidad del core y mantener la alineación costilla-pelvis."
+              description="Favorecer el movimiento fluido de la pelvis y la columna vertebral."
               href="/espanol/semana1/dia3/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Balanceo Bilateral Suave"
-              description="Activar los isquiotibiales para estabilizar la pelvis y el core."
+              title="Suave Balanceo Bilateral"
+              description="Mejorar la movilidad pélvica y la relajación."
               href="/espanol/semana1/dia3/ejercicio5"
             />
           </div>

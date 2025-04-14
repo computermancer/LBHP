@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Day5() {
@@ -16,38 +16,38 @@ export default function Day5() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
               title="Respiración Diafragmática en Posición de Cocodrilo"
-              description="Desarrollar conciencia de la inclinación pélvica y control lumbar."
+              description="Fomente la expansión completa de la respiración en 3D."
               href="/espanol/semana1/dia5/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
               title="Gato-Vaca con Concentración en la Respiración"
-              description="Mejorar el control de la respiración y la función diafragmática."
+              description="Desarrollar la conciencia de flexión y extensión de la columna vertebral."
               href="/espanol/semana1/dia5/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
               title="Torsión de Columna Sentado con Respiración"
-              description="Aumentar la movilidad pélvica y la coordinación."
+              description="Mejorar la rotación torácica con una respiración controlada."
               href="/espanol/semana1/dia5/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
               title="Marcha Supina con Control de Costillas"
-              description="Mejorar la estabilidad del core y mantener la alineación costilla-pelvis."
+              description="Refuerce la estabilidad pélvica y costal con el movimiento de las piernas."
               href="/espanol/semana1/dia5/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
               title="Respiración Sentada y Conciencia Pélvica"
-              description="Activar los isquiotibiales para estabilizar la pelvis y el core."
+              description="Aumentar la conciencia de la respiración y la posición pélvica."
               href="/espanol/semana1/dia5/ejercicio5"
             />
           </div>
