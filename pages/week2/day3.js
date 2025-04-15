@@ -13,36 +13,36 @@ export default function Week2Day3() {
       <div className="space-y-4">
         <DrillCard
           number="1"
-          title="Pelvic Floor Engagement"
-          description="Learn to activate and release pelvic floor muscles."
+          title="Hooklying Pelvic Clocks"
+          description="Develop subtle awareness and control of pelvic tilt."
           href="/week2/day3/drill1"
         />
 
         <DrillCard
           number="2"
-          title="Pelvic Rocking with Breath"
-          description="Integrate breath with pelvic movement patterns."
+          title="Supine Diaphragm Reset with Reach"
+          description="Refine breath control with active upper body reach."
           href="/week2/day3/drill2"
         />
 
         <DrillCard
           number="3"
-          title="Seated Pelvic Tilts"
-          description="Practice pelvic control in a seated position."
+          title="Seated Spine Rotation with Breath"
+          description="Increase thoracic rotation with breath control."
           href="/week2/day3/drill3"
         />
 
         <DrillCard
           number="4"
-          title="Pelvic Floor with Leg Lifts"
-          description="Combine pelvic floor activation with leg movements."
+          title="Supported Side-Lying Hip Abduction"
+          description="Improve lateral hip strength and pelvic stability."
           href="/week2/day3/drill4"
         />
 
         <DrillCard
           number="5"
-          title="Pelvic Floor with Arm Movements"
-          description="Integrate pelvic floor control with upper body."
+          title="Wall Supported Deep Squat Hold"
+          description="Build confidence in deep squat position while maintaining control."
           href="/week2/day3/drill5"
         />
       </div>
