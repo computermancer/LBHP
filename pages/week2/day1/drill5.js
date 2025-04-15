@@ -15,7 +15,7 @@ export default function WallSupportedHeelPress() {
           <DrillNavBar 
             prevDrill="/week2/day1/drill4" 
             currentDay="/week2/day1" 
-            nextDrill="/week3/day1/drill1" 
+            nextDrill="/week2/day2/drill1"
           />
           <div className="h-6"></div>
           <div className="space-y-6">

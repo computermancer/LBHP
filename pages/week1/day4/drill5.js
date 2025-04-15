@@ -15,7 +15,7 @@ export default function SeatedBreathWithRibControl() {
           <DrillNavBar 
             prevDrill="/week1/day4/drill4" 
             currentDay="/week1/day4" 
-            nextDrill="/week2/day1/drill1" 
+            nextDrill="/week1/day5/drill1"
           />
           <div className="h-6"></div>
           <div className="space-y-6">

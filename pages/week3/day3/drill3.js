@@ -42,10 +42,10 @@ export default function Drill3Supine9090RibShiftwithBreath() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2 – 3
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8 – 10 per side
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to shift, inhale to return
@@ -59,18 +59,18 @@ export default function Drill3Supine9090RibShiftwithBreath() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled rib movement</li>
-                <li>Core stability throughout</li>
+                <li>Controlled rib movement.</li>
+                <li>Core stability throughout.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Over-shifting or arching the back</li>
+                <li>Over-shifting or arching the back.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Pain or discomfort in ribs or lower back</li>
+                <li>Pain or discomfort in ribs or lower back.</li>
               </ul>
             </div>
 

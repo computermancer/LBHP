@@ -15,7 +15,7 @@ export default function Drill5ProneHipIRExtension() {
           <DrillNavBar 
             prevDrill="/week2/day2/drill4" 
             currentDay="/week2/day2" 
-            nextDrill="/week3/day1/drill1" 
+            nextDrill="/week2/day3/drill1"
           />
           <div className="h-6"></div>
           <div className="space-y-6">

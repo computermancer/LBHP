@@ -27,31 +27,31 @@ export default function Drill4WallSupportedSquatHoldwithReach() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Stand with back against a wall, feet about 6–12 inches away.</li>
-                <li>Arms resting by your sides for support.</li>
+                <li>Stand with back against the wall, feet slightly forward.</li>
+                <li>Arms reaching forward for balance.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale to prepare while maintaining rib position.</li>
-                <li>Exhale and slowly lower into a squat, keeping ribs stable.</li>
-                <li>Hold for a few breaths, then return to standing.</li>
+                <li>Exhale and slowly lower into a squat, maintaining rib and pelvis control.</li>
+                <li>Hold for 10–20 seconds.</li>
+                <li>Inhale and return to standing.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 5–8 squats per set
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 2–3 holds
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Maintain steady breathing
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Steady breathing throughout
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
+                  <span className="text-orange-300 font-semibold text-xl">Rest:</span> 30–60 seconds between sets
                 </div>
               </div>
             </div>
@@ -59,25 +59,26 @@ export default function Drill4WallSupportedSquatHoldwithReach() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled squat movement</li>
-                <li>Maintained rib position</li>
+                <li>Glute and hamstring activation.</li>
+                <li>Ribcage stability while maintaining squat.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to flare or pelvis to tilt</li>
+                <li>Knees collapsing inward.</li>
+                <li>Losing rib and pelvis control.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the low back</li>
+                <li>Sharp pain or discomfort in knees.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Perform with smaller range of motion if needed</li>
+                <li>Perform a higher squat for reduced intensity.</li>
               </ul>
             </div>
           </div>

@@ -27,28 +27,28 @@ export default function Drill1CatCowwithBreathAwareness() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Start on your hands and knees, wrists under shoulders, knees under hips.</li>
-                <li>Keep your head in a neutral position.</li>
+                <li>Begin on hands and knees, wrists under shoulders, knees under hips.</li>
+                <li>Maintain a neutral spine.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale and arch your back (Cow pose), lifting your head and tailbone.</li>
-                <li>Exhale and round your spine (Cat pose), tucking your chin to chest.</li>
-                <li>Move slowly and focus on your breath.</li>
+                <li>Inhale and arch your back, lifting your chest and tailbone (Cow).</li>
+                <li>Exhale and round your spine, tucking pelvis and chin (Cat).</li>
+                <li>Move slowly and coordinate with breath.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 cycles per set
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 slow reps
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Inhale on Cow, exhale on Cat
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Inhale to extend, exhale to flex
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +59,25 @@ export default function Drill1CatCowwithBreathAwareness() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Spinal movement with breath</li>
-                <li>Shoulder and hip stability</li>
+                <li>Smooth spinal flexion and extension.</li>
+                <li>Controlled pelvic and ribcage movement.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Jerky movements or holding breath</li>
+                <li>Overarching or collapsing posture.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the back</li>
+                <li>Pain or discomfort in the spine.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Perform with smaller range of motion if needed</li>
+                <li>Perform smaller movements if needed.</li>
               </ul>
             </div>
           </div>

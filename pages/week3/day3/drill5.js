@@ -28,27 +28,28 @@ export default function Drill5SupineSpineTwistwithBreath() {
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Setup</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
                 <li>Lie on your back with knees bent, feet flat on the floor.</li>
-                <li>Arms resting by your sides for support.</li>
+                <li>Arms extended out to the sides.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Instructions</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Inhale to prepare while maintaining rib position.</li>
-                <li>Exhale and gently rotate your knees to one side, keeping ribs stable.</li>
-                <li>Return to center and repeat on other side.</li>
+                <li>Inhale to prepare.</li>
+                <li>Exhale and gently lower knees to one side.</li>
+                <li>Inhale and return to the center.</li>
+                <li>Alternate sides with control.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <div className="space-y-2">
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2
+                  <span className="text-orange-300 font-semibold text-xl">Sets:</span> 2–3
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8 – 10 twists per side
+                  <span className="text-orange-300 font-semibold text-xl">Reps:</span> 8–10 per side
                 </div>
                 <div className="text-lg text-white leading-relaxed">
-                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale during twist, inhale to return
+                  <span className="text-orange-300 font-semibold text-xl">Breath:</span> Exhale to rotate, inhale to return
                 </div>
                 <div className="text-lg text-white leading-relaxed">
                   <span className="text-orange-300 font-semibold text-xl">Rest:</span> As needed
@@ -59,25 +60,25 @@ export default function Drill5SupineSpineTwistwithBreath() {
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Feel</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Controlled spinal rotation</li>
-                <li>Maintained rib position</li>
+                <li>Smooth spinal rotation.</li>
+                <li>Controlled movement with breath.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">What to Avoid</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5 mb-4">
-                <li>Allowing ribs to collapse or pelvis to tilt</li>
+                <li>Twisting from the lower back.</li>
               </ul>
               
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Red Flags</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Sharp pain in the low back</li>
+                <li>Pain or discomfort during rotation.</li>
               </ul>
             </div>
 
             <div className="bg-zinc-900 border border-zinc-700 p-2 pb-5 rounded-lg mb-4">
               <h4 className="text-orange-300 text-xl font-semibold mb-2">Regression</h4>
               <ul className="text-lg text-white leading-relaxed list-disc pl-5">
-                <li>Perform with smaller range of motion if needed</li>
+                <li>Limit the range of motion for less intensity.</li>
               </ul>
             </div>
           </div>
