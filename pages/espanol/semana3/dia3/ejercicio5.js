@@ -6,16 +6,39 @@ import Link from 'next/link';
 export default function Ejercicio5Torsindecolumnasupinaconrespiracin() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 5: Torsión de Columna Supina con Respiración"      backButtonText="Semana 3 - Día 3"
+      title="Ejercicio 5: Torsión de Columna Supina con Respiración"
+      backButtonText="Semana 3 - Día 3"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
-      setup={[" Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo."," Brazos extendidos a los lados."]}
-      instructions={[" Inhala para prepararte."," Exhale y baje suavemente las rodillas hacia un lado."," Inhala y vuelve al centro."," Alterne los lados con control."," Conjuntos: 2-3","Repeticiones: 8-10 por lado"," Respirar: Exhala para girar, inhala para volver","Descanso: Según sea necesario"]}
-      setsReps={[]}
-      whatToFeel={[" Rotación suave de la columna vertebral."," Movimiento controlado con la respiración."]}
-      whatToAvoid={[" Torsión de la parte inferior de la espalda."]}
-      redFlags={[" Dolor o molestias durante la rotación."]}
-      regression={[" Limite la amplitud de movimiento para una menor intensidad."]}
+      setup={[
+        "Túmbate boca arriba con las rodillas flexionadas y los pies apoyados en el suelo.",
+        "Brazos extendidos a los lados."
+      ]}
+      instructions={[
+        "Inhala para prepararte.",
+        "Exhale y baje suavemente las rodillas hacia un lado.",
+        "Inhala y vuelve al centro.",
+        "Alterne los lados con control."
+      ]}
+      setsReps={[
+        "Conjuntos: 2-3",
+        "Repeticiones: 8-10 por lado",
+        "Respirar: Exhala para girar, inhala para volver",
+        "Descanso: Según sea necesario"
+      ]}
+      whatToFeel={[
+        "Rotación suave de la columna vertebral.",
+        "Movimiento controlado con la respiración."
+      ]}
+      whatToAvoid={[
+        "Torsión de la parte inferior de la espalda."
+      ]}
+      redFlags={[
+        "Dolor o molestias durante la rotación."
+      ]}
+      regression={[
+        "Limite la amplitud de movimiento para una menor intensidad."
+      ]}
     >
       <EspDrillNavBar 
         prevDrill="/espanol/semana3/dia3/ejercicio4" 

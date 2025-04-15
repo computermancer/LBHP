@@ -46,7 +46,7 @@ export default function Dia2() {
             
             <EspDrillCard
               number="5"
-              title="Ejercicio de Ir y Extensión de Cadera en Decúbito Prono"
+              title="Ejercicio de IR y Extensión de Cadera en Decúbito Prono"
               description="Tomar conciencia de la rotación y extensión de la cadera."
               href="/espanol/semana3/dia2/ejercicio5"
             />
