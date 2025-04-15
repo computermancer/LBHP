@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Day4() {
@@ -16,38 +16,38 @@ export default function Day4() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
               title="Reposición Supina del Diafragma"
-              description="Desarrollar conciencia de la inclinación pélvica y control lumbar."
+              description="Establecer un control diafragmático y una relajación más profundos."
               href="/espanol/semana1/dia4/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
               title="Balanceo Pélvico Posterior Sentado"
-              description="Mejorar el control de la respiración y la función diafragmática."
+              description="Mejorar la conciencia de la posición pélvica."
               href="/espanol/semana1/dia4/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
               title="Extensión Torácica Sentado"
-              description="Aumentar la movilidad pélvica y la coordinación."
+              description="Fortalecer la extensión torácica y la posición de las costillas."
               href="/espanol/semana1/dia4/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Desplazamiento de Cadera en Decúbito Supino con Respiración"
-              description="Mejorar la estabilidad del core y mantener la alineación costilla-pelvis."
+              title="Cambio de Cadera en Decúbito Supino con Respiración"
+              description="Desarrollar el control de los desplazamientos pélvicos y la integración del tronco."
               href="/espanol/semana1/dia4/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
               title="Respiración Sentada con Control de Costillas"
-              description="Activar los isquiotibiales para estabilizar la pelvis y el core."
+              description="Mantenga el control de la caja torácica y la pelvis con una respiración constante."
               href="/espanol/semana1/dia4/ejercicio5"
             />
           </div>

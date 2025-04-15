@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia2() {
@@ -16,38 +16,38 @@ export default function Dia2() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
               title="Flexión y Extensión Torácica Sentado"
-              description="Mejora la movilidad torácica mientras mantienes el control pélvico."
+              description="Mejorar la movilidad torácica manteniendo el control de la pelvis."
               href="/espanol/semana4/dia2/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Descenso de Piernas 90-90 en Decúbito Supino con Respiración"
-              description="Refuerza el control del core mientras bajas las piernas con estabilidad."
+              title="Supino 90-90 Bajada de Piernas con Respiración"
+              description="Refuerce el control del tronco mientras baja las piernas con estabilidad."
               href="/espanol/semana4/dia2/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Rotación de Columna Sentado con Alcance de Brazo"
+              title="Rotación de la Columna Sentado con Alcance de Brazos"
               description="Desarrolla el control rotacional y la movilidad torácica."
               href="/espanol/semana4/dia2/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
               title="Marcha de Isquiotibiales en Pared con Estabilidad Costal"
               description="Desarrolla el control de la cadena posterior mientras mantienes el control costal."
               href="/espanol/semana4/dia2/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Rotación Interna y Extensión de Cadera en Decúbito Prono con Control"
-              description="Desarrolla la conciencia de la rotación y extensión de cadera."
+              title="Ir y Extensión de Cadera en Decúbito Prono con Control"
+              description="Desarrollar la conciencia de la rotación y extensión de la cadera."
               href="/espanol/semana4/dia2/ejercicio5"
             />
           </div>

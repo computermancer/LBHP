@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia5() {
@@ -17,37 +17,37 @@ export default function Dia5() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Ejercicio 1: Postura de caballo con control de costillas (sujeción más larga)"
+              title="Postura del Caballo con Control de Las Costillas (sujeción Más Larga)"
               description="Refuerza la resistencia isométrica de la parte inferior del cuerpo."
               href="/espanol/semana5/dia5/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Ejercicio 2: Elevaciones de pantorrilla con control de costillas y pelvis"
+              title="Elevaciones de Pantorrilla con Control de Costillas y Pelvis"
               description="Fortifica las pantorrillas mientras mantienes una alineación neutral."
               href="/espanol/semana5/dia5/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Ejercicio 3: Elevación de tibia con respiración consciente"
-              description="Desarrolla la fuerza anterior de la espinilla y el equilibrio."
+              title="Subida de Tiburón con Respiración Consciente"
+              description="Desarrollar la fuerza y el equilibrio de la tibia anterior."
               href="/espanol/semana5/dia5/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Ejercicio 4: Expansión de la costilla de gancho con marcha"
+              title="Expansión de Las Costillas con Marcha"
               description="Refuerza el control del core y la respiración con marcha."
               href="/espanol/semana5/dia5/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Ejercicio 5: Balanceo pélvico supino con control de la respiración"
+              title="Balanceo Pélvico Supino con Control de la Respiración"
               description="Mejora la movilidad pélvica y la conciencia guiada por la respiración."
               href="/espanol/semana5/dia5/ejercicio5"
             />

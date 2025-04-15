@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia5() {
@@ -16,38 +16,38 @@ export default function Dia5() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Bisagra de Cadera con Control Costal"
-              description="Desarrolla la bisagra de cadera mientras mantienes el control costal y pélvico."
+              title="Respiración de Cocodrilo con Expansión Costal"
+              description="Refuerce la expansión respiratoria de todo el cuerpo."
               href="/espanol/semana4/dia5/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Sentadilla con Control Respiratorio"
-              description="Mejora la sentadilla con enfoque en la respiración y el control del core."
+              title="Balanceo Pélvico Supino con Concentración en la Respiración"
+              description="Desarrolla un movimiento pélvico suave con movimientos guiados por la respiración."
               href="/espanol/semana4/dia5/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Rotación de Columna con Alcance"
-              description="Desarrolla la rotación torácica con control pélvico."
+              title="Conciencia Pélvica Posterior Sentado"
+              description="Mejorar el control de la posición de la pelvis en posición sentada."
               href="/espanol/semana4/dia5/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Marcha de Isquiotibiales con Estabilidad"
-              description="Refuerza la cadena posterior mientras mantienes la estabilidad del core."
+              title="Marcha Apoyada en la Pared con Estabilidad Costal"
+              description="Refuerce el control del tronco y las costillas durante los movimientos dinámicos."
               href="/espanol/semana4/dia5/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Respiración Diafragmática con Movimiento"
-              description="Integra la respiración diafragmática con movimientos dinámicos."
+              title="Ir de Cadera en Decúbito Lateral y Respiración"
+              description="Mejora la movilidad de la cadera y el control de la respiración."
               href="/espanol/semana4/dia5/ejercicio5"
             />
           </div>

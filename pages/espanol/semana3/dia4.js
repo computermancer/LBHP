@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia4() {
@@ -16,38 +16,38 @@ export default function Dia4() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Movimientos de cadera en decúbito supino con control de costillas"
-              description="Desarrolla el control de los desplazamientos pélvicos mientras mantienes la estabilidad costal."
+              title="Movimientos de Cadera en Decúbito Supino con Control de Costillas"
+              description="Desarrollar el control de los desplazamientos pélvicos manteniendo la estabilidad de las costillas."
               href="/espanol/semana3/dia4/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Flexión y extensión torácica sentado"
+              title="Flexión y Extensión Torácica Sentado"
               description="Mejora la movilidad de la columna torácica y el control postural."
               href="/espanol/semana3/dia4/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Alcance de brazos y piernas cuadrúpedos con control"
-              description="Desarrolla la estabilidad del core y los hombros mientras mantienes la columna neutral."
+              title="Alcance de Brazos y Piernas Cuadrúpedos con Mando"
+              description="Desarrolla la estabilidad del tronco y los hombros manteniendo la columna vertebral neutra."
               href="/espanol/semana3/dia4/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Press de pared de isquiotibiales con conciencia de cadera"
-              description="Refuerza la activación de los isquiotibiales y el control pélvico."
+              title="Press de Pared de Isquiotibiales con Conciencia de Cadera"
+              description="Reforzar la activación de los isquiotibiales y el control de la pelvis."
               href="/espanol/semana3/dia4/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Abducción de cadera en decúbito lateral con apoyo"
-              description="Desarrolla la fuerza y estabilidad lateral de la cadera."
+              title="Abducción Lateral de Cadera con Apoyo"
+              description="Desarrollar la fuerza y la estabilidad lateral de la cadera."
               href="/espanol/semana3/dia4/ejercicio5"
             />
           </div>

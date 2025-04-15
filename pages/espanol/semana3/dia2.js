@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia2() {
@@ -16,38 +16,38 @@ export default function Dia2() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Expansión costal sentado con control de la respiración"
-              description="Promueve la movilidad de la caja torácica y la expansión lateral de la respiración."
+              title="Expansión de Costillas Sentado con Control de la Respiración"
+              description="Favorece la movilidad de la caja torácica y la expansión lateral de la respiración."
               href="/espanol/semana3/dia2/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Marcha supina con control del tronco"
+              title="Marcha Supina con Control del Tronco"
               description="Refuerza la estabilidad pélvica mientras mueves las piernas."
               href="/espanol/semana3/dia2/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Rotación torácica sentado con alcance de brazos"
-              description="Desarrolla el control y la movilidad rotacional."
+              title="Rotación Torácica Sentado con Extensión de Brazos"
+              description="Desarrollar el control rotacional y la movilidad."
               href="/espanol/semana3/dia2/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Marcha de isquiotibiales en pared con control de costillas"
-              description="Activa la cadena posterior mientras mantienes la estabilidad costal."
+              title="Marcha de Isquiotibiales en Pared con Control de Costillas"
+              description="Activar la cadena posterior manteniendo la estabilidad costal."
               href="/espanol/semana3/dia2/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Ejercicio de IR y extensión de cadera en decúbito prono"
-              description="Desarrolla conciencia de la rotación de cadera y la extensión de cadera."
+              title="Ejercicio de Ir y Extensión de Cadera en Decúbito Prono"
+              description="Tomar conciencia de la rotación y extensión de la cadera."
               href="/espanol/semana3/dia2/ejercicio5"
             />
           </div>

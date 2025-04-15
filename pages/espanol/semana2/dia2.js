@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia2() {
@@ -16,38 +16,38 @@ export default function Dia2() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
-              title="Alcance cuadrúpedo con control de costillas"
-              description="Mejorar la movilidad y control de la rotación torácica."
+              title="Alcance Cuadrúpedo con Control de Costillas"
+              description="Desarrollar la rotación torácica con un control estable de la caja torácica."
               href="/espanol/semana2/dia2/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Bisagra de cadera sentada con respiración"
-              description="Desarrollar estabilidad pélvica durante el movimiento."
+              title="Bisagra de Cadera Sentada con Respiración"
+              description="Mejorar el patrón de articulación y mantener el control del núcleo."
               href="/espanol/semana2/dia2/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
               title="Desplazamiento posterior del peso de pie"
-              description="Mejorar el control rotacional y la estabilidad de la cadera."
+              description="Desarrollar el desplazamiento posterior del peso para un control equilibrado de la cadera."
               href="/espanol/semana2/dia2/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Marcha de isquiotibiales de pared"
-              description="Reforzar la estabilidad del core durante la rotación."
+              title="Marcha de Isquiotibiales de Pared"
+              description="Reforzar la activación de la cadena posterior y el control pélvico."
               href="/espanol/semana2/dia2/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Ejercicio de IR y extensión de cadera en decúbito prono"
-              description="Integrar la rotación con el movimiento de bisagra de cadera."
+              title="Ejercicio de Ir y Extensión de Cadera en Decúbito Prono"
+              description="Tomar conciencia de la rotación y extensión de la cadera."
               href="/espanol/semana2/dia2/ejercicio5"
             />
           </div>

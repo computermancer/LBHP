@@ -10,7 +10,7 @@ export default function Icono() {
       <a href="https://www.facebook.com/MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-[#1877F2] hover:text-[#4D90FE]">
         <FaFacebook className="text-3xl" />
       </a>
-      <a href="https://www.youtube.com/@MateoBravoPersonalTraining" target="_blank" rel="noopener noreferrer" className="text-[#FF0000] hover:text-[#FF4444]">
+      <a href="https://www.youtube.com/@BravoMovement" target="_blank" rel="noopener noreferrer" className="text-[#FF0000] hover:text-[#FF4444]">
         <FaYoutube className="text-3xl" />
       </a>
       <a href="https://www.instagram.com/flatfootmatt" target="_blank" rel="noopener noreferrer" className="text-[#E4405F] hover:text-[#FF6980]">

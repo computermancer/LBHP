@@ -1,6 +1,6 @@
 import MainEspNavBar from '../../../components/MainEspNavBar';
 import EspDayLayout from '../../../components/EspDayLayout';
-import DrillCard from '../../../components/DrillCard';
+import EspDrillCard from '../../../components/EspDrillCard';
 import Link from 'next/link';
 
 export default function Dia5() {
@@ -16,38 +16,38 @@ export default function Dia5() {
       >
         <div className="max-w-[500px] mx-auto">
           <div className="space-y-4">
-            <DrillCard
+            <EspDrillCard
               number="1"
               title="Respiración de Cocodrilo con Expansión Costal"
               description="Refuerza la expansión respiratoria de todo el cuerpo."
               href="/espanol/semana3/dia5/ejercicio1"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="2"
-              title="Balanceo Pélvico en Decúbito Supino con Enfoque Respiratorio"
-              description="Desarrolla un movimiento pélvico suave guiado por la respiración."
+              title="Balanceo Pélvico Supino con Concentración en la Respiración"
+              description="Desarrolla un movimiento pélvico suave con movimientos guiados por la respiración."
               href="/espanol/semana3/dia5/ejercicio2"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="3"
-              title="Torsión de Columna Sentado con Alcance de Brazo"
+              title="Torsión de Columna Sentado con Extensión de Brazos"
               description="Mejora la rotación torácica con respiración y movimiento coordinados."
               href="/espanol/semana3/dia5/ejercicio3"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="4"
-              title="Marcha Apoyada en Pared con Control Costal"
-              description="Desarrolla el control de la caja torácica y la estabilidad del core."
+              title="Marcha Apoyada en la Pared con Control de Costillas"
+              description="Desarrolla el control de la caja torácica y la estabilidad del tronco."
               href="/espanol/semana3/dia5/ejercicio4"
             />
             
-            <DrillCard
+            <EspDrillCard
               number="5"
-              title="Rotación Interna de Cadera y Respiración en Decúbito Lateral"
-              description="Mejora la rotación interna de cadera y la coordinación respiratoria."
+              title="Ir de Cadera en Decúbito Lateral y Respiración"
+              description="Potenciar la rotación interna de la cadera y mejorar la coordinación de la respiración."
               href="/espanol/semana3/dia5/ejercicio5"
             />
           </div>
