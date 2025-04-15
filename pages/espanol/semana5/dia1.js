@@ -32,7 +32,7 @@ export default function Dia1() {
             
             <EspDrillCard
               number="3"
-              title="Kickstand Rdl con Control de Cadera"
+              title="Kickstand RDL con Control de Cadera"
               description="Mejora la cadena posterior y la estabilidad de cadera."
               href="/espanol/semana5/dia1/ejercicio3"
             />

@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Ejercicio5IRdecaderaendecbitopronoyextensinconcontrol() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 5: Ir de Cadera en Decúbito Prono y Extensión con Control"      backButtonText="Semana 4 - Día 2"
+      title="Ejercicio 5: IR de Cadera en Decúbito Prono y Extensión con Control"      backButtonText="Semana 4 - Día 2"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[" Túmbate boca abajo con los brazos apoyados bajo la frente."," Piernas extendidas y dedos de los pies apuntando ligeramente hacia fuera."]}

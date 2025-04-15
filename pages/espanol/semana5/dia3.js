@@ -18,7 +18,7 @@ export default function Dia3() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Staggered Stance Rdl con Conciencia de la Cadera"
+              title="Staggered Stance RDL con Conciencia de la Cadera"
               description="Mejora la fuerza de la cadena posterior y el control de una sola pierna."
               href="/espanol/semana5/dia3/ejercicio1"
             />

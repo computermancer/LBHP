@@ -32,7 +32,7 @@ export default function Dia1() {
             
             <EspDrillCard
               number="3"
-              title="Ir de Cadera Tumbado de Lado con Respiración"
+              title="IR de Cadera Tumbado de Lado con Respiración"
               description="Mejorar la rotación interna de la cadera y la coordinación de la respiración."
               href="/espanol/semana2/dia1/ejercicio3"
             />

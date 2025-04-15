@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Ejercicio3IRdecaderaendecbitolateralconrespiracin() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 3: Ir de Cadera en Decúbito Lateral con Respiración"      backButtonText="Semana 2 - Día 1"
+      title="Ejercicio 3: IR de Cadera en Decúbito Lateral con Respiración"      backButtonText="Semana 2 - Día 1"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[" Túmbate de lado con las rodillas flexionadas y apiladas."," Apoya la cabeza en una almohada o en el brazo."]}
