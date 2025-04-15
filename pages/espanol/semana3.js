@@ -9,7 +9,7 @@ export default function Semana3() {
       <MainEspNavBar />
       <WeekLayout
         title="Semana 3"
-        subtitle="Control Pélvico e Integración Respiratoria"
+        subtitle="Control Pélvico e Integración de la Respiración"
       >
         <DayButtonsEsp weekPath="/espanol/semana3" />
 
@@ -17,28 +17,28 @@ export default function Semana3() {
 
         <Card title="Propósito de Esta Semana">
           <ul className="list-disc pl-5 text-lg">
-            <li>Reforzar la coordinación pélvica y costal durante movimientos más dinámicos.</li>
-            <li>Continuar desarrollando el control en la bisagra de cadera y la movilidad espinal.</li>
-            <li>Introducir patrones rotacionales adicionales para la movilidad torácica.</li>
-            <li>Mejorar la conciencia respiratoria para apoyar la estabilidad y el control.</li>
+            <li>Reforzar la coordinación de la pelvis y la caja torácica durante los movimientos más dinámicos.</li>
+            <li>Continuar desarrollando el control en la articulación de la cadera y la movilidad de la columna vertebral.</li>
+            <li>Introducir más patrones de rotación para la movilidad torácica.</li>
+            <li>Mejorar la conciencia de la respiración para favorecer la estabilidad y el control.</li>
           </ul>
         </Card>
 
-        <Card title="Objetivos para la Semana 3">
+        <Card title="Objetivos para la 3ª semana">
           <ul className="list-disc pl-5 text-lg">
-            <li>Construir confianza en movimientos más profundos de cadera y flexión/extensión espinal.</li>
-            <li>Mejorar la fuerza y movilidad rotacional a través de la integración torácica y lumbar.</li>
+            <li>Aumentar la confianza en los movimientos más profundos de la cadera y la flexión/extensión de la columna vertebral.</li>
+            <li>Mejorar la fuerza de rotación y la movilidad mediante la integración torácica y lumbar.</li>
             <li>Desarrollar un mayor control de la respiración mientras se realizan movimientos dinámicos.</li>
-            <li>Refinar la conciencia de la postura y alineación en diferentes posiciones.</li>
+            <li>Perfeccionar la conciencia de la postura y la alineación en diferentes posiciones.</li>
           </ul>
         </Card>
 
-        <Card title="Consejos para el Éxito">
+        <Card title="Consejos para el éxito">
           <ul className="list-disc pl-5 text-lg">
-            <li>Concéntrate en mantener una pelvis y caja torácica estables durante cada movimiento.</li>
-            <li>Muévete con control—prioriza la calidad sobre la cantidad.</li>
-            <li>Continúa usando la respiración como guía para mejorar la eficiencia del movimiento.</li>
-            <li>Monitorea cualquier asimetría entre los lados y ajusta según sea necesario.</li>
+            <li>Concéntrate en mantener la pelvis y la caja torácica estables en cada movimiento.</li>
+            <li>Muévase con control: priorice la calidad sobre la cantidad.</li>
+            <li>Continúa utilizando la respiración como guía para mejorar la eficacia del movimiento.</li>
+            <li>Vigile cualquier asimetría entre los lados y ajuste según sea necesario.</li>
           </ul>
         </Card>
       </WeekLayout>

@@ -9,7 +9,7 @@ export default function Semana2() {
       <MainEspNavBar />
       <WeekLayout
         title="Semana 2"
-        subtitle="Control Costal e Integración de Cadera"
+        subtitle="Control de Las Costillas e Integración de la Cadera"
       >
         <DayButtonsEsp weekPath="/espanol/semana2" />
 
@@ -17,28 +17,28 @@ export default function Semana2() {
 
         <Card title="Propósito de Esta Semana">
           <ul className="list-disc pl-5 text-lg">
-            <li>Aumentar el control pélvico y costal a través de posiciones dinámicas.</li>
-            <li>Introducir movimientos rotacionales básicos y refinar la conexión costilla-pelvis.</li>
-            <li>Desarrollar comodidad con la bisagra de cadera y mejorar la extensión torácica.</li>
-            <li>Reforzar el control de la respiración y el feedback interoceptivo.</li>
+            <li>Aumentar el control de la pelvis y la caja torácica mediante posturas dinámicas.</li>
+            <li>Introducir movimientos básicos de rotación y refinar la conexión costilla-pelvis.</li>
+            <li>Desarrollar la comodidad con la articulación de la cadera y mejorar la extensión torácica.</li>
+            <li>Reforzar el control de la respiración y la retroalimentación interoceptiva.</li>
           </ul>
         </Card>
 
-        <Card title="Objetivos para la Semana 2">
+        <Card title="Objetivos para la segunda semana">
           <ul className="list-disc pl-5 text-lg">
-            <li>Refinar la conciencia de la alineación pélvica y torácica durante el movimiento.</li>
+            <li>Afinar la conciencia de la alineación pélvica y torácica durante el movimiento.</li>
             <li>Mejorar el control rotacional a través de la columna torácica.</li>
-            <li>Mejorar la estabilidad y el control en posiciones transicionales.</li>
+            <li>Mejora la estabilidad y el control en posiciones de transición.</li>
             <li>Desarrollar una mejor coordinación entre la respiración y el movimiento.</li>
           </ul>
         </Card>
 
-        <Card title="Consejos para el Éxito">
+        <Card title="Consejos para el éxito">
           <ul className="list-disc pl-5 text-lg">
-            <li>Concéntrate en mantener la pelvis y las costillas neutrales durante el movimiento.</li>
-            <li>Muévete deliberadamente y evita apresurarte en los ejercicios.</li>
-            <li>Presta atención a cualquier asimetría entre los lados.</li>
-            <li>Prioriza el control de la respiración y la coordinación del tiempo.</li>
+            <li>Concéntrese en mantener la pelvis neutra y la alineación de las costillas durante el movimiento.</li>
+            <li>Muévase deliberadamente y evite las prisas en los ejercicios.</li>
+            <li>Preste atención a las asimetrías entre los lados.</li>
+            <li>Dar prioridad al control de la respiración y a la coordinación de los tiempos.</li>
           </ul>
         </Card>
       </WeekLayout>

@@ -17,28 +17,28 @@ export default function Semana4() {
 
         <Card title="Propósito de Esta Semana">
           <ul className="list-disc pl-5 text-lg">
-            <li>Integrar patrones de movimiento dinámico con el control respiratorio y costal.</li>
-            <li>Reforzar la fuerza y estabilidad durante movimientos más complejos.</li>
-            <li>Desarrollar confianza en patrones avanzados de bisagra y sentadilla.</li>
-            <li>Preparar el cuerpo para movimientos más progresivos con carga en programas futuros.</li>
+            <li>Integrar patrones de movimiento dinámicos con control de la respiración y las costillas.</li>
+            <li>Reforzar la fuerza y la estabilidad durante movimientos más complejos.</li>
+            <li>Desarrollar la confianza en los patrones avanzados de bisagra y sentadilla.</li>
+            <li>Prepara el cuerpo para movimientos de carga más progresivos en futuros programas.</li>
           </ul>
         </Card>
 
-        <Card title="Objetivos para la Semana 4">
+        <Card title="Objetivos para la 4ª semana">
           <ul className="list-disc pl-5 text-lg">
-            <li>Mejorar la eficiencia del movimiento combinando la respiración y el control del core.</li>
-            <li>Mejorar el control de las posiciones pélvicas y costales durante movimientos con carga.</li>
-            <li>Desarrollar fuerza en patrones de bisagra, sentadilla y rotación.</li>
-            <li>Aumentar la conciencia del equilibrio, estabilidad y control bajo condiciones dinámicas.</li>
+            <li>Mejora la eficacia del movimiento combinando la respiración y el control del núcleo.</li>
+            <li>Mejorar el control de las posiciones de la pelvis y la caja torácica durante los movimientos con carga.</li>
+            <li>Desarrollar la fuerza en los patrones de bisagra, sentadilla y rotación.</li>
+            <li>Aumentar la conciencia del equilibrio, la estabilidad y el control en condiciones dinámicas.</li>
           </ul>
         </Card>
 
-        <Card title="Consejos para el Éxito">
+        <Card title="Consejos para el éxito">
           <ul className="list-disc pl-5 text-lg">
-            <li>Mantén una respiración constante mientras realizas movimientos más complejos.</li>
-            <li>Concéntrate en transiciones suaves y controladas entre posiciones.</li>
-            <li>Usa la respiración para estabilizar la caja torácica y la pelvis durante cada movimiento.</li>
-            <li>Ten en cuenta la fatiga—la calidad del movimiento es más importante que la cantidad.</li>
+            <li>Mantenga una respiración constante mientras realiza movimientos más complejos.</li>
+            <li>Concéntrese en transiciones suaves y controladas entre posiciones.</li>
+            <li>Utiliza la respiración para estabilizar la caja torácica y la pelvis en cada movimiento.</li>
+            <li>Ten cuidado con la fatiga: la calidad del movimiento es más importante que la cantidad.</li>
           </ul>
         </Card>
       </WeekLayout>
