@@ -26,7 +26,7 @@ export default function Dia5() {
             
             <EspDrillCard
               number="2"
-              title="Elevaciones de Pantorrilla con Control de Costillas"
+              title="Elevaciones de Pantorrilla"
               description="Fortifica las pantorrillas mientras mantienes una alineación neutral."
               href="/espanol/semana5/dia5/ejercicio2"
             />

@@ -33,7 +33,7 @@ export default function Dia2() {
             <EspDrillCard
               number="3"
               title="Desplazamiento posterior del peso de pie"
-              description="Desarrollar el desplazamiento posterior del peso para un control equilibrado de la cadera."
+              description="Desarrollar el desplazamiento posterior del peso para control de la cadera."
               href="/espanol/semana2/dia2/ejercicio3"
             />
             

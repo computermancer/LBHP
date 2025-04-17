@@ -25,8 +25,8 @@ export default function Dia5() {
             
             <EspDrillCard
               number="2"
-              title="Balanceo Pélvico Supino con Concentración en la Respiración"
-              description="Desarrolla un movimiento pélvico suave con movimientos guiados por la respiración."
+              title="Balanceo Pélvico Supino"
+              description="Desarrolla un movimiento pélvico suave."
               href="/espanol/semana4/dia5/ejercicio2"
             />
             

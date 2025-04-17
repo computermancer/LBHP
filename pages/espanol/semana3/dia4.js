@@ -39,7 +39,7 @@ export default function Dia4() {
             
             <EspDrillCard
               number="4"
-              title="Press de Pared de Isquiotibiales con Conciencia de Cadera"
+              title="Press de Pared de Isquiotibiales"
               description="Reforzar la activación de los isquiotibiales y el control de la pelvis."
               href="/espanol/semana3/dia4/ejercicio4"
             />

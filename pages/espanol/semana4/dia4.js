@@ -32,7 +32,7 @@ export default function Dia4() {
             
             <EspDrillCard
               number="3"
-              title="Press de Pared de Isquiotibiales con Concentración en la Respiración"
+              title="Press de Pared de Isquiotibiales"
               description="Refuerce el compromiso de los isquiotibiales y el control del tronco."
               href="/espanol/semana4/dia4/ejercicio3"
             />
