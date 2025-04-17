@@ -3,10 +3,10 @@ import EspDrillNavBar from '../../../../components/EspDrillNavBar';
 import VideoCard from '../../../../components/VideoCard';
 import Link from 'next/link';
 
-export default function Ejercicio3KickstandRDLconcontroldecadera() {
+export default function Ejercicio3PesoMuertoconPiernaTraseraDeApoyoconControldeCadera() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 3: Kickstand RDL con Control de Cadera"      backButtonText="Semana 5 - Día 1"
+      title="Ejercicio 3: Peso Muerto con Pierna Trasera de Apoyo con Control de Cadera"      backButtonText="Semana 5 - Día 1"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[" Colóquese de pie con los pies separados a la anchura de las caderas y un pie ligeramente retrasado (posición de pata de cabra)."," Flexiona las caderas, manteniendo la espalda neutra."]}

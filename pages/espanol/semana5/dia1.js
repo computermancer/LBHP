@@ -32,7 +32,7 @@ export default function Dia1() {
             
             <EspDrillCard
               number="3"
-              title="Kickstand RDL"
+              title="Peso Muerto con Pierna Trasera de Apoyo"
               description="Mejora la cadena posterior y la estabilidad de cadera."
               href="/espanol/semana5/dia1/ejercicio3"
             />
