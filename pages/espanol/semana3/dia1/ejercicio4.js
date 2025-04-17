@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Ejercicio4RockBackcuadrpedoconconcentracinenlarespiracin() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 4: Balance Hacia Atrás en Cuadrúpedo con Enfoque en la Respiración"
+      title="Ejercicio 4: Balance Hacia Atrás en Cuadrúpedo"
       backButtonText="Semana 3 - Día 1"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
