@@ -32,22 +32,22 @@ export default function Dia2() {
             
             <EspDrillCard
               number="3"
-              title="Rotación de la Columna Sentado con Alcance de Brazos"
-              description="Desarrolla el control rotacional y la movilidad torácica."
+              title="Rotación de la Columna Sentado"
+              description="Control rotacional y movilidad torácica."
               href="/espanol/semana4/dia2/ejercicio3"
             />
             
             <EspDrillCard
               number="4"
-              title="Marcha de Isquiotibiales en Pared con Estabilidad Costal"
-              description="Desarrolla el control de la cadena posterior mientras mantienes el control costal."
+              title="Marcha de Isquiotibiales en Pared"
+              description="Control de la cadena posterior."
               href="/espanol/semana4/dia2/ejercicio4"
             />
             
             <EspDrillCard
               number="5"
               title="IR y Extensión de Cadera en Decúbito Prono con Control"
-              description="Desarrollar la conciencia de la rotación y extensión de la cadera."
+              description="Conciencia de la rotación y extensión de la cadera."
               href="/espanol/semana4/dia2/ejercicio5"
             />
           </div>

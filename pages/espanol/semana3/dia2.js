@@ -18,7 +18,7 @@ export default function Dia2() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Expansión de Costillas Sentado con Control de la Respiración"
+              title="Expansión de Costillas Sentado"
               description="Favorece la movilidad de la caja torácica y la expansión lateral de la respiración."
               href="/espanol/semana3/dia2/ejercicio1"
             />
@@ -39,14 +39,14 @@ export default function Dia2() {
             
             <EspDrillCard
               number="4"
-              title="Marcha de Isquiotibiales en Pared con Control de Costillas"
+              title="Marcha de Isquiotibiales de Pared"
               description="Activar la cadena posterior manteniendo la estabilidad costal."
               href="/espanol/semana3/dia2/ejercicio4"
             />
             
             <EspDrillCard
               number="5"
-              title="Ejercicio de IR y Extensión de Cadera en Decúbito Prono"
+              title="IR y Extensión de Cadera en Decúbito Prono"
               description="Tomar conciencia de la rotación y extensión de la cadera."
               href="/espanol/semana3/dia2/ejercicio5"
             />

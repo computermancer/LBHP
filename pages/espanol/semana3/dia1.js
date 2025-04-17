@@ -25,8 +25,8 @@ export default function Dia1() {
             
             <EspDrillCard
               number="2"
-              title="Desplazamiento de Cadera Sentado con Estabilidad Costal"
-              description="Desarrolla el control del desplazamiento de cadera con movimiento mínimo de la caja torácica."
+              title="Desplazamiento de Cadera Sentado"
+              description="Control del desplazamiento de cadera con movimiento mínimo de la caja torácica."
               href="/espanol/semana3/dia1/ejercicio2"
             />
             
@@ -47,7 +47,7 @@ export default function Dia1() {
             <EspDrillCard
               number="5"
               title="Bisagra de Pared con Brazo Extensible"
-              description="Desarrolla la activación de la cadena posterior mientras mantienes el control de las costillas."
+              description="Activación de la cadena posterior mientras mantiene el control de las costillas."
               href="/espanol/semana3/dia1/ejercicio5"
             />
           </div>

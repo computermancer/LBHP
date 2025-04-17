@@ -26,13 +26,13 @@ export default function Dia3() {
             <EspDrillCard
               number="2"
               title="Reposición Supina del Diafragma con Alcance"
-              description="Perfecciona el control de la respiración con un alcance activo de la parte superior del cuerpo."
+              description="Control de la respiración con un alcance activo de la parte superior del cuerpo."
               href="/espanol/semana2/dia3/ejercicio2"
             />
             
             <EspDrillCard
               number="3"
-              title="Rotación de la Columna Sentado con Respiración"
+              title="Rotación de la Columna Sentado"
               description="Aumentar la rotación torácica controlando la respiración."
               href="/espanol/semana2/dia3/ejercicio3"
             />

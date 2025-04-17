@@ -18,7 +18,7 @@ export default function Day5() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Respiración Diafragmática en Posición de Cocodrilo"
+              title="Respiración Diafragmática en Cocodrilo"
               description="Fomente la expansión completa de la respiración en 3D."
               href="/espanol/semana1/dia5/ejercicio1"
             />

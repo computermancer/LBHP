@@ -18,7 +18,7 @@ export default function Dia4() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Desplazamiento de Costillas en Decúbito Supino con Respiración"
+              title="Desplazamiento de Costillas en Decúbito Supino"
               description="Mejorar la conciencia de la caja torácica y el control de la respiración asimétrica."
               href="/espanol/semana2/dia4/ejercicio1"
             />
@@ -39,7 +39,7 @@ export default function Dia4() {
             
             <EspDrillCard
               number="4"
-              title="Movimientos de Cadera en Decúbito Supino con Estabilidad Costal"
+              title="Movimientos de Cadera en Decúbito Supino"
               description="Desarrolla la estabilidad del tronco y la cadera mediante patrones de cambio."
               href="/espanol/semana2/dia4/ejercicio4"
             />

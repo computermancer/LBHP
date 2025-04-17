@@ -19,7 +19,7 @@ export default function Dia3() {
             <EspDrillCard
               number="1"
               title="Gato-vaca con Expansión de Costillas"
-              description="Desarrollar la flexión y extensión de la columna vertebral controlando la respiración."
+              description="Flexión y extensión de la columna vertebral controlando la respiración."
               href="/espanol/semana4/dia3/ejercicio1"
             />
             

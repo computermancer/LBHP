@@ -18,7 +18,7 @@ export default function Dia2() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Sentadillas Escalonadas con Estabilidad Costal"
+              title="Sentadillas Escalonadas"
               description="Desarrolla la carga en una sola pierna y el control pélvico."
               href="/espanol/semana5/dia2/ejercicio1"
             />
@@ -32,7 +32,7 @@ export default function Dia2() {
             
             <EspDrillCard
               number="3"
-              title="Abducción de Cadera en Decúbito Lateral con Concentración en la Respiración"
+              title="Abducción de Cadera en Decúbito Lateral"
               description="Desarrolla la fuerza lateral de la cadera controlando la respiración."
               href="/espanol/semana5/dia2/ejercicio3"
             />
@@ -46,7 +46,7 @@ export default function Dia2() {
             
             <EspDrillCard
               number="5"
-              title="Desplazamiento de Costillas en Decúbito Supino con Compromiso del Tronco"
+              title="Desplazamiento de Costillas en Decúbito Supino"
               description="Desarrolla el control del tronco con un sutil desplazamiento de las costillas."
               href="/espanol/semana5/dia2/ejercicio5"
             />

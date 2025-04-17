@@ -33,14 +33,14 @@ export default function Dia3() {
             <EspDrillCard
               number="3"
               title="Cambio de Costillas 90-90 Supino con Respiración"
-              description="Desarrolla la estabilidad del tronco y mejora los movimientos guiados por la respiración."
+              description="Estabilidad del tronco y movimientos guiados por la respiración."
               href="/espanol/semana3/dia3/ejercicio3"
             />
             
             <EspDrillCard
               number="4"
               title="Sentadilla en Pared con Alcance"
-              description="Aumentar la confianza en la posición en cuclillas con el movimiento de la parte superior del cuerpo."
+              description="Aumentar la confianza en la posición en cuclillas."
               href="/espanol/semana3/dia3/ejercicio4"
             />
             

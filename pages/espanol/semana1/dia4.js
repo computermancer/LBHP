@@ -40,7 +40,7 @@ export default function Day4() {
             <EspDrillCard
               number="4"
               title="Cambio de Cadera en Decúbito Supino con Respiración"
-              description="Desarrollar el control de los desplazamientos pélvicos y la integración del tronco."
+              description="Desarrollar el control de los desplazamientos pélvicos."
               href="/espanol/semana1/dia4/ejercicio4"
             />
             

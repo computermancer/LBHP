@@ -32,14 +32,14 @@ export default function Dia3() {
             
             <EspDrillCard
               number="3"
-              title="Press de Pared de Isquiotibiales con Estabilidad Costal"
+              title="Press de Pared de Isquiotibiales"
               description="Estimula los isquiotibiales y refuerza el control del tronco."
               href="/espanol/semana5/dia3/ejercicio3"
             />
             
             <EspDrillCard
               number="4"
-              title="Puente Bilateral de Glúteos con Control de Costillas y Pelvis"
+              title="Puente Bilateral de Glúteos"
               description="Refuerza la extensión de la cadera y la estabilidad del tronco."
               href="/espanol/semana5/dia3/ejercicio4"
             />

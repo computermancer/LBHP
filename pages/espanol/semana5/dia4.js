@@ -19,7 +19,7 @@ export default function Dia4() {
             <EspDrillCard
               number="1"
               title="Flexiones de Pared con Estabilidad Costal"
-              description="Introducir el prensado de la parte superior del cuerpo manteniendo el control del tronco."
+              description="Introducir el prensado de la parte superior del cuerpo."
               href="/espanol/semana5/dia4/ejercicio1"
             />
             

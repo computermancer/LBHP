@@ -19,7 +19,7 @@ export default function Day1() {
             <EspDrillCard
               number="1"
               title="Inclinación Pélvica Posterior en la Pared"
-              description="Desarrollar la conciencia de la inclinación pélvica y el control lumbar."
+              description="Desarrollar la conciencia de la inclinación pélvica."
               href="/espanol/semana1/dia1/ejercicio1"
             />
             

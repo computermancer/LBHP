@@ -18,22 +18,22 @@ export default function Dia1() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Desplazamiento Costal Supino con Control de la Respiración"
-              description="Desarrollar el control lateral de las costillas manteniendo la estabilidad de la pelvis."
+              title="Desplazamiento Costal Supino"
+              description="Control lateral de las costillas."
               href="/espanol/semana4/dia1/ejercicio1"
             />
             
             <EspDrillCard
               number="2"
-              title="Movimientos de Cadera Sentado con Conciencia de la Respiración"
-              description="Refuerza el control pélvico y la conciencia de cadera en posiciones sentadas."
+              title="Movimientos de Cadera Sentado"
+              description="Control pélvico y conciencia de cadera en posiciones sentadas."
               href="/espanol/semana4/dia1/ejercicio2"
             />
             
             <EspDrillCard
               number="3"
               title="Expansión de Las Costillas con Marcha"
-              description="Desarrolla la estabilidad del tronco y las costillas a la vez que añades movimiento dinámico."
+              description="Estabilidad del tronco y las costillas."
               href="/espanol/semana4/dia1/ejercicio3"
             />
             
@@ -47,7 +47,7 @@ export default function Dia1() {
             <EspDrillCard
               number="5"
               title="Rock Back Cuadrúpedo con Enfoque de Alcance"
-              description="Mejore la movilidad pélvica controlando las costillas y tomando conciencia de la respiración."
+              description="Movilidad pélvica controlando las costillas."
               href="/espanol/semana4/dia1/ejercicio5"
             />
           </div>

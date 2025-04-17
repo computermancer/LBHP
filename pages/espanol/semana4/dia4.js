@@ -18,15 +18,15 @@ export default function Dia4() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Movimientos de Cadera en Decúbito Supino con Conciencia de Las Costillas"
+              title="Movimientos de Cadera en Decúbito Supino"
               description="Desarrollar la movilidad lateral de la cadera manteniendo la estabilidad de las costillas."
               href="/espanol/semana4/dia4/ejercicio1"
             />
             
             <EspDrillCard
               number="2"
-              title="Alcance de Brazos y Piernas Cuadrúpedos con Mando"
-              description="Mejora el equilibrio y la estabilidad con movimientos controlados."
+              title="Alcance de Brazos y Piernas Cuadrúpedos"
+              description="Estabilidad del tronco y los hombros."
               href="/espanol/semana4/dia4/ejercicio2"
             />
             

@@ -18,7 +18,7 @@ export default function Dia1() {
           <div className="space-y-4">
             <EspDrillCard
               number="1"
-              title="Sentadillas de Peso Corporal con Control de Costillas"
+              title="Sentadillas de Peso Corporal"
               description="Refuerza la mecánica de la sentadilla con estabilidad central."
               href="/espanol/semana5/dia1/ejercicio1"
             />
@@ -32,7 +32,7 @@ export default function Dia1() {
             
             <EspDrillCard
               number="3"
-              title="Kickstand RDL con Control de Cadera"
+              title="Kickstand RDL"
               description="Mejora la cadena posterior y la estabilidad de cadera."
               href="/espanol/semana5/dia1/ejercicio3"
             />

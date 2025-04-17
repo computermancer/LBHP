@@ -47,7 +47,7 @@ export default function Dia5() {
             <EspDrillCard
               number="5"
               title="Respiración Sentada con Cambios de Cadera"
-              description="Aumentar la conciencia de los desplazamientos pélvicos manteniendo el control de la respiración."
+              description="Aumentar la conciencia de los desplazamientos pélvicos."
               href="/espanol/semana2/dia5/ejercicio5"
             />
           </div>
