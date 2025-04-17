@@ -46,7 +46,7 @@ export default function Dia1() {
             
             <EspDrillCard
               number="5"
-              title="Rock Back Cuadrúpedo con Enfoque de Alcance"
+              title="Balance Hacia Atrás en Cuadrúpedo"
               description="Movilidad pélvica controlando las costillas."
               href="/espanol/semana4/dia1/ejercicio5"
             />

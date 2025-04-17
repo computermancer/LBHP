@@ -39,7 +39,7 @@ export default function Day2() {
             
             <EspDrillCard
               number="4"
-              title="Rock Back Cuadrúpedo con Columna Neutra"
+              title="Balance Hacia Atrás en Cuadrúpedo"
               description="Fomentar el control pélvico con la columna vertebral neutra."
               href="/espanol/semana1/dia2/ejercicio4"
             />

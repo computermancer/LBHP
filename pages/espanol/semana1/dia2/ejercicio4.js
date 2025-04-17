@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Ejercicio4RockBackcuadrpedoconcolumnaneutra() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 4: Rock Back Cuadrúpedo con Columna Neutra"      backButtonText="Semana 1 - Día 2"
+      title="Ejercicio 4: Balance Hacia Atrás en Cuadrúpedo"      backButtonText="Semana 1 - Día 2"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[" Empiece sobre manos y rodillas, muñecas bajo los hombros, rodillas bajo las caderas."," Mantenga una posición neutra de la columna vertebral."]}

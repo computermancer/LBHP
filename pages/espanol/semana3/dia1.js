@@ -39,7 +39,7 @@ export default function Dia1() {
             
             <EspDrillCard
               number="4"
-              title="Rock Back Cuadrúpedo con Concentración en la Respiración"
+              title="Balance Hacia Atrás en Cuadrúpedo con Enfoque "
               description="Mejore la movilidad pélvica y mantenga la estabilidad central."
               href="/espanol/semana3/dia1/ejercicio4"
             />

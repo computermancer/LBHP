@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Ejercicio5RockBackcuadrpedoconenfoquedealcance() {
   return (
     <EspDrillBarTemplate
-      title="Ejercicio 5: Rock Back Cuadrúpedo con Enfoque de Alcance"      backButtonText="Semana 4 - Día 1"
+      title="Ejercicio 5: Balance Hacia Atrás en Cuadrúpedo "      backButtonText="Semana 4 - Día 1"
       videoId="wn0IyvGBeUI"
       videoStart={2248}
       setup={[" Comience sobre manos y rodillas, muñecas debajo de los hombros, rodillas debajo de las caderas."," Mantenga la columna vertebral y la pelvis neutras."]}
