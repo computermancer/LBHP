@@ -6,8 +6,8 @@ export default function Contenido() {
     <>
       <MainEspNavBar />
       <WeekLayout
-        title="Resumen del Programa"
-        subtitle="Tablas para Semanas 1 - 5"
+        title="Contenido"
+        subtitle="Resumen del Programa"
       >
         <div className="space-y-6">
           {/* Semana 1 */}
