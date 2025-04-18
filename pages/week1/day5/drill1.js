@@ -2,14 +2,14 @@ import DrillNavBar from '../../../components/DrillNavBar';
 import VideoCard from '../../../components/VideoCard';
 import Link from 'next/link';
 
-export default function DiaphragmaticBreathinginCrocodilePosition() {
+export default function ProneDiaphragmaticBreathing() {
   return (
     <div className="min-h-screen bg-zinc-900">
       <main className="px-8 text-gray-200 font-sans pt-4 pb-2">
         <div className="max-w-[500px] mx-auto">
           <div className="bg-zinc-900 rounded-lg border border-zinc-700 p-3 mb-3">
             <h1 className="text-orange-300 text-4xl font-bold mb-1">Week 1 - Day 5</h1>
-            <h2 className="text-orange-300 text-2xl font-bold mb-0 leading-relaxed" style={{ lineHeight: '1.5em', height: '3em' }}>Drill 1: Diaphragmatic Breathing in Crocodile Position</h2>
+            <h2 className="text-orange-300 text-2xl font-bold mb-0 leading-relaxed" style={{ lineHeight: '1.5em', height: '3em' }}>Drill 1: Prone Diaphragmatic Breathing</h2>
           </div>
           <div className="h-1"></div>
           <DrillNavBar 
